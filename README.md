@@ -2,6 +2,10 @@
 
 Ce site contient le matériel public pour le cours **Introduciton à la bioinformatique**, dispesné 2ème licence en Sciences de la vie (L2 SV), Aix-Marseille Université (AMU). 
 
+## Site Web
+
+[https://jvanheld.github.io/intro-bioinfo-AMU-SSV3U15/](https://jvanheld.github.io/intro-bioinfo-AMU-SSV3U15/)
+
 ## Accès au contenu
 
 | Titre | Description | Lien |
