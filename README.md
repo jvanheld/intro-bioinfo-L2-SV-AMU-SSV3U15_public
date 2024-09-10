@@ -6,5 +6,5 @@ Ce site contient le matériel public pour le cours **Introduciton à la bioinfor
 
 | Titre | Description | Lien |
 |------------|-------------------|-------------------------|
-| Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | structures | 
+| Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
