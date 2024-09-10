@@ -1,0 +1,43 @@
+################################################################
+## Display haemoglobin structure with chain-colored cartoons
+################################################################
+
+close session ;
+
+open 4hhb ;
+preset "overall look" interactive  ; 
+view ;
+view orient ;
+# zoom 0.75 ;
+color bychain ;
+color byelement ;
+
+## Start recording movie
+
+movie record ;
+wait 20 ;
+roll axis y angle 3 frames 120 ;
+wait 200 ;
+roll axis x angle 3 frames 120 ;
+
+view orient ;
+wait 200 ;
+
+## Change directory to save files
+cd "/Users/jvanheld/structures/4HHB_horse-haemoglobin/"
+
+## Save movie
+movie encode output 4HBB_horse-haemoglobin_rolling.mov  ;
+
+## Save image with white background for printable image
+view orient ;
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "4HBB_horse-haemoglobin_white-bg.png" width 1984 height 1240 supersample 3
+
+## Save image with black background for screen display
+view orient ;
+preset "overall look" interactive  ; 
+save "4HBB_horse-haemoglobin_blank-bg.png" width 1984 height 1240 supersample 3
+
+## Save session
+save "4HBB_horse-haemoglobin_rolling.cxs" ;

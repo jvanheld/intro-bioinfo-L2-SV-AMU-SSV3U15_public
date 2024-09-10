@@ -1,0 +1,158 @@
+################################################################
+## Human PAX6 transcription factor bound to DNA
+##
+
+## Set the working directory according to you local configuration
+cd "/Users/jvanheld/structures/6PAX_PAX6_HUMAN"
+
+close ; 
+
+# Get the structure from PDB
+open 6PAX ; 
+view orient ; 
+
+# Improve display of nucleotides
+nucleotides stubs ; 
+wait 60 ; 
+
+
+## Show DNA
+roll axis y angle 3 frames 30 ;
+wait ;
+select #1 ; view sel ; select clear ; 
+
+movie record
+wait 60 ; 
+
+## Recolor the protein
+select /A ; color sel cornflower blue ; 
+select /B ; color sel palegreen ; 
+select /C ; color sel #FFBBDD ; 
+select clear ; 
+wait 30 ; 
+
+## Bring DNA binding domain above and below DNA
+roll axis x angle 3 frames 15 ;
+wait ; wait 30 ; 
+
+## Full rotation around X axis
+roll axis x angle 3 frames 120 ;
+wait ; wait 30 ; 
+
+## Save image with white background for printable image
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "6PAX_PAX6_HUMAN_wbg.png" width 1984 height 1240 supersample 3 ;
+
+## Save image with black background for screen display
+preset "overall look" interactive  ; 
+save "6PAX_PAX6_HUMAN_bbg.png" width 1984 height 1240 supersample 3 ;
+
+## Save movie
+wait 120 ; 
+movie encode output 6PAX_PAX6_HUMAN.mov  ;
+
+
+# ## TO BE CLEANED
+# 
+# ## Open Alphafold prediction for PAX6
+# open https://alphafold.ebi.ac.uk/files/AF-P26367-F1-model_v4.pdb ; 
+# wait 30 ; 
+# 
+# select all ; view sel ; select clear ; 
+# 
+# view matrix models #2,1,0,0,+75,0,1,0,0,0,0,1,0 ; wait 20 ;
+# 
+# select all ; view sel ; select clear ; 
+# matchmaker #1/A to #2/A pairing ss
+# 
+# 
+# select #1/A ; color sel bychain ; 
+# 
+# 
+# select #1/A,B
+# nucleotides sel atoms ; style nucleic & sel stick ; 
+# # nucleotides sel tube/slab shape box
+# nucleotides stubs ; 
+# # style nucleic & sel stick
+# select clear; 
+# 
+# hide sel surfaces
+# show sel cartoons
+# hide sel atoms
+# color sel bychain
+# color sel cyan
+# color sel blue
+# color sel cornflower blue
+# show #4 models
+# hide #3.1 models
+# show #3.1 models
+# hide #3.1 models
+# select clear
+# select #2/A#4/A
+# color sel bychain
+# hide sel & #4 atoms
+# hide sel & #4 cartoons
+# show sel & #4 cartoons
+# hide sel & #4 surfaces
+# color sel magenta
+# color sel yellow
+# color sel orange
+# transparency (#4 & sel) 50
+# transparency /A 50
+# transparency 50
+# transparency 90
+# transparency 90 ribbon
+# transparency 50 ribbon
+# transparency #3 50 ribbon
+# transparency #1 50 ribbon
+# transparency #1 100 ribbon
+# transparency #2 100 ribbon
+# transparency #3 100 ribbon
+# transparency #3 50 ribbon
+# show #2 models
+# select subtract #2
+# color sel lime
+# matchmaker #2 to #3
+# ui tool show Matchmaker
+# matchmaker #2 to #3
+# matchmaker #2 to #3
+# matchmaker #4 to #3
+# hide #!3 models
+# hide #4 models
+# show #4 models
+# hide #4 models
+# show #4 models
+# hide #4 models
+# show #4 models
+# show #!3 models
+# hide #2 models
+# show #2 models
+# hide #4 models
+# show #4 models
+# hide #2 models
+# show #2 models
+# hide #2 models
+# show #2 models
+# hide #2 models
+# transparency #4 50 ribbon
+# transparency #4 100 ribbon
+# transparency #4 80 ribbon
+# transparency #2 0 ribbon
+# transparency #3 0 ribbon
+# select clear
+# transparency #4 70 ribbon
+# view
+# view
+# view
+# view
+# view orient
+# view orient
+# view orient
+# turn z 90
+# turn z 270
+# turn Y 90
+# turn x 45
+# turn x -45
+# turn x 30
+# save /Users/jvanheld/Desktop/PAX6_superposition_6pax_AF-P26367.png width 1151 height 880 supersample 3
+# 

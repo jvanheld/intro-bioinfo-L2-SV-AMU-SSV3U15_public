@@ -1,0 +1,108 @@
+################################################################
+## Rolling the myoglobin structure
+################################################################
+
+## Change directory to save files (adapt to your computer)
+cd "/Users/jvanheld/structures/1MBN_myoglobin/"
+
+close session
+
+open 1MBN ;
+preset "overall look" interactive  ; 
+view orient ;
+color byelement ;
+
+movie record ;
+
+wait 20 ; 
+roll axis y angle 3 frames 120 ;
+wait ; wait 30 ; 
+roll axis x angle 3 frames 120 ;
+wait ; wait 30 ;
+
+## Make sure we revert to the original orientation
+view orient ;
+wait 180 ;
+
+## Save image with white background for printable image
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1MBN_myoglobin_white-bg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save image with black background for screen display
+preset "overall look" interactive  ; 
+save "1MBN_myoglobin_black-bg.png" width 1984 height 1240 supersample 3 ;  
+
+## Save movie
+movie encode output 1MBN_myoglobin_rolling.mov  ;
+
+close session
+
+################################################################################
+## Show the accessibility of the heme
+################################################################################
+
+open 1MBN ;
+preset "overall look" interactive  ; 
+view orient ;
+color byelement ;
+
+movie record ;
+
+## Display the surface occupied by electrons
+preset "molecular surfaces" "ghostly white"
+transparency 30 ; 
+wait 50
+
+## Display hydrostatic landscape
+coulombic ; 
+transparency 30 ; 
+wait 100
+
+## Show hydrophobicity profile
+mlp ; 
+transparency 30 ; 
+wait 100
+
+## Rotate the protein in order to display the heme pocket in front of the image
+view orient ; 
+roll axis y angle 1 frames 25 ; 
+wait ;wait 30 ; 
+roll axis z angle 1 frames 10 ; 
+wait ;wait 30 ; 
+roll axis x angle 3 frames 36 ;
+wait ;wait 30 ; 
+roll axis y angle -1 frames 10 ; 
+wait ;wait 30 ; 
+
+transparency 0 ; 
+wait 50 ; 
+
+##  Rock to give a perspective on the heme pocket
+zoom 2.0 frames 60 ;
+wait ; wait 30 ;
+rock y 20 260 ; 
+wait ; wait 30 ;
+zoom 0.5 frames 30 ;
+wait ; wait 30 ;
+
+## A complete turn to see the back of the molecule (no other whole)
+roll axis x angle 3 frames 120 ;
+wait ; wait 30 ; 
+
+
+## Save image with white background
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1MBN_myoglobin_heme-pocket_white-bg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save image with black background
+preset "overall look" interactive  ; 
+save "1MBN_myoglobin_heme-pocket_black-bg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save movie
+movie encode output 1MBN_myoglobin_heme-pocket.mov  ;
+movie stop ;
+
+
+## Save session
+save "1MBN_myoglobin_rolling.cxs" ;
+

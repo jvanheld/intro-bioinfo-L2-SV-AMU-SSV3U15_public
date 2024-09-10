@@ -1,0 +1,147 @@
+################################################################
+## Alignement de l'hémoglobine mutante responsable de l'anémie 
+## falciforme et de l'hémoglobine normale
+################################################################
+
+## Choose the directory according to your local configuration
+cd "/Users/jvanheld/structures/2HBS-vs-1A3N_haemoglibin_mutant-vs-WT"
+
+# Close previous sessions if required
+close
+
+# Load WT and mutated haemoglobin structures
+open 1A3N ; # Human haemoglobin (wild-type form)
+open 2HBS ; # Mutated Haemoglobin causing sickle cell anemia (HbS)
+preset cartoons/nucleotides ribbons/slabs ; 
+
+# Delete the second copy of HbS and rescale the view
+del #2/E-H ; 
+
+# Align the two structures and show the sequence alignment
+matchmaker #1 to #2 show true
+view orient ; 
+
+# Start recording the movie
+movie record
+
+
+# Move WT protein to see both in parallel
+view matrix models #1,1,0,0,-75,0,1,0,+25,0,0,1,0 ; wait 20 ;
+view orient ; 
+
+
+# Color chains  of the WT protein
+select #1/A #1/C ; color sel lightgreen ; select clear ;  # WT alpha chains
+select #1/B #1/D ; color sel cornflower ; select clear ;  # WT beta chains
+2dlabels text "Haemoglobin (1AN3)" color #88DDDD xpos 0.20 ypos 0.85 font calibri size 45 ;
+2dlabels text "Hb alpha" color lightgreen xpos 0.15 ypos 0.80 font calibri size 45 ;
+2dlabels text "Hb beta" color cornflower xpos 0.35 ypos 0.80 font calibri size 45 ;
+
+# Color the chains of the mutant protein (HbS)
+select #2/A #2/C ; color sel cyan ; select clear ;  # HbS alpha chains
+select #2/B #2/D ; color sel yellow ; select clear ;  # HbS beta chains
+2dlabels text "Sickle-associated mutant (2HBS)" color #DDDD88 xpos 0.60 ypos 0.85 font calibri size 45 ;
+2dlabels text "HbS alpha" color cyan xpos 0.55 ypos 0.80 font calibri size 45 ;
+2dlabels text "HbS beta" color yellow xpos 0.75 ypos 0.80 font calibri size 45 ;
+
+
+## Save image with white background for printable image
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1A3N-vs-2HBS_haemoglobin-sickle_wbg.png" width 1984 height 1240 supersample 3 ;
+
+## Save image with black background for screen display
+preset "overall look" interactive  ; 
+save "1A3N-vs-2HBS_haemoglobin-sickle_bbg.png" width 1984 height 1240 supersample 3 ;
+
+wait 180 ;
+
+# Make the whole structure semi-transparent to better highlight the mutated chain
+transparency #2/A-D 70 all
+transparency #1/A-D 70 all
+
+## Select the alpha helix containing the mutation
+select #2/B:6-6  #2/D:6-6; sel up ; # Select the alpha helix including the mutation E6V
+color sel yellow trans 0 ;  # remove transparency
+select clear ; 
+
+# Select the same helix in WT
+select #1/B:6-6  #1/D:6-6; sel up ; # Select the alpha helix including the mutation E6V
+color sel lightgreen trans 0 ;  # remove transparency
+select clear ; 
+
+# Mark mutant residue (E6V) in red on HbS
+select #2/B:6-6  #2/D:6-6;  # Select 6th position of chains B and D (mutation E6V)
+color sel red ;  # Color mutant residue in red
+select clear ; 
+view orient ;
+
+# Mark corresponding residue in lighter green on WT protein
+select #1/B:6-6  #1/D:6-6;  # Select 6th position of chains B and D in WT
+color sel green ;  # Color mutant residue in red
+select clear ; 
+view orient ;
+
+# Highlight mutation
+2dlabels arrow start 0.93,0.38 end 0.89,0.50  color red weight 0.2 headStyle solid
+2dlabels text "Glu -> Val" color red xpos 0.88 ypos 0.35 font calibri size 40 ;
+
+wait 120 ; 
+
+2dlabels delete ; 
+
+
+# Align the two structures and compute sequence alignment
+matchmaker #1 to #2 ; # Compute RMSD for each residue
+# Adapt the frame size to the content
+view orient ; 
+
+2dlabels text "Structural alignment of WT (1AN3) and mutant (2HBS) haemoglobins" color #FFDDBB xpos 0.20 ypos 0.85 font calibri size 50 ;
+2dlabels text "Hb alpha" color lightgreen xpos 0.10 ypos 0.80 font calibri size 45 ;
+2dlabels text "Hb beta" color cornflower xpos 0.10 ypos 0.75 font calibri size 45 ;
+2dlabels text "HbS alpha" color cyan xpos 0.10 ypos 0.70 font calibri size 45 ;
+2dlabels text "HbS beta" color yellow xpos 0.10 ypos 0.65 font calibri size 45 ;
+
+## Save image with white background for printable image
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1A3N-vs-2HBS_haemoglobin-sickle_aligned_wbg.png" width 1984 height 1240 supersample 3 ;
+
+## Save image with black background for screen display
+preset "overall look" interactive  ; 
+save "1A3N-vs-2HBS_haemoglobin-sickle_aligned_bbg.png" width 1984 height 1240 supersample 3 ;
+
+## Use licorice view to better compare the positions of helices
+preset cartoons/nucleotides licorice/ovals ;
+
+
+## Save image with white background for printable image
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1A3N-vs-2HBS_haemoglobin-sickle_aligned_licorice_wbg.png" width 1984 height 1240 supersample 3 ;
+
+## Save image with black background for screen display
+preset "overall look" interactive  ; 
+save "1A3N-vs-2HBS_haemoglobin-sickle_aligned_licorice_bbg.png" width 1984 height 1240 supersample 3 ;
+
+
+# Rock and roll the proteins to show impact of mutation
+wait 60 ;
+rock y 30 260 ; 
+wait ; wait 30 ;
+roll axis x angle 2 frames 180 ;
+wait ; wait 120 ; 
+
+## Save movie
+movie encode output 1A3N-vs-2HBS_haemoglobin-sickle.mov  ;
+
+
+################################################################
+## TO FINISH: color by RMSD attribute
+################################################################
+
+#ui tool show "Render/Select by Attribute"
+#ui tool show "Render/Select by Attribute"
+#color byattribute r:seq_rmsd #!1-2 target csab palette 1,#0433ff:3,white:5,red noValueColor #80b180
+#key #0433ff:1 white:3 red:5 showTool false ;
+#key pos 0.45,0.15 size 0.1,0.02
+#show  target m
+#show #1 target m
+#show #3 target m

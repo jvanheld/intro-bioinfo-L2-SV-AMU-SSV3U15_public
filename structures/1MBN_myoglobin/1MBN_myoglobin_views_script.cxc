@@ -1,0 +1,86 @@
+################################################################
+## Illustration of the different ways to display a protein
+## 1. Cartoon
+## 2. Atoms
+## 3. Spheres
+## 4. Electrostatic landscape
+## 5. Hydrophobic landscape
+## 6. Translucid surface with domain-soecific coloration
+################################################################
+
+close session
+
+
+open 1MBN ; 
+open 1MBN ; 
+open 1MBN ; 
+open 1MBN ; 
+open 1MBN ; 
+open 1MBN ; 
+view orient ;
+color byelement ;
+zoom 0.37 ; 
+
+# ui mousemode right "move picked models" ; 
+
+movie record ; 
+wait 100 ;
+
+## Move the models to avoid overlap
+view matrix models #1,1,0,0,-50,0,1,0,+25,0,0,1,0 ; wait 20 ;
+view matrix models #2,1,0,0,0,0,1,0,+25,0,0,1,0 ; wait 20 ;
+view matrix models #3,1,0,0,+50,0,1,0,+25,0,0,1,0 ; wait 20 ;
+view matrix models #4,1,0,0,-50,0,1,0,-25,0,0,1,0 ; wait 20 ;
+view matrix models #5,1,0,0,0,0,1,0,-25,0,0,1,0 ; wait 20 ;
+view matrix models #6,1,0,0,+50,0,1,0,-25,0,0,1,0 ; wait 20 ;
+# view orient ;
+# zoom 0.9 ; 
+
+
+2dlabels text Rainbow color #1E90FF xpos 0.15 ypos 0.95 ;
+select #1 ; rainbow sel ; select clear ; wait 50 ; 
+
+2dlabels text Atoms color #1E90FF xpos 0.40 ypos 0.95 ;
+select #2 ; hide sel cartoons ; show sel atoms ; select clear ; wait 50 ; 
+
+2dlabels text Spheres color #1E90FF xpos 0.63 ypos 0.95 ;
+select #3 ; hide sel cartoons ; show sel atoms ; style sel sphere ; select clear ; wait 50 ; 
+
+2dlabels text Electrostatic color #1E90FF xpos 0.15 ypos 0.50 ;
+select #4 ; coulombic sel ; select clear ; wait 50 ; 
+
+2dlabels text Hydrophobicity color #1E90FF xpos 0.40 ypos 0.50 ;
+select #5 ; mlp sel ; select clear ; wait 50 ; 
+
+2dlabels text "Surfaces" color #1E90FF xpos 0.63 ypos 0.50 ;
+select #6 ; show sel surfaces ; transparency (#!6 & sel) 80 ; select clear ; wait 20 ; 
+
+## Color the domains
+#select #6/A ; color (#!6 & sel) white
+#select #6/A:10 ; select up ; color (#!6 & sel) blue ;select clear ; 
+#select #6/A:30 ; select up ; color (#!6 & sel) cyan ;select clear ; 
+#select #6/A:51 ; select up ; color (#!6 & sel) palegreen ;select clear ; 
+#select #6/A:61 ; select up ; color (#!6 & sel) green ;select clear ; 
+#select #6/A:81 ; select up ; color (#!6 & sel) yellow ;select clear ; 
+#select #6/A:121 ; select up ; color (#!6 & sel) orange ;select clear ; 
+#select #6/A:141 ; select up ; color (#!6 & sel) red ;select clear ; 
+
+wait 200 ; 
+
+cd "/Users/jvanheld/structures/1MBN_myoglobin"
+
+## Save movie
+movie encode 1MBN_myoglobin_views.mov format mov
+
+## Save image with white background for printable image
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1MBN_myoglobin_views_white-bg.png" width 1984 height 1240 supersample 3 ;
+
+## Save image with black background for screen display
+preset "overall look" interactive  ; 
+save "1MBN_myoglobin_views_black-bg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save session
+save "1MBN_myoglobin_views.cxs"
+
+
