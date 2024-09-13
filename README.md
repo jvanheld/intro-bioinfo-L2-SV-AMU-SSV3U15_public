@@ -11,7 +11,6 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 
 ## Accès au contenu
 
-
 | Titre | Description | Lien |
 |:------------|:-------------------|:-------------------------:|
 | Diaporama | Présentations du cours | [diapo_pdf_SSV3U15](diapo_pdf_SSV3U15/)
