@@ -10,6 +10,7 @@ Ce site contient le matériel public pour le cours **Introduciton à la bioinfor
 ## Accès au contenu
 
 | Titre | Description | Lien |
-|------------|-------------------|-------------------------|
+|:------------|:-------------------|:-------------------------:|
+| Diaporama | Présentations du cours | [diapo_pdf_SSV3U15](diapo_pdf_SSV3U15/)
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
