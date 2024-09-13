@@ -11,8 +11,15 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 
 ## Accès au contenu
 
+
 | Titre | Description | Lien |
 |:------------|:-------------------|:-------------------------:|
 | Diaporama | Présentations du cours | [diapo_pdf_SSV3U15](diapo_pdf_SSV3U15/)
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
+### Vidéos des CM
+
+| N° | Titre | Lien |
+|:------------|:-------------------|:-------------------------:|
+| 01 | Présentaiton du cours | | 
+| 02 | Séquence - structure - fonction | [AmuPOD](https://amupod.univ-amu.fr/video/32306-02-sequence-structure-fonction-ssv3u15-jacques-van-helden/) |
