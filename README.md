@@ -5,7 +5,7 @@ Ce site contient le matériel public pour le cours **Introduciton à la bioinfor
 ## Accès à ce matériel de cours
 
 - Site Web: [https://jvanheld.github.io/intro-bioinfo-AMU-SSV3U15](https://jvanheld.github.io/intro-bioinfo-AMU-SSV3U15)
-- Dépôt github (privé, réservé aux enseignants) : [github.com/jvanheld/intro-bioinfo-AMU-SSV3U15/](https://github.com/jvanheld/intro-bioinfo-AMU-SSV3U15/)
+- Ametice: [https://ametice.univ-amu.fr/course/view.php?id=125268](https://ametice.univ-amu.fr/course/view.php?id=125268)
 
 ## Accès au contenu
 
