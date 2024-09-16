@@ -41,7 +41,7 @@ Ce TP mobilisera les notions suivantes abordées au cours
 | Ressource | Description | URL |
 |:---------------|:-------------------------------------------|:--------------------------------|
 | Uniprot | principale base de données mondiale de séquences protéiques et d'informations fonctionnelles | https://www.uniprot.org/ |
-| PDB l Protein Databank, base de données de 
+| PDB | Protein Databank, base de données de sructures protéiques | https://www.rcsb.org/ |
 
 ## Annotations fonctionnelles
 
