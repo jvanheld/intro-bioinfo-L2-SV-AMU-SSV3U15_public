@@ -20,5 +20,5 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 
 | N° | Titre | Lien |
 |:------------|:-------------------|:-------------------------:|
-| 01 | Présentation du cours | [AmuPOD](https://amupod.univ-amu.fr/video/edit/32228-ssv3u15-01-presentation-du-cours-jacques-van-helden/) | 
+| 01 | Présentation du cours | [AmuPOD](https://amupod.univ-amu.fr/video/add/?slug=32228-ssv3u15-01-presentation-du-cours-jacques-van-helden) | 
 | 02 | Séquence - structure - fonction | [AmuPOD](https://amupod.univ-amu.fr/video/32306-02-sequence-structure-fonction-ssv3u15-jacques-van-helden/) |
