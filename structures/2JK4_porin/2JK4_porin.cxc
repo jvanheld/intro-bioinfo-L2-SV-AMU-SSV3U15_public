@@ -1,0 +1,89 @@
+################################################################
+## Porin structure (2JK4), illustration of a beta-barrel fold
+################################################################
+
+## Change directory to save files (adapt to your computer)
+cd "/Users/jvanheld/structures/1A0S_porin/"
+
+
+close ;
+
+## Open 3 copies of the porin
+open 2JK4 ; view matrix models #1,1,0,0,-50,0,1,0,+40,0,0,1,0 ; 
+open 2JK4 ; 
+open 2JK4 ; view matrix models #3,1,0,0,+50,0,1,0,-40,0,0,1,0 ; 
+color tan ;
+
+view orient ; 
+
+roll axis z angle 2 frames 20 ; wait ; 
+select #* ; view sel ; zoom 1.5 ;  select clear ; 
+
+
+movie record ;
+
+# Color first helix
+wait 20 ; 
+select #*/A:19 ;  select up ; color sel forest green ; select clear ; 
+
+# Color second helix
+wait 20 ; 
+select #*/A:15 ; select up ; color sel cornflower blue ; select clear ; 
+
+roll axis x angle 3 frames 20 models #2 ; 
+wait ; wait 30 ; 
+
+roll axis x angle 3 frames 35 models #3 ; 
+wait ; wait 30 ; 
+
+## Save image with white background
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1A0S_porin_3angles_wbg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save image with black background
+preset "overall look" interactive  ; 
+save "1A0S_porin_3angles_bbg.png" width 1984 height 1240 supersample 3 ; 
+
+
+## 360 degree rotation
+roll axis x angle 3 frames 120 ;
+wait ; wait 30 ; 
+
+## Hydrostatic profile
+coulombic
+wait 120 ; 
+
+## 360 degree rotation
+roll axis x angle 3 frames 120 ;
+wait ; wait 30 ; 
+
+
+## Save image with white background
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1A0S_porin_hydostatic_wbg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save image with black background
+preset "overall look" interactive  ; 
+save "1A0S_porin_hydrostatic_bbg.png" width 1984 height 1240 supersample 3 ; 
+
+## Hydrophobicity landscape
+mlp ;
+wait 120 ; 
+
+## 360 degree rotation
+roll axis x angle 3 frames 120 ;
+wait ; wait 30 ; 
+
+## Save image with white background
+preset "overall look" "publication 1 (silhouettes)" ; 
+save "1A0S_porin_hydrophibicity_wbg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save image with black background
+preset "overall look" interactive  ; 
+save "1A0S_porin_hydrophobicity_bbg.png" width 1984 height 1240 supersample 3 ; 
+
+## Save movie
+movie encode output 1A0S_porin.mov  ;
+
+## Save session
+save 1A0S_porin.cxs ;
