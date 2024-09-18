@@ -54,10 +54,10 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
 ## Ressources informatiques
 
-| Ressource | URL | Description |
-|:---------------|:-------------------------------------------|:--------------------------------|
+| Ressource | Lien | Description |
+|:---------|:--------------------------|:-------------------------------------------|
 | NCBI gene | https://www.ncbi.nlm.nih.gov/gene/ | Base de données des gène hébergée par NCBI |
-| Sequence Manipulation Suite (SMS) | http://www.bioinformatics.org/sms2/ |  Large gammes d’outils pour la manipulation des séquences biologiques (traduction, reverse complement, ORFfinder...) |
+| Sequence Manipulation Suite (**SMS**) | http://www.bioinformatics.org/sms2/ |  Large gammes d’outils pour la manipulation des séquences biologiques (traduction, reverse complement, ORFfinder...) |
 | needle | https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle  |  Algorithme d’alignement par paire (méthode de Needleman-Wunsch, exacte, produisant des alignements globaux) |
 | NCBI BLAST|  https://blast.ncbi.nlm.nih.gov/Blast.cgi  |  Recherche par similarité: comparaison d’une séquence à une base de données  |
 
