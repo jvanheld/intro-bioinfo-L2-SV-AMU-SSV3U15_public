@@ -6,7 +6,7 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 
 ## Accès à ce matériel de cours
 
-| Site | Contenu | URL |
+| Site | Contenu | Lien |
 |:---------------|:-------------------------|:----------------------------------------|
 | Ametice |Gestion de l'UE, QCM, forum, ... | [https://ametice.univ-amu.fr/course/view.php?id=125268](https://ametice.univ-amu.fr/course/view.php?id=125268) |
 | Site Web public | énoncés et données des TP | [https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/](https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/) |
@@ -20,10 +20,10 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 | Diaporama | Présentations du cours | [diapo_pdf_SSV3U15](diapo_pdf_SSV3U15/)
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
-### Enoncés des TP
+### Travaux pratiques
 
-| n° |TP |
-|---|:------------------------------|:-------------------------|
+| TP | Titre | Lien |
+|:---:|:------------------------------|:-------------------------|
 | 1 | Séquence - structure - fonction | [TP1_tuto-exo.md](TP/TP1/TP1_tuto-exo.md) |
 | 1 | Séquence - structure - fonction | [TP1_tuto-exo.html](TP/TP1/TP1_tuto-exo.html) |
 | 1 | Séquence - structure - fonction | [TP/TP1/](TP/TP1/) |
@@ -32,7 +32,7 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 
 ### Vidéos des CM
 
-| n° | Titre | Lien |
-|:------------|:-------------------|:-------------------------:|
-| 01 | Présentation du cours | [ssv3u15-01](https://amupod.univ-amu.fr/video/32228-ssv3u15-01-presentation-du-cours-jacques-van-helden/) | 
-| 02 | Séquence - structure - fonction | [AmuPOD](https://amupod.univ-amu.fr/video/32306-02-sequence-structure-fonction-ssv3u15-jacques-van-helden/) |
+| Chap | Titre | Lien |
+|:---:|:-------------------|:-------------------------:|
+| 1 | Présentation du cours | [ssv3u15-01](https://amupod.univ-amu.fr/video/32228-ssv3u15-01-presentation-du-cours-jacques-van-helden/) | 
+| 2 | Séquence - structure - fonction | [AmuPOD](https://amupod.univ-amu.fr/video/32306-02-sequence-structure-fonction-ssv3u15-jacques-van-helden/) |
