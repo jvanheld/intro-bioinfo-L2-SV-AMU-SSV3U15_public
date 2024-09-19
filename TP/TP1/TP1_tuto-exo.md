@@ -43,6 +43,28 @@ Ce TP mobilisera les notions suivantes abordées au cours
 | Uniprot | principale base de données mondiale de séquences protéiques et d'informations fonctionnelles | https://www.uniprot.org/ |
 | PDB | Protein Databank, base de données de sructures protéiques | https://www.rcsb.org/ |
 
+
+## Protéomes de référence
+
+
+
+1. Ouvrez une connexion à Uniprot ([uniprot.org](https://uniprot.org))
+2. Cliquez **Search** en veillant à laisser la boîte de recherche vide. Ceci sélectionnera l'ensemble des entrées la base de données. 
+
+    - *Quel est le nombre total de protéines?*
+    - *Quel est le nombre de protéines révisées par un annotateur?*
+    - *Comment s'appelle la base de connaissances des protéines révisées par des annotateurs?*
+    - *Quel est le nombre de protéines non révisées?*
+    - *Comment s'appelle la base de données des protéines non révisées par des annotateurs?*
+    - *Swiss-Prot est (a) une base de données; (b) une base de connaissances*
+    - *TrEMBL est (a) une base de données; (b) une base de connaissances*
+
+3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
+
+    - *combien de résultats au total obtenez-vous?*
+    - *combien de résultats obtenez-vous dans Swiss-Prot?*
+    - *combien de résultats obtenez-vous dans TrEMBL?*
+
 ## Annotations fonctionnelles
 
 ### Tutoriel : exploration de la base de connaissances Swiss-Prot et de la base de données Uniprot/TREMBL
