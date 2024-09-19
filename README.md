@@ -15,7 +15,7 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 ## Travaux pratiques
 
 | TP | Titre et lien |
-|:---:|:------------------------------|:-------------------------|
+|:---:|:------------------------------------------------------|
 | 1 | [Séquence - structure - fonction](TP/TP1/) |
 | 2 | [Du gène à la protéine](TP/TP2/) |
 
@@ -28,7 +28,6 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 | 2 | Séquence - structure - fonction | [SSV3U15-02](https://amupod.univ-amu.fr/video/32306-ssv3u15-02-sequence-structure-fonction-jacques-van-helden/) |
 
 ## Matériel de cours
-
 
 | Titre | Description | Lien |
 |:------------|:-------------------|:-------------------------:|
