@@ -183,15 +183,13 @@ Le panneau de gauche permet d'explorer de façon interactive différentes propri
     - 18.801 cellular_component
     - 16.049 molecular_function
     
-3. Les triangles à gauche de chaque nombre permettent de déployer le niveau suivant de la classification hiérarchique des termes de l'ontologie. Explorer l'ontologie "biological process". 
+3. Les triangles à gauche de chaque nombre permettent de déployer le niveau suivant de la classification hiérarchique des termes de l'ontologie. Cliquez sur le triangle à gauche de "biological process" pour afficher ses sous-catégories. 
 
 ![Nombre de protéines humaines dans Swiss-prot (révisées) par classe de l'ontologie "biological process"](images/GO_biological-processes-Homo-sapiens.png)
 
 Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un procesus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
 
-
-
-### Exercice
+### Exercices
 
 1. Formulez une requête avancée sur l'ensemble des protéines du protéome de référence humain en sélectionnant les enzymes annotées dans Swiss-Prot, qui ont une localisation cytoplasmique et sont impliquées dans la voice canonique de la glycolyse. Combien de protéines obtenez-vous ?
 
