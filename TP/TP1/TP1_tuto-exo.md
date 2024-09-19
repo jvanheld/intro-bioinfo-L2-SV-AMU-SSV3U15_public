@@ -116,7 +116,7 @@ Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car ell
 
 | Requête avancée | Nombre de résultats |
 |:------------------------------------:|:------------------------------------|
-| ![<img src="https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8/" width="100">](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8) | ![image](https://github.com/user-attachments/assets/49043a3e-aeb2-4510-9940-500174764173) |
+| ![<img src="https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8/" width="100"/>](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8) | ![image](https://github.com/user-attachments/assets/49043a3e-aeb2-4510-9940-500174764173) |
 
 
 
