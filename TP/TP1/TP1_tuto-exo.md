@@ -46,7 +46,9 @@ Ce TP mobilisera les notions suivantes abordées au cours
 
 ## Protéomes de référence
 
+### Requête naïve
 
+Dans un premier temps nous allons faire une requête "naïve" en entrant "Human" dans la boîte de recherche. 
 
 1. Ouvrez une connexion à Uniprot ([uniprot.org](https://uniprot.org))
 2. Cliquez **Search** en veillant à laisser la boîte de recherche vide. Ceci sélectionnera l'ensemble des entrées la base de données. 
@@ -68,18 +70,20 @@ Ce TP mobilisera les notions suivantes abordées au cours
     - quels sont les autres "organismes populaires" ?
     - pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
 
-4. Le tableau de résultat d'Uniprot peut-être personnalisé pour afficher des informations particulières
+4. Dans la section "Popular organisms", cliquez "Human". 
 
-5. 
+    - *combien de résultats obtenez-vous dans Swiss-Prot?*
+    - *combien de résultats obtenez-vous dans TrEMBL?*
 
 
-### Réponses
+#### Réponses
 
 Résultats de la requête le 19 septembre 2024. 
 
-Toutes les protéines d'Uniprot
 
-![image](https://github.com/user-attachments/assets/a98671f1-b7cc-4242-8941-34cb4f144cfa)
+| Toutes les protéines d'Uniprot  | La requête non structurée "Human"
+|:-------------------------------:|:-------------------------------:|
+| ![image](https://github.com/user-attachments/assets/a98671f1-b7cc-4242-8941-34cb4f144cfa) | ![image](https://github.com/user-attachments/assets/713ab344-feaa-4d9f-a95a-224f87b02ef0) |
 
 - *Quel est le nombre total de protéines?* : 245.896.766
 - *Quel est le nombre de protéines révisées par un annotateur?* Reviewed (Swiss-Prot) (571.864)
@@ -89,9 +93,8 @@ Toutes les protéines d'Uniprot
 - *Swiss-Prot est (a) une base de données; (b) une base de connaissances* : une base de connaissances
 - *TrEMBL est (a) une base de données; (b) une base de connaissances* : une base de données
 
-La requête non structurée "Human"
 
-![image](https://github.com/user-attachments/assets/713ab344-feaa-4d9f-a95a-224f87b02ef0)
+
 
 - *combien de résultats au total obtenez-vous?* : 6.201.771
 - *combien de résultats obtenez-vous dans Swiss-Prot?* : 52.187
@@ -100,6 +103,21 @@ La requête non structurée "Human"
 - quels sont les autres "organismes populaires" ? : Zebrafish, Mouse, Rat, Bovine
 - pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
         - parce qu'elle retourne toutes les protéines pour lesquelles les annotations contiennent le mot "Human", quel que soit l'endroit où c'est mentionné. Par exemple, si dans les annotations on indique que la protéine est homologue à une protéin humaine, cette protéine sera  sélectionnée par la recherche. 
+
+
+### Requête avancée (structurée)
+
+Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car elle retourne toutes les entrées d'Uniprot qui contiennent les termes de la boîte de recherche, sans tenir compte de l'endroit où ces termes apparaissent dans les annotations. Nous recommandons donc fortement d'éviter cela, et de recourir systématiquement aux requêtes avancées. 
+
+1. Revenez à la page d'accueil d'Uniprot en cliquant sur l'icône "Uniprot" en haut à gauche. 
+2. Dans la boîte "Find your protein", cliquez le lien "Advanced"
+3. Les boîtezs bleues vous permettent de restreindre votre recherche à un ou plusieurs champs particulier. Cliquez sur la première boîte bleue, et sélectionnez "Organism [OS]".
+
+![image](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8)
+
+
+4. 
+5. 
 
 
 ## Annotations fonctionnelles
