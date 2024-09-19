@@ -64,6 +64,37 @@ Ce TP mobilisera les notions suivantes abordées au cours
     - *combien de résultats au total obtenez-vous?*
     - *combien de résultats obtenez-vous dans Swiss-Prot?*
     - *combien de résultats obtenez-vous dans TrEMBL?*
+    - dans la section "Popular organisms" du panneau de gauche, combien de protéines sont associées à l'humain ?
+    - quels sont les autres "organismes populaires" ?
+    - pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
+
+4. Le tableau de résultat d'Uniprot peut-être personnalisé pour afficher des informations particulières
+
+5. 
+
+
+### Réponses
+
+Résultats de la requête le 19 septembre 2024. 
+
+Toutes les protéines d'Uniprot
+
+![image](https://github.com/user-attachments/assets/a98671f1-b7cc-4242-8941-34cb4f144cfa)
+
+- *Quel est le nombre total de protéines?* : 245.896.766
+- *Quel est le nombre de protéines révisées par un annotateur?* Reviewed (Swiss-Prot) (571.864)
+- *Comment s'appelle la base de connaissances des protéines révisées par des annotateurs?* : Unreviewed (TrEMBL) (245,324,902)
+- *Quel est le nombre de protéines non révisées?*
+- *Comment s'appelle la base de données des protéines non révisées par des annotateurs?*
+- *Swiss-Prot est (a) une base de données; (b) une base de connaissances*
+- *TrEMBL est (a) une base de données; (b) une base de connaissances*
+
+
+La requête non structurée "Human"
+
+![image](https://github.com/user-attachments/assets/713ab344-feaa-4d9f-a95a-224f87b02ef0)
+
+
 
 ## Annotations fonctionnelles
 
