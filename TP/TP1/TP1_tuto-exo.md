@@ -112,9 +112,12 @@ Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car ell
 
 1. Revenez à la page d'accueil d'Uniprot en cliquant sur l'icône "Uniprot" en haut à gauche. 
 2. Dans la boîte "Find your protein", cliquez le lien "Advanced"
-3. Les boîtezs bleues vous permettent de restreindre votre recherche à un ou plusieurs champs particulier. Cliquez sur la première boîte bleue, et sélectionnez "Organism [OS]", puis tapes "Homo sapiens" dans la boîte de recherche. Un menu déroulant apparaît avec les différentes possibilités pour Homo sapiens, choisissez la première option 
+3. Les boîtes bleues vous permettent de restreindre votre recherche à un ou plusieurs champs particulier. Cliquez sur la première boîte bleue, et sélectionnez "Organism [OS]", puis tapes "Homo sapiens" dans la boîte de recherche. Un menu déroulant apparaît avec les différentes possibilités pour Homo sapiens, choisissez la première option 
 
-![image](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8)
+| Requête avancée | Nombre de résultats |
+|:------------------------------------:|:------------------------------------|
+| ![image](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8) | ![image](https://github.com/user-attachments/assets/49043a3e-aeb2-4510-9940-500174764173) |
+
 
 
 4. 
