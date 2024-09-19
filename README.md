@@ -10,7 +10,6 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 |:---------------|:-------------------------|:----------------------------------------|
 | Ametice |Gestion de l'UE, QCM, forum, ... | [https://ametice.univ-amu.fr/course/view.php?id=125268](https://ametice.univ-amu.fr/course/view.php?id=125268) |
 | Pages Web | énoncés et données des TP | [https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/](https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/) |
-<!--| Dépôt public | Code et gestion des contenus publics | [https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public](https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public) | -->
 
 
 ## Travaux pratiques
