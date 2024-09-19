@@ -22,7 +22,7 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 ### Vidéos des CM
 
 | Chap | Titre | Lien |
-|:---:|:-------------------|:-------------------------:|
+|:---:|:----------------------|:------------------------------------:|
 | 0 | Organisation du cours et modalités de contrôle des connaissances | [SSV3U15-00](https://amupod.univ-amu.fr/video/32344-ssv3u15-00-organisation-du-cours-introduciton-a-la-bioinformatique-jacques-van-helden/)
 | 1 | Présentation du cours | [SSV3U15-01](https://amupod.univ-amu.fr/video/32228-ssv3u15-01-presentation-du-cours-jacques-van-helden/) | 
 | 2 | Séquence - structure - fonction | [SSV3U15-02](https://amupod.univ-amu.fr/video/32306-ssv3u15-02-sequence-structure-fonction-jacques-van-helden/) |
