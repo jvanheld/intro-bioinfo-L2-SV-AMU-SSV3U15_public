@@ -44,7 +44,7 @@ Ce TP mobilisera les notions suivantes abordées au cours
 | PDB | Protein Databank, base de données de sructures protéiques | https://www.rcsb.org/ |
 
 
-## Protéomes de référence
+## Annotations fonctionnelles des protéines dans Uniprot
 
 ### Requête naïve
 
@@ -111,7 +111,7 @@ Résultats de la requête le 19 septembre 2024.
 
 (voir capture d'écran ci-dessus)
 
-### Requête avancée (structurée)
+## Requête avancée (structurée)
 
 Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car elle retourne toutes les entrées d'Uniprot qui contiennent les termes de la boîte de recherche, sans tenir compte de l'endroit où ces termes apparaissent dans les annotations. Nous recommandons donc fortement d'éviter cela, et de recourir systématiquement aux requêtes avancées. 
 
@@ -130,15 +130,35 @@ Voici le lien direct:
 - [www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606)
 
 On notera que ce taxon *inclut* deux variétés fossiles 
-- [Homo sapiens neanderthalensis](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=63221) et
+- [Homo sapiens neanderthalensis](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=63221)
 - [Homo sapiens subsp. 'Denisova'](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=741158)
+
+## Protéome de référence
+
+Le protéome d'un organisme consiste en l'ensemble de ses protéines. Dans Uniprot, les séquences protéiques proviennent de la traduction automatique de séquences génomiques. Avec la multiplication des projets de séquençages individuels d'humains, le nombre de séquences différentes a augmenté, avec une certaine redondance. 
+
+Pour faciliter le travail, l'équipe d'Uniprot a défini le concept de "Protéome de référence". 
+
+Après avoir effectué une requête avancée en cherchant Homo sapiens dans le nom d'organisme, le titre de la page de résultat inclut un lien vers le protéome de référence de l'humain. 
+
+
+> UniProtKB 204,411 results or expand search to "9606" to include lower taxonomic ranks or restrict to reference proteome [UP000005640](https://www.uniprot.org/?query=(organism_id:9606)%20AND%20(proteome:UP000005640))
+
+En cliquant sur le lien  [UP000005640](https://www.uniprot.org/?query=(organism_id:9606)%20AND%20(proteome:UP000005640)), on obtient un protéome totalisant 82.861 protéines dont 20.420 révisée par des annotateurs (Swiss-prot) et 62.441 non-révisées (TrEMBL). 
+
+Notez que la boîte de requête affiche maintenant le texte structuré suivant:
+
+```(organism_id:9606) AND (proteome:UP000005640)```
+
+Vous pouvez construire des requêtes plus complexes avec l'outil "Advanced", qui vous permettra de combiner plusieurs critères de sélection avec différents opérateurs logiques (AND, OR). 
+
 
 ## Annotations fonctionnelles
 
-### Tutoriel : exploration de la base de connaissances Swiss-Prot et de la base de données Uniprot/TREMBL
 
 
-### Exercice : 
+
+### Exercice
 
 
 
