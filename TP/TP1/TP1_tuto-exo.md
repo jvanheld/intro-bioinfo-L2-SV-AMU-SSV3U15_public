@@ -5,7 +5,11 @@
 - [Auteurs](#auteurs)
 - [Introduction](#introduction)
 - [Ressources informatiques](#ressources-informatiques) 
-- [Annotations fonctionnelles](#annotations-fonctionnelles) 
+- [Sélection d'un protéome](#sélection-dun-protéome) 
+    - [Requête naïve](#requête-naïve)
+    - [Requête avancée](#requête-avancée)
+    - [Protéome de référence](#protéome-de-référence)
+- [Annotations fonctionnelles](#annotations-fonctionnelles)
 - [Analyse de structure](#analyse-de-structure)
 
 
@@ -44,7 +48,7 @@ Ce TP mobilisera les notions suivantes abordées au cours
 | PDB | Protein Databank, base de données de sructures protéiques | https://www.rcsb.org/ |
 
 
-## Annotations fonctionnelles des protéines dans Uniprot
+## Sélection d'un protéome
 
 ### Requête naïve
 
@@ -83,7 +87,7 @@ Résultats de la requête le 19 septembre 2024.
 
 | Toutes les protéines d'Uniprot  | Requête non structurée "Human" | Après avoir cliqué sur "Homo sapiens" sous "Popular organisms" |
 |:-------------------------------:|:-------------------------------:|:-------------------------------:|
-| ![image](https://github.com/user-attachments/assets/a98671f1-b7cc-4242-8941-34cb4f144cfa) | ![image](https://github.com/user-attachments/assets/713ab344-feaa-4d9f-a95a-224f87b02ef0) | ![image](https://github.com/user-attachments/assets/31aa616c-ed01-46af-969a-23f3ea0fc534) |
+| ![image](images/request-all-uniprot.png) | ![image](images/naivre-request-Human.png) | ![image](images/naive-request-Human-popular-homo-sapiens.png) |
 
 
 #### Toutes les protéines d'Uniprot
@@ -111,7 +115,7 @@ Résultats de la requête le 19 septembre 2024.
 
 (voir capture d'écran ci-dessus)
 
-## Requête avancée (structurée)
+## Requête avancée
 
 Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car elle retourne toutes les entrées d'Uniprot qui contiennent les termes de la boîte de recherche, sans tenir compte de l'endroit où ces termes apparaissent dans les annotations. Nous recommandons donc fortement d'éviter cela, et de recourir systématiquement aux requêtes avancées. 
 
@@ -122,7 +126,7 @@ Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car ell
 
 | Requête avancée | Nombre de résultats |
 |:------------------------------------:|:------------------------------------|
-| ![img>](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8) | ![image](https://github.com/user-attachments/assets/49043a3e-aeb2-4510-9940-500174764173) |
+| ![img>](images/requete-avancee-OS-Homo-sapiens.png) | ![image](images/requete-avancee-OS-Homo-sapiens_result.png) |
 
 **Info:** 9606 es l'identifiant taaxonomique de l'espèce *Homo sapiens* dans la base de données taxonomique de référence, qui est gérée par le NCBI. Vous pouvez consulter les informations associées en cherchant "Homo sapiens" sur [www.ncbi.nlm.nih.gov/Taxonomy/](https://www.ncbi.nlm.nih.gov/Taxonomy/)
 
@@ -155,12 +159,36 @@ Vous pouvez construire des requêtes plus complexes avec l'outil "Advanced", qui
 
 ## Annotations fonctionnelles
 
+Nous avons maintenant sélectionné le protéome de référence de l'espèce *Homo sapiens* dans Uniprot. 
+
+Le panneau de gauche permet d'explorer de façon interactive différentes propriétés de ce protéome. 
+
+1. Nous effectuerons cette exploration en nous limitant au sous-ensemble des protéines révisées. Pour cela, cliquez sur "Reviewed (Swiss-Prot)" dans le panneau de gauche.  Ceci restreindra les analyses suivantes aux 20.420 protéines les mieux documentées pour l'humain. 
+2. Dans la section "Group by" du panneau de gauche, cliquez "Gene Ontology". Ceci vous affiche le nombre de protéines (parmi les 20.420) pour lesquelles on dispose d'annotation dans chacune des trois catégories de la Gene Ontology: 
+
+    - 17.517 biological_process
+    - 18.801 cellular_component
+    - 16.049 molecular_function
+    
+3. Les triangles à gauche de chaque nombre permettent de déployer le niveau suivant de la classification hiérarchique des termes de l'ontologie. Explorer l'ontologie "biological process". 
+
+![image](images/GO_biological-processes-Homo-sapiens.png)
+
+Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un procesus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
 
 
 
 ### Exercice
 
+1. Formulez une requête avancée sur l'ensemble des protéines du protéome de référence humain en sélectionnant les enzymes annotées dans Swiss-Prot, qui ont une localisation cytoplasmique et sont impliquées dans la voice canonique de la glycolyse. Combien de protéines obtenez-vous ?
+
+    - *Coup de pouce : utilisez les classes de la Gene Ontology [GO] dans la requête avancée*
+        - `canonical glycolysis (GO:0061621) [0061621]`
+        - `cytoplasm (GO:0005737) [0005737]`
+
 
 
 ## Analyse de structure
+
+
 
