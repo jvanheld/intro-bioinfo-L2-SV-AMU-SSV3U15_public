@@ -87,7 +87,7 @@ Résultats de la requête le 19 septembre 2024.
 
 | Toutes les protéines d'Uniprot  | Requête non structurée "Human" | Après avoir cliqué sur "Homo sapiens" sous "Popular organisms" |
 |:-------------------------------:|:-------------------------------:|:-------------------------------:|
-| ![image](images/request-all-uniprot.png) | ![image](images/naivre-request-Human.png) | ![image](images/naive-request-Human-popular-homo-sapiens.png) |
+| !["Résutat de la recherche de toutes les protéines d'Uniprot"](images/request-all-uniprot.png) | ![Recheche naîve "Human"](images/naivre-request-Human.png) | ![Sous-ensemble "Popular organism: Homo sapiens"](images/naive-request-Human-popular-homo-sapiens.png) |
 
 
 #### Toutes les protéines d'Uniprot
@@ -156,6 +156,18 @@ Notez que la boîte de requête affiche maintenant le texte structuré suivant:
 
 Vous pouvez construire des requêtes plus complexes avec l'outil "Advanced", qui vous permettra de combiner plusieurs critères de sélection avec différents opérateurs logiques (AND, OR). 
 
+Pour consulter la liste des protéomes de référence, en revenant à la page d'accueil d'Uniprot, et en sélectionnant, à gauche de la boîte de recherche, la section "Proteomes"
+
+![Sélection de la section protéome d'Uniprot](images/proteome_query.png)
+
+Ceci remplace la boîte "Find your protein" par "Find your proteome"
+
+![Boîte de recherche de protéomes](images/proteome_query_2.png)
+
+Vous pouvez ensuite effectuer une requête avancée pour sélectionner le protéome de référence (Proteome type) de l'organisme modèle de votre choix (par exemple "Escherichia coli (strain K12) (E.coli) [83333]")
+
+![Recherche avancée dans les protéomes](images/proteome_query_4.png)
+
 
 ## Annotations fonctionnelles
 
@@ -164,6 +176,7 @@ Nous avons maintenant sélectionné le protéome de référence de l'espèce *Ho
 Le panneau de gauche permet d'explorer de façon interactive différentes propriétés de ce protéome. 
 
 1. Nous effectuerons cette exploration en nous limitant au sous-ensemble des protéines révisées. Pour cela, cliquez sur "Reviewed (Swiss-Prot)" dans le panneau de gauche.  Ceci restreindra les analyses suivantes aux 20.420 protéines les mieux documentées pour l'humain. 
+
 2. Dans la section "Group by" du panneau de gauche, cliquez "Gene Ontology". Ceci vous affiche le nombre de protéines (parmi les 20.420) pour lesquelles on dispose d'annotation dans chacune des trois catégories de la Gene Ontology: 
 
     - 17.517 biological_process
@@ -172,7 +185,7 @@ Le panneau de gauche permet d'explorer de façon interactive différentes propri
     
 3. Les triangles à gauche de chaque nombre permettent de déployer le niveau suivant de la classification hiérarchique des termes de l'ontologie. Explorer l'ontologie "biological process". 
 
-![image](images/GO_biological-processes-Homo-sapiens.png)
+![Nombre de protéines humaines dans Swiss-prot (révisées) par classe de l'ontologie "biological process"](images/GO_biological-processes-Homo-sapiens.png)
 
 Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un procesus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
 
@@ -186,6 +199,29 @@ Notez que la somme des nombres des sous-catégories dépasse de loin la taille d
         - `canonical glycolysis (GO:0061621) [0061621]`
         - `cytoplasm (GO:0005737) [0005737]`
 
+2. Sélectionnez le protéome de référence de l'un des organismes modèles suivants, et analysez la répartition de ses gènes aux deux premiers niveaux des processus biologiques de la gene ontology. 
+
+    - Escherichia coli (strain K12) (E. coli) [83333]
+    - Drosophila melanogaster (Fruit fly/D. melanogaster) [7227]
+    - Bacillus subtilis (strain 168) (B. subtilis) [224308]
+    - Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker’s yeast/Baker's yeast/Brewer’s yeast/S. cerevisiae) [559292]
+    - Mus musculus (Mouse/House mouse/Laboratory mouse) [10090]
+    - Rattus norvegicus (Laboratory rat/Buffalo rat/R. norvegicus/Rat/Norway rat/Brown rat) [10116]
+    - Arabidopsis thaliana (Mouse-ear cress/Arabidopsis/A. Thaliana/Thale cress) [3702]
+    - Oryza sativa subsp. japonica (Japanese rice/O. sativa/Japonica rice/Rice) [39947]
+    - Macaca mulatta (Rhesus monkey/M. mulatta/Rhesus macaque) [9544]
+    - Mycoplasma genitalium (strain ATCC 33530 / DSM 19775 / NCTC 10195 / G37)
+
+
+Questions; pour votre organisme de référence, quels sont les valeurs suivantes ?
+    a. Nombre de protéines dans Uniprot
+    b. Nombre de protéines révisées
+    c. Nombre de protéines non-révisées
+    d. Pourcentage de protéines révisées
+    
+3. Dans Uniprot, ouvrez la fiche de la sous-unité alpha de l'hémoglobine humaine (Hemoglobin subunit alpha)
+
+...
 
 
 ## Analyse de structure
