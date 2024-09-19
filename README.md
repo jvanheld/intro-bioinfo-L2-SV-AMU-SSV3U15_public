@@ -4,23 +4,16 @@ Ce site contient le matériel complémentaire pour le cours **Introduciton à la
 
 Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Université, en accès réservé aux étudiants inscrits. 
 
-## Accès à ce matériel de cours
+## Sites de support de cours
 
 | Site | Contenu | Lien |
 |:---------------|:-------------------------|:----------------------------------------|
 | Ametice |Gestion de l'UE, QCM, forum, ... | [https://ametice.univ-amu.fr/course/view.php?id=125268](https://ametice.univ-amu.fr/course/view.php?id=125268) |
-| Site Web public | énoncés et données des TP | [https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/](https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/) |
-| Dépôt public | Code et gestion des contenus publics | [https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public](https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public) |
-
-## Contenu de cet entrepôt
+| Pages Web | énoncés et données des TP | [https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/](https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/) |
+<!--| Dépôt public | Code et gestion des contenus publics | [https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public](https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public) | -->
 
 
-| Titre | Description | Lien |
-|:------------|:-------------------|:-------------------------:|
-| Diaporama | Présentations du cours | [diapo_pdf_SSV3U15](diapo_pdf_SSV3U15/)
-| Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
-
-### Travaux pratiques
+## Travaux pratiques
 
 | TP | Titre et lien |
 |:---:|:------------------------------|:-------------------------|
@@ -34,3 +27,12 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 | 0 | Organisation du cours et modalités de contrôle des connaissances | [SSV3U15-00](https://amupod.univ-amu.fr/video/32344-ssv3u15-00-organisation-du-cours-introduciton-a-la-bioinformatique-jacques-van-helden/)
 | 1 | Présentation du cours | [SSV3U15-01](https://amupod.univ-amu.fr/video/32228-ssv3u15-01-presentation-du-cours-jacques-van-helden/) | 
 | 2 | Séquence - structure - fonction | [SSV3U15-02](https://amupod.univ-amu.fr/video/32306-ssv3u15-02-sequence-structure-fonction-jacques-van-helden/) |
+
+## Matériel de cours
+
+
+| Titre | Description | Lien |
+|:------------|:-------------------|:-------------------------:|
+| Diaporama | Présentations du cours | [diapo_pdf_SSV3U15](diapo_pdf_SSV3U15/)
+| Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
+
