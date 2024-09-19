@@ -86,6 +86,8 @@ Résultats de la requête le 19 septembre 2024.
 | ![image](https://github.com/user-attachments/assets/a98671f1-b7cc-4242-8941-34cb4f144cfa) | ![image](https://github.com/user-attachments/assets/713ab344-feaa-4d9f-a95a-224f87b02ef0) | ![image](https://github.com/user-attachments/assets/31aa616c-ed01-46af-969a-23f3ea0fc534) |
 
 
+#### Toutes les protéines d'Uniprot
+
 - *Quel est le nombre total de protéines?* : 245.896.766
 - *Quel est le nombre de protéines révisées par un annotateur?* Reviewed (Swiss-Prot) (571.864)
 - *Comment s'appelle la base de connaissances des protéines révisées par des annotateurs?* : Swiss-Prot
@@ -95,7 +97,7 @@ Résultats de la requête le 19 septembre 2024.
 - *TrEMBL est (a) une base de données; (b) une base de connaissances* : une base de données
 
 
-
+#### Requête non structurée "Human"
 
 - *combien de résultats au total obtenez-vous?* : 6.201.771
 - *combien de résultats obtenez-vous dans Swiss-Prot?* : 52.187
@@ -105,6 +107,9 @@ Résultats de la requête le 19 septembre 2024.
 - pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
         - parce qu'elle retourne toutes les protéines pour lesquelles les annotations contiennent le mot "Human", quel que soit l'endroit où c'est mentionné. Par exemple, si dans les annotations on indique que la protéine est homologue à une protéin humaine, cette protéine sera  sélectionnée par la recherche. 
 
+#### Après avoir cliqué sur "Homo sapiens" sous "Popular organisms"
+
+(voir capture d'écran ci-dessus)
 
 ### Requête avancée (structurée)
 
@@ -116,7 +121,7 @@ Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car ell
 
 | Requête avancée | Nombre de résultats |
 |:------------------------------------:|:------------------------------------|
-| ![<img src="https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8/" width="100"/>](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8) | ![image](https://github.com/user-attachments/assets/49043a3e-aeb2-4510-9940-500174764173) |
+| ![img>](https://github.com/user-attachments/assets/15129ba3-c422-41cc-8754-5d25438b5ac8) | ![image](https://github.com/user-attachments/assets/49043a3e-aeb2-4510-9940-500174764173) |
 
 
 
