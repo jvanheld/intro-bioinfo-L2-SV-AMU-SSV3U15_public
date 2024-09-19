@@ -129,8 +129,9 @@ Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car ell
 Voici le lien direct: 
 - [www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606)
 
-
-
+On notera que ce taxon *inclut* deux variétés fossiles 
+- [Homo sapiens neanderthalensis](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=63221) et
+- [Homo sapiens subsp. 'Denisova'](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=741158)
 
 ## Annotations fonctionnelles
 
