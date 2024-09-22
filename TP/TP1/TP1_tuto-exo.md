@@ -4,12 +4,12 @@
 
 - [Auteurs](#auteurs)
 - [Introduction](#introduction)
-- [Ressources informatiques](#ressources-informatiques) 
-- [Sélection d'un protéome](#sélection-dun-protéome) 
+- [Ressources bioinformatiques](#ressources-bioinformatiques) 
+- [Uniprot](#uniprot) 
     - [Requête naïve](#requête-naïve)
     - [Requête avancée](#requête-avancée)
     - [Protéome de référence](#protéome-de-référence)
-- [Annotations fonctionnelles](#annotations-fonctionnelles)
+    - [Annotations fonctionnelles](#annotations-fonctionnelles)
 - [Analyse de structure](#analyse-de-structure)
 
 
@@ -40,15 +40,16 @@ Ce TP mobilisera les notions suivantes abordées au cours
 - Etablir le lien entre annotations fonctionnelles et éléments structurels
 - Utiliser des modes de visualisation appropriés pour mettre en évidence différentes propriétés des protéines
 
-## Ressources informatiques
+## Ressources bioinformatiques
 
 | Ressource | Description | URL |
 |:---------------|:-------------------------------------------|:--------------------------------|
-| Uniprot | principale base de données mondiale de séquences protéiques et d'informations fonctionnelles | https://www.uniprot.org/ |
-| PDB | Protein Databank, base de données de sructures protéiques | https://www.rcsb.org/ |
+| Uniprot | principale base de données mondiale de séquences protéiques et d'informations fonctionnelles | [https://www.uniprot.org/](https://www.uniprot.org/) |
+| PDB | Protein Databank, base de données de sructures protéiques | [https://www.rcsb.org/](https://www.rcsb.org/) |
+| icn3D | Outil de visualisation et d'analyse des structures protéiques (NCBI) | [https://www.ncbi.nlm.nih.gov/Structure/icn3d/](https://www.ncbi.nlm.nih.gov/Structure/icn3d/) |
 
 
-## Sélection d'un protéome
+## Uniprot
 
 ### Requête naïve
 
@@ -90,7 +91,7 @@ Résultats de la requête le 19 septembre 2024.
 | !["Résutat de la recherche de toutes les protéines d'Uniprot"](images/request-all-uniprot.png) | ![Recheche naîve "Human"](images/naivre-request-Human.png) | ![Sous-ensemble "Popular organism: Homo sapiens"](images/naive-request-Human-popular-homo-sapiens.png) |
 
 
-#### Toutes les protéines d'Uniprot
+##### Toutes les protéines d'Uniprot
 
 - *Quel est le nombre total de protéines?* : 245.896.766
 - *Quel est le nombre de protéines révisées par un annotateur?* Reviewed (Swiss-Prot) (571.864)
@@ -101,7 +102,7 @@ Résultats de la requête le 19 septembre 2024.
 - *TrEMBL est (a) une base de données; (b) une base de connaissances* : une base de données
 
 
-#### Requête non structurée "Human"
+##### Requête non structurée "Human"
 
 - *combien de résultats au total obtenez-vous?* : 6.201.771
 - *combien de résultats obtenez-vous dans Swiss-Prot?* : 52.187
@@ -111,11 +112,11 @@ Résultats de la requête le 19 septembre 2024.
 - pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
         - parce qu'elle retourne toutes les protéines pour lesquelles les annotations contiennent le mot "Human", quel que soit l'endroit où c'est mentionné. Par exemple, si dans les annotations on indique que la protéine est homologue à une protéin humaine, cette protéine sera  sélectionnée par la recherche. 
 
-#### Après avoir cliqué sur "Homo sapiens" sous "Popular organisms"
+##### Après avoir cliqué sur "Homo sapiens" sous "Popular organisms"
 
 (voir capture d'écran ci-dessus)
 
-## Requête avancée
+### Requête avancée
 
 Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car elle retourne toutes les entrées d'Uniprot qui contiennent les termes de la boîte de recherche, sans tenir compte de l'endroit où ces termes apparaissent dans les annotations. Nous recommandons donc fortement d'éviter cela, et de recourir systématiquement aux requêtes avancées. 
 
@@ -137,7 +138,7 @@ On notera que ce taxon *inclut* deux variétés fossiles
 - [Homo sapiens neanderthalensis](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=63221)
 - [Homo sapiens subsp. 'Denisova'](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=741158)
 
-## Protéome de référence
+### Protéome de référence
 
 Le protéome d'un organisme consiste en l'ensemble de ses protéines. Dans Uniprot, les séquences protéiques proviennent de la traduction automatique de séquences génomiques. Avec la multiplication des projets de séquençages individuels d'humains, le nombre de séquences différentes a augmenté, avec une certaine redondance. 
 
@@ -211,15 +212,32 @@ Notez que la somme des nombres des sous-catégories dépasse de loin la taille d
     - Mycoplasma genitalium (strain ATCC 33530 / DSM 19775 / NCTC 10195 / G37)
 
 
-Questions; pour votre organisme de référence, quels sont les valeurs suivantes ?
-    a. Nombre de protéines dans Uniprot
-    b. Nombre de protéines révisées
-    c. Nombre de protéines non-révisées
-    d. Pourcentage de protéines révisées
+    Pour l'organisme de votre choix, quels sont les valeurs suivantes ?
+    
+    - Nombre de protéines dans Uniprot
+    - Nombre de protéines révisées
+    - Nombre de protéines non-révisées
+    - Pourcentage de protéines révisées
     
 3. Dans Uniprot, ouvrez la fiche de la sous-unité alpha de l'hémoglobine humaine (Hemoglobin subunit alpha)
 
 ...
+
+4. Dans le protéome de la levure du boulanger (Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker’s yeast/Baker's yeast/Brewer’s yeast/S. cerevisiae) [559292]), comptez le nombre de protéines appartenant aux classes suivantes. 
+
+    - facteur transcripitionel se liant à l'ADN
+    - transporteur
+    - protéine cytoplasmique
+    - protéine transmembranaire
+    - protéine impliquée dans la voie métabolique de la glycolyse
+
+5. Dans le protéome de référence de l'humain, combien y a-t-il de récepteurs olfactifs?
+
+    - 12
+    - 120
+    - 1200
+    - 12000
+    - 120000
 
 
 ## Analyse de structure
