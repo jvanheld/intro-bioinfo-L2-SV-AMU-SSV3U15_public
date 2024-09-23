@@ -85,9 +85,9 @@ Nous commençons ce TP par explirerexpl orer sommairement l'interface usager de 
     - dans quels tissus ce gène est-il principalement exprimé ?
     - voyez-vous un lien avec les pathologies suscitées par des mutations de ce gène ?
 
-### Structure du transporteur de glucose sur PDB
+### Structure du transporteur de glucose: d'Uniprot à PDB
 
-5. Revenez à la page de cette protéine dans Uniprot et consultez la section "[Structure](https://www.uniprot.org/uniprotkb/P11166/entry#structure)". 
+5. Revenez à la page de cette  protéine (P11166) dans Uniprot et consultez la section "[Structure](https://www.uniprot.org/uniprotkb/P11166/entry#structure)". 
 
     - Combien y a-t-il de structures disponibles ? 
     - Combien y a-t-il de structures caractérisées expérimentalement ? 
@@ -95,16 +95,60 @@ Nous commençons ce TP par explirerexpl orer sommairement l'interface usager de 
     - Quelle est la meilleure résolution (en Angstroms) ?
     
 
-6. CLiquez sur le lien "[RCSC-PDB](https://www.rcsb.org/structure/6THA)" de la structure **** et consultez rapidement les annotations pour identifier les types d'informations disponibles. Vous constaterez que les annotations de PDB sont à première vue moins détaillées que celles d'Uniprot (ce qui est normal, puisque PDB se concentre sur la structure protéique). 
+6. CLiquez sur le lien "[RCSC-PDB](https://www.rcsb.org/structure/6THA)" de la structure  avec la meilleure résolution (**6THA**). Ceci ouvre un nouvel onglet vers le serveur RCSC-PDB. 
 
-7. Dans la section "Explore 3D" sous l'image de la structure, cliquez "[Sequence annotations](https://www.rcsb.org/3d-sequence/6THA?assemblyId=1)". Ceci ouvre un onglet qui vous permet de positionner les segments annotés de la protéine (panneau de gauche) avec la structure tridimensionnelle (panneau de droite). Cliquez successive=ment sur les segments de la piste d'annotation "Membrane topology" et identifiez les éléments structurels (hélices alpha, feuillets beta) correspondants. 
+Dans la seection suivante, nous utiliserons ce serveur pour visualiser la structure du transporteur du glucose et analyser la relation entre séquence et structure. Conservez toutefois l'onglet Uniprot ouvert, nous serons amenés à faire des aller-retours entre PDB et Uniprot. 
 
-    - Quel est le type d'élément structurel associé aux segments transmembranaires ?
-    - Quel est le type d'élément structurel associé plus grand segment intracellulaire ?
-    - Quel est le type d'élément structurel associé plus grand segment extracellulaire ?
+
+### Analyse des relations séquence - structure sur PDB
+
+
+#### Tutoriel : affichage des annotations de séquence sur la structure
+
+1. Consultez rapidement les annotations  de la structure intitulée ["Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation" (identifiant PDB 6THA)](https://www.rcsb.org/structure/6THA) sur le serveur RCSB-PDB. Evaluez les types d'informations disponibles. Notez que la page propose une sérue d'onglets avec différents types d'infirmation (Structure, Annotations, Experiment, Sequence, Genome, Ligands, Versions). Dans ce tutoriel, nous combinerons les informations de séquence et de structure. 
+
+2. Dans la section "Explore 3D" sous l'image de la structure, cliquez "[Sequence annotations](https://www.rcsb.org/3d-sequence/6THA?assemblyId=1)". Ceci ouvre une page avec deux deux panneaux : 
+
+    - à gauche, une carte présentant différentes pistes d'annotation de la séquence protéiques (structures secondaires, "hydropathie", topologie membranaire, segments de membrane...
+    - à droite, une représentation de la structure tridimensionnelle de la protéine, affichée en mode "ribbon"
+    
+Nous allons commencer par personnaliser l'affichage de la protéine, et nous explorerons ensuite les relations entre les caractéristiques de la séquence (panneau de gauche) et de la structure (panneau de droite). 
+
+3. En haut à droite de la fenêtre, une série d'icones vous proposent différents outils pour ma,ipuler et analyser la structure. un premier click sur une icône affiche l'outil, un second click le masque.Cliquez sur l'icône de clé à molette. Ceci affichera deux nouveaux panneaux
+
+    - à droite, une boîte à outils présentant de nombreuses options de personnalisation de l'affichage et d'anlayse de la structure
+    - au-dessus de la structure, la séquence de la protéine
+
+Vous pouvez déplacer la limite verticale entre le panneau d'annotation et celui de structure pour qu'ils occupent chacun la moitié de l'écran (sans compter le panneau d'outils). 
+
+
+4. Dans la section "Components" de la boîte à outils, masquez les molécules d'eau et les ions.  en cliquant sur l'oeil. Testez également l'effet de l'affichage / masquage des autres composantes de la structure, puis veillez à réactiver leur affichage.
+
+5. Nous allons maintennat colorer la protéine pour mettre en évidence ses éléments de structure. A côte de la composante "Polymer", cliquez l'icône `...` pour afficher les options de représentation de la protéine. L'affichage par défaut se fait au niveau de la chaîne polypeptidique, ce qui peut être intéressant pour des complexes protéiques ou protéine-ADN, mais n'est pas très illustratif quand on visualise une protéine composée d'une seule chaîne polypeptidique, ce qui est notre cas. Testez des modes alternatifs de représentation au niveau des propriétés des résidus et interprétez ce que vous voyez. Retenez ensuite la propriété "Sequence ID", qui assigne une couleur différente à chaque élément structurel, selon un gadient du bleu au rouge. 
+
+8. Après avoir personnalisé l'affichage des éléments de structure, nous allons sélectionner différents segments annotés de la protéine (panneau de gauche), et les localiser sur la structure tridimensionnelle (panneau de droite). Cliquez successive=ment sur les segments de la piste d'annotation "Membrane topology" et identifiez les éléments structurels (hélices alpha, feuillets beta) correspondants. Explorez en particulier les éléments structurels (rectangles roses sur la piste "Secondary structure") et les annotations de topologie de membrane (rectangles verts ou violets sur les pistes "Membrane Topology"). 
+
+
+Quand vous cliquez sur un élément, l'affichage de la structure est recadrée sur cet élément, dans le panneau de droite, et le segment de séquence correspondant est marqué dans la partie supérieure du panneau de droite. Pour voir l'élément dans le contexte global de la protéine, utilisez les options *Reset Zoom*. Faites tourner la structure pour afficher au mieux les segments que vous sélectionnez successivement. Vous pouvez à tout moment revenir à la position initiale avec la fonction *Reset Axes*.
+
+![rescale](images/RCSB-PDB_rescale.png)
+
+
+
+
+#### Test
+
+- Dans la position initiale de la structure (obtenie après avoir cliqué *Reset Axes*), les segments cytoplasmiques sont-ils situés : (a) en haut; (b) à droite (c); à gauche; (d) en bas. 
+- Dans la position initiale de la structure (obtenie après avoir cliqué *Reset Axes*), les segments extracellulaires sont-ils situés : (a) en haut; (b) à droite (c); à gauche; (d) en bas. 
+- Dans la position initiale de la structure (obtenie après avoir cliqué *Reset Axes*), les segments transmembranaires sont-ils orientés (a) verticalement; (b) horizontalement; (c) perpendiculairement à l'écran ?
+- Quel est le type d'élément structurel associé aux segments transmembranaires ?
+- Quels sont les types d'éléments structurels associés au plus grand segment cytoplasmique ?
+- Quel est le type d'élément structurel associé plus grand segment extracellulaire ?
+
 
 ### Analyse de la structure avec icn3D
-    
+
+
 Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/), et entrez l'identifiant de la structure PDB (6THA) dans la boîte de requête, et pressez la touche "Entrée". Vérifiez que vous avez bien chargé la bonne structure : "PDB ID 6THA: Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation".
 
 1. Choisissez une coloration en arc-en-ciel pour reprérer la position des différents éléments de structure par rapport aux extrémités dude la chaîne polypeptidique (*Color -> Rainbow -> For selection*). 
@@ -127,7 +171,7 @@ Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.
 5. Sélectionnez la protéine (*Select -> Defined sets* puis *protein*) et colorez-la en focntion de la charge des résidus (*Color -> Charge*). Défaites la sélection pour mieux voir le résultat. 
 
     - estimez le nombre de résidues chargés positivement
-    - estimez le nombre de résidues chargés négativeme,nt
+    - estimez le nombre de résidues chargés négativement
     - estimez la proportion de ces résidus par rapport à la taille de la protéine
 
 6. Analysez la localisation de ces résidus chargés, et interprétez le résultat dans le contexte des annotations d'Uniprot. 
