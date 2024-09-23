@@ -20,11 +20,11 @@ Auteurs: Jacques van Helden
 
 ## Introduction
 
-Ce TP vise à se familiariser avec l'interface de ala base de données et de cnnaissances Uniprot. 
+Ce TP vise à se familiariser avec l'interface de la base de données et de connaissances Uniprot. 
 
-Durant le TP, vous apprendrez à 
+Durant le TP, vous apprendrez à :
 
-- effectuer une requête avancée (structurée) pour sélectionner des protéines sur base d'un ou plusieurs critères combinés. 
+- effectuer une requête avancée (structurée) pour sélectionner des protéines sur base d'un ou plusieurs critères combinés 
 - sélectionner un protéome de référence
 - explorer les annotations fonctionnelles basées sur la Gene Ontology
 
@@ -113,7 +113,7 @@ Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car ell
 |:------------------------------------:|:------------------------------------|
 | ![img>](images/requete-avancee-OS-Homo-sapiens.png) | ![image](images/requete-avancee-OS-Homo-sapiens_result.png) |
 
-**Info:** 9606 es l'identifiant taaxonomique de l'espèce *Homo sapiens* dans la base de données taxonomique de référence, qui est gérée par le NCBI. Vous pouvez consulter les informations associées en cherchant "Homo sapiens" sur [www.ncbi.nlm.nih.gov/Taxonomy/](https://www.ncbi.nlm.nih.gov/Taxonomy/)
+**Info:** 9606 est l'identifiant taxonomique de l'espèce *Homo sapiens* dans la base de données taxonomique de référence, qui est gérée par le NCBI. Vous pouvez consulter les informations associées en cherchant "Homo sapiens" sur [www.ncbi.nlm.nih.gov/Taxonomy/](https://www.ncbi.nlm.nih.gov/Taxonomy/)
 
 Voici le lien direct: 
 - [www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606)
@@ -128,7 +128,7 @@ Le protéome d'un organisme consiste en l'ensemble de ses protéines. Dans Unipr
 
 Pour faciliter le travail, l'équipe d'Uniprot a défini le concept de "Protéome de référence". 
 
-Après avoir effectué une requête avancée en cherchant Homo sapiens dans le nom d'organisme, le titre de la page de résultat inclut un lien vers le protéome de référence de l'humain. 
+Après avoir effectué une requête avancée en cherchant *Homo sapiens* dans le nom d'organisme, le titre de la page de résultat inclut un lien vers le protéome de référence de l'humain. 
 
 
 > UniProtKB 204,411 results or expand search to "9606" to include lower taxonomic ranks or restrict to reference proteome [UP000005640](https://www.uniprot.org/?query=(organism_id:9606)%20AND%20(proteome:UP000005640))
@@ -172,11 +172,11 @@ Le panneau de gauche permet d'explorer de façon interactive différentes propri
 
 ![Nombre de protéines humaines dans Swiss-prot (révisées) par classe de l'ontologie "biological process"](images/GO_biological-processes-Homo-sapiens.png)
 
-Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un procesus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
+Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un processus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
 
 ## Exercices
 
-1. Formulez une requête avancée sur l'ensemble des protéines du protéome de référence humain en sélectionnant les enzymes annotées dans Swiss-Prot, qui ont une localisation cytoplasmique et sont impliquées dans la voice canonique de la glycolyse. Combien de protéines obtenez-vous ?
+1. Formulez une requête avancée sur l'ensemble des protéines du protéome de référence humain en sélectionnant les enzymes annotées dans Swiss-Prot, qui ont une localisation cytoplasmique et sont impliquées dans la voie canonique de la glycolyse. Combien de protéines obtenez-vous ?
 
     - *Coup de pouce : utilisez les classes de la Gene Ontology [GO] dans la requête avancée*
         - `canonical glycolysis (GO:0061621) [0061621]`
@@ -207,7 +207,7 @@ Notez que la somme des nombres des sous-catégories dépasse de loin la taille d
 
 ...
 
-4. Dans le protéome de la levure du boulanger (Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker’s yeast/Baker's yeast/Brewer’s yeast/S. cerevisiae) [559292]), comptez le nombre de protéines appartenant aux classes suivantes. 
+4. Dans le protéome de la levure du boulanger (Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker’s yeast/Baker's yeast/Brewer’s yeast/S. cerevisiae) [559292]), comptez le nombre de protéines appartenant aux classes suivantes : 
 
     - facteur transcripitionel se liant à l'ADN
     - transporteur
