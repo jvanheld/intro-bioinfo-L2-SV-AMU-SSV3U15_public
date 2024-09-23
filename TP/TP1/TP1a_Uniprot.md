@@ -43,19 +43,21 @@ Dans un premier temps nous allons faire une requête "naïve" en entrant "Human"
 
 2. Cliquez **Search** en veillant à laisser la boîte de recherche vide. Ceci sélectionnera l'ensemble des entrées la base de données. 
 
-Connectez-vous à Ametice et répondez à la première section questionnaire du TP1: **Requêetes naîves sur UniprotKB**. 
+Connectez-vous à Ametice et répondez à la première section questionnaire du TP1: **Requêtes naïves sur UniprotKB**. 
 
 3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
 
-Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TP1: **Requêetes naîves sur UniprotKB**. 
+Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TP1: **Requêtes naïves sur UniprotKB**. 
 
 4. Dans la section "Popular organisms", cliquez "Human". 
 
-Connectez-vous à Ametice et répondez à la troisième section questionnaire du TP1: **Requêetes naîves sur UniprotKB**. 
+Connectez-vous à Ametice et répondez à la troisième section questionnaire du TP1: **Requêtes naïves sur UniprotKB**. 
 
 ## Requête avancée
 
-Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car elle retourne toutes les entrées d'Uniprot qui contiennent les termes de la boîte de recherche, sans tenir compte de l'endroit où ces termes apparaissent dans les annotations. Nous recommandons donc fortement d'éviter cela, et de recourir systématiquement aux requêtes avancées. 
+Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car elle retourne toutes les entrées d'Uniprot qui contiennent les termes de la boîte de recherche, sans tenir compte de l'endroit où ces termes apparaissent dans les annotations. On peut donc se retrouver avec des tas de protéines non-humaines, qui sont sélectionnées parce que le mot "Human" apparaît dans l'un ou l'autre champ (par exemple "similar to Human ...").
+
+Nous recommandons donc fortement d'éviter cela, et de recourir systématiquement aux requêtes avancées. 
 
 1. Revenez à la page d'accueil d'Uniprot en cliquant sur l'icône "Uniprot" en haut à gauche. 
 2. Dans la boîte "Find your protein", cliquez le lien "Advanced"
@@ -75,7 +77,43 @@ On notera que ce taxon *inclut* deux variétés fossiles
 - [Homo sapiens neanderthalensis](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=63221)
 - [Homo sapiens subsp. 'Denisova'](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=741158)
 
-## Protéome de référence
+
+
+## Annotations fonctionnelles
+
+Nous avons maintenant sélectionné le protéome de référence de l'espèce *Homo sapiens* dans Uniprot. 
+
+Le panneau de gauche permet d'explorer de façon interactive différentes propriétés de ce protéome. 
+
+1. Nous effectuerons cette exploration en nous limitant au sous-ensemble des protéines révisées. Pour cela, cliquez sur "Reviewed (Swiss-Prot)" dans le panneau de gauche.  Ceci restreindra les analyses suivantes aux 20.420 protéines les mieux documentées pour l'humain. 
+
+2. Dans la section "Group by" du panneau de gauche, cliquez "Gene Ontology". Ceci vous affiche le nombre de protéines (parmi les 20.420) pour lesquelles on dispose d'annotation dans chacune des trois catégories de la Gene Ontology: 
+
+    - 17.517 biological_process
+    - 18.801 cellular_component
+    - 16.049 molecular_function
+    
+3. Les triangles à gauche de chaque nombre permettent de déployer le niveau suivant de la classification hiérarchique des termes de l'ontologie. Cliquez sur le triangle à gauche de "biological process" pour afficher ses sous-catégories. 
+
+![Nombre de protéines humaines dans Swiss-prot (révisées) par classe de l'ontologie "biological process"](images/GO_biological-processes-Homo-sapiens.png)
+
+Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un processus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
+
+
+## Deuxième partie du TP: visualisation et analyse des structures tridimensionnelles de protéines
+
+Nous avons fini la première partie du TP1, qui consistait à se familiariser avec les requêtes Uniprot pour sélectionner l'ensemble des protéines d'un organisme considéré. 
+
+Nous avons prévu ci-dessous quelques exercices facultatifs pour les personnes qui désireraient pousser plus loin les analyses. 
+Cependant, pendant la séance de TP nous vous suggérons d'attaquer d'emblée la deuxième partie, consacrée aux relations séquence ) structures - fonction. 
+
+***Voici le lien vers cette deuxième partie du TP1: [TP PDB](TP1b_PDB.md)***
+
+
+il vous sera loisible de terminer les exercices facultatifs ultérieurement. 
+
+
+## Facultatif (à faire chez soi) : protéome de référence
 
 Le protéome d'un organisme consiste en l'ensemble de ses protéines. Dans Uniprot, les séquences protéiques proviennent de la traduction automatique de séquences génomiques. Avec la multiplication des projets de séquençages individuels d'humains, le nombre de séquences différentes a augmenté, avec une certaine redondance. 
 
@@ -106,28 +144,7 @@ Vous pouvez ensuite effectuer une requête avancée pour sélectionner le proté
 
 ![Recherche avancée dans les protéomes](images/proteome_query_4.png)
 
-
-## Annotations fonctionnelles
-
-Nous avons maintenant sélectionné le protéome de référence de l'espèce *Homo sapiens* dans Uniprot. 
-
-Le panneau de gauche permet d'explorer de façon interactive différentes propriétés de ce protéome. 
-
-1. Nous effectuerons cette exploration en nous limitant au sous-ensemble des protéines révisées. Pour cela, cliquez sur "Reviewed (Swiss-Prot)" dans le panneau de gauche.  Ceci restreindra les analyses suivantes aux 20.420 protéines les mieux documentées pour l'humain. 
-
-2. Dans la section "Group by" du panneau de gauche, cliquez "Gene Ontology". Ceci vous affiche le nombre de protéines (parmi les 20.420) pour lesquelles on dispose d'annotation dans chacune des trois catégories de la Gene Ontology: 
-
-    - 17.517 biological_process
-    - 18.801 cellular_component
-    - 16.049 molecular_function
-    
-3. Les triangles à gauche de chaque nombre permettent de déployer le niveau suivant de la classification hiérarchique des termes de l'ontologie. Cliquez sur le triangle à gauche de "biological process" pour afficher ses sous-catégories. 
-
-![Nombre de protéines humaines dans Swiss-prot (révisées) par classe de l'ontologie "biological process"](images/GO_biological-processes-Homo-sapiens.png)
-
-Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un processus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
-
-## Exercices
+### Exercices
 
 1. Formulez une requête avancée sur l'ensemble des protéines du protéome de référence humain en sélectionnant les enzymes annotées dans Swiss-Prot, qui ont une localisation cytoplasmique et sont impliquées dans la voie canonique de la glycolyse. Combien de protéines obtenez-vous ?
 
