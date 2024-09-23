@@ -13,6 +13,8 @@
 
 - Jacques van Helden
 
+----------------------------------------------------------------
+
 ## Introduction
 
 ### But du TP
@@ -33,8 +35,10 @@ Ce TP mobilisera les notions suivantes abordées au cours
 
 - Effectuer une recherche structurée dans une base de connaissances (Swissprot) ou de données (Uniprot)
 - Interpréter les annotations fonctionnelles d'une protéine
-- Etablir le lien entre annotations fonctionnelles et éléments structurels
 - Utiliser des modes de visualisation appropriés pour mettre en évidence différentes propriétés des protéines
+- Etablir le lien entre annotations fonctionnelles et éléments structurels
+
+----------------------------------------------------------------
 
 ## Ressources bioinformatiques
 
@@ -44,10 +48,13 @@ Ce TP mobilisera les notions suivantes abordées au cours
 | PDB | Protein Databank, base de données de sructures protéiques | [https://www.rcsb.org/](https://www.rcsb.org/) |
 | icn3D | Outil de visualisation et d'analyse des structures protéiques (NCBI) | [https://www.ncbi.nlm.nih.gov/Structure/icn3d/](https://www.ncbi.nlm.nih.gov/Structure/icn3d/) |
 
+----------------------------------------------------------------
 
 ## Annotations fonctionnelles dans Uniprot
 
 [TP Uniprot](TP1a_Uniprot.md)
+
+----------------------------------------------------------------
 
 ## Analyse de la structure des protéines
 
@@ -55,3 +62,11 @@ Ce TP mobilisera les notions suivantes abordées au cours
 [TP PDB](TP1b_PDB.md)
 
 
+----------------------------------------------------------------
+
+## Facultatif: concours intergalactique de la plus belle image de structure de protéine
+
+
+ ***A rédiger***
+
+----------------------------------------------------------------
