@@ -1,57 +1,40 @@
-# TP 1 : Séquence - structure - fonction
+# TP 1a. Exploration de la base de connaissances Uniprot
+
+Auteurs: Jacques van Helden
 
 ## Table des matières
 
-- [Auteurs](#auteurs)
-- [Introduction](#introduction)
-- [Ressources bioinformatiques](#ressources-bioinformatiques) 
-- [Uniprot](#uniprot) 
-    - [Requête naïve](#requête-naïve)
-    - [Requête avancée](#requête-avancée)
-    - [Protéome de référence](#protéome-de-référence)
-    - [Annotations fonctionnelles](#annotations-fonctionnelles)
-- [Analyse de structure](#analyse-de-structure)
+- [Requête naïve](#requête-naïve)
+- [Requête avancée](#requête-avancée)
+- [Protéome de référence](#protéome-de-référence)
+- [Annotations fonctionnelles](#annotations-fonctionnelles)
+- [Exercices](#exercices)
 
 
-## Auteurs
+[Retour au TP 1](TP1_tuto-exo.md)
 
-- Jacques van Helden
+
+----------------------------------------------------------------
+
 
 ## Introduction
 
-### But du TP
+Ce TP vise à se familiariser avec l'interface de ala base de données et de cnnaissances Uniprot. 
 
-Durant cette séance de TP, nous analyserons le lien entre séquence, structure tridimensionnelle et fonction des protéines. 
+Durant le TP, vous apprendrez à 
 
-### Exemples traités
+- effectuer une requête avancée (structurée) pour sélectionner des protéines sur base d'un ou plusieurs critères combinés. 
+- sélectionner un protéome de référence
+- explorer les annotations fonctionnelles basées sur la Gene Ontology
 
-
-### Notions abordées
-
-Ce TP mobilisera les notions suivantes abordées au cours
-
-- Annotation des séquences protéiques
-- Eléments structurels (hélice alpha, chapine bêta)
-
-### Compétences acquises au cours de ce TP
-
-- Effectuer une recherche structurée dans une base de connaissances (Swissprot) ou de données (Uniprot)
-- Interpréter les annotations fonctionnelles d'une protéine
-- Etablir le lien entre annotations fonctionnelles et éléments structurels
-- Utiliser des modes de visualisation appropriés pour mettre en évidence différentes propriétés des protéines
-
-## Ressources bioinformatiques
+## Ressources
 
 | Ressource | Description | URL |
 |:---------------|:-------------------------------------------|:--------------------------------|
 | Uniprot | principale base de données mondiale de séquences protéiques et d'informations fonctionnelles | [https://www.uniprot.org/](https://www.uniprot.org/) |
-| PDB | Protein Databank, base de données de sructures protéiques | [https://www.rcsb.org/](https://www.rcsb.org/) |
-| icn3D | Outil de visualisation et d'analyse des structures protéiques (NCBI) | [https://www.ncbi.nlm.nih.gov/Structure/icn3d/](https://www.ncbi.nlm.nih.gov/Structure/icn3d/) |
 
 
-## Uniprot
-
-### Requête naïve
+## Requête naïve
 
 Dans un premier temps nous allons faire une requête "naïve" en entrant "Human" dans la boîte de recherche. 
 
@@ -81,7 +64,7 @@ Dans un premier temps nous allons faire une requête "naïve" en entrant "Human"
     - *combien de résultats obtenez-vous dans TrEMBL?*
 
 
-#### Réponses
+### Réponses
 
 Résultats de la requête le 19 septembre 2024. 
 
@@ -91,7 +74,7 @@ Résultats de la requête le 19 septembre 2024.
 | !["Résutat de la recherche de toutes les protéines d'Uniprot"](images/request-all-uniprot.png) | ![Recheche naîve "Human"](images/naivre-request-Human.png) | ![Sous-ensemble "Popular organism: Homo sapiens"](images/naive-request-Human-popular-homo-sapiens.png) |
 
 
-##### Toutes les protéines d'Uniprot
+#### Toutes les protéines d'Uniprot
 
 - *Quel est le nombre total de protéines?* : 245.896.766
 - *Quel est le nombre de protéines révisées par un annotateur?* Reviewed (Swiss-Prot) (571.864)
@@ -102,7 +85,7 @@ Résultats de la requête le 19 septembre 2024.
 - *TrEMBL est (a) une base de données; (b) une base de connaissances* : une base de données
 
 
-##### Requête non structurée "Human"
+#### Requête non structurée "Human"
 
 - *combien de résultats au total obtenez-vous?* : 6.201.771
 - *combien de résultats obtenez-vous dans Swiss-Prot?* : 52.187
@@ -112,11 +95,11 @@ Résultats de la requête le 19 septembre 2024.
 - pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
         - parce qu'elle retourne toutes les protéines pour lesquelles les annotations contiennent le mot "Human", quel que soit l'endroit où c'est mentionné. Par exemple, si dans les annotations on indique que la protéine est homologue à une protéin humaine, cette protéine sera  sélectionnée par la recherche. 
 
-##### Après avoir cliqué sur "Homo sapiens" sous "Popular organisms"
+#### Après avoir cliqué sur "Homo sapiens" sous "Popular organisms"
 
 (voir capture d'écran ci-dessus)
 
-### Requête avancée
+## Requête avancée
 
 Nous avons vu ci-dessus qu'une requête naïve peut s'avérer trompeuse, car elle retourne toutes les entrées d'Uniprot qui contiennent les termes de la boîte de recherche, sans tenir compte de l'endroit où ces termes apparaissent dans les annotations. Nous recommandons donc fortement d'éviter cela, et de recourir systématiquement aux requêtes avancées. 
 
@@ -138,7 +121,7 @@ On notera que ce taxon *inclut* deux variétés fossiles
 - [Homo sapiens neanderthalensis](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=63221)
 - [Homo sapiens subsp. 'Denisova'](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=741158)
 
-### Protéome de référence
+## Protéome de référence
 
 Le protéome d'un organisme consiste en l'ensemble de ses protéines. Dans Uniprot, les séquences protéiques proviennent de la traduction automatique de séquences génomiques. Avec la multiplication des projets de séquençages individuels d'humains, le nombre de séquences différentes a augmenté, avec une certaine redondance. 
 
@@ -190,7 +173,7 @@ Le panneau de gauche permet d'explorer de façon interactive différentes propri
 
 Notez que la somme des nombres des sous-catégories dépasse de loin la taille de la catégorie parente (biological process. Ceci est logique, car une même protéine peut appartenir à plusieurs classes simultanément. Par exemple, une protéine pourrait être impliquée dans la régulation biologique (12.123 protéines) positive (6.193 protéines) d'un procesus de développement (5.698 protéines). Cette protéine sera donc comptée 3 fois à ce niveau de la classification. 
 
-### Exercices
+## Exercices
 
 1. Formulez une requête avancée sur l'ensemble des protéines du protéome de référence humain en sélectionnant les enzymes annotées dans Swiss-Prot, qui ont une localisation cytoplasmique et sont impliquées dans la voice canonique de la glycolyse. Combien de protéines obtenez-vous ?
 
@@ -240,7 +223,8 @@ Notez que la somme des nombres des sous-catégories dépasse de loin la taille d
     - 120000
 
 
-## Analyse de structure
+----------------------------------------------------------------
 
+[Retour au TP 1](TP1_tuto-exo.md)
 
-
+----------------------------------------------------------------
