@@ -41,21 +41,19 @@ Nous commençons ce TP par explirerexpl orer sommairement l'interface usager de 
 
 1. Ouvrez une connexion à PDB ([www.rcsb.org](https://www.rcsb.org))
 2. Notez le nombre de protéines présentes dans PDB
+
+3. En cliquant sur le nombre de structures (expérimentales) affiché en haut de la page d'accueil, vous pourrez observer la répartition de ces structures. Observez le nombre de structures expérimentales caractérisées par organisme, groupe taxonomique, méthode expérimentale, ...
+
 3. Sous la boîte de recherche, cliquez "[Browse"Annotations](https://www.rcsb.org/search/browse)". 
-4. 
 
+    - Combien de structures (expérimentales) contient PDB ?
+    - Quel est l'organisme le plus représenté pour les structures expérimentales ?
+    - Quelle est la méthode la plus utilisée pour caractériser les structures expérimentales ?
+    - PDB contient d'autres types de macromolécules que les protéines. Lesquels ? 
+    - Combien PDB contient-elle de modèles de structures rpédites (computed structure models)) ?
+    - Quel est la méthode la plus utilisée pour les structures prédites ?
+    - Quel est l'organisme le plus représenté pour les structures prédites ?
 
-### Questions
-
-- Combien de structures (expérimentales) contient PDB ?
-- Combien PDB contient-elle de modèles de structures "calculés" (structures rpédites) ?
-
-
-### Réponses
-
-PDB contient actuellement (22 septembre 2024) 
-- 225.158 structures expérimentales
-- 1.068.577 Modèles de structure calculés
 
 
 ----------------------------------------------------------------
@@ -63,7 +61,7 @@ PDB contient actuellement (22 septembre 2024)
 ## Transporteur de glucose
 
 
-### Annotations dans Uniprot
+### Annotations du transporteur de glucose dans Uniprot
 
 1. Dans [Uniprot](https://www.uniprot.org/), ouvrez la fiche de la protéine dénommée "Solute carrier family 2, facilitated glucose transporter member 1" (identifiant [GTR1_HUMAN](https://www.uniprot.org/uniprotkb/P11166))
 
@@ -93,7 +91,7 @@ PDB contient actuellement (22 septembre 2024)
 
     - Combien y a-t-il de structures disponibles ? 
     - Combien y a-t-il de structures caractérisées expérimentalement ? 
-    - Par quelles méthodes expérimentales ont-elles été caractérisées ?
+    - Par quelle(s) méthode(s) expérimentale(s) ont-elles été caractérisées ?
     - Quelle est la meilleure résolution (en Angstroms) ?
     
 
@@ -141,9 +139,6 @@ Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.
  
     
 
-----------------------------------------------------------------
-
-## Exercices
 
 ----------------------------------------------------------------
 
