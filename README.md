@@ -17,7 +17,6 @@ Le site principal se trouve sur la plateforme Ametice d'Aix-Marseille Universit�
 | TP | Titre et lien |
 |:---:|:------------------------------------------------------|
 | 1 | [Séquence - structure - fonction](TP/TP1/) |
-| 2 | [Du gène à la protéine](TP/TP2/) |
 
 ### Vidéos des CM
 
