@@ -5,12 +5,8 @@
 - [Auteurs](#auteurs)
 - [Introduction](#introduction)
 - [Ressources bioinformatiques](#ressources-bioinformatiques) 
-- [Uniprot](#uniprot) 
-    - [Requête naïve](#requête-naïve)
-    - [Requête avancée](#requête-avancée)
-    - [Protéome de référence](#protéome-de-référence)
-    - [Annotations fonctionnelles](#annotations-fonctionnelles)
-- [Analyse de structure](#analyse-de-structure)
+- [Annotations fonctionnelles dans Uniprot](#annotations-fonctionnelles-dans-uniprot) 
+- [Analyse de la structure des protéines](#analyse-de-la-structure)
 
 
 ## Auteurs
@@ -49,11 +45,11 @@ Ce TP mobilisera les notions suivantes abordées au cours
 | icn3D | Outil de visualisation et d'analyse des structures protéiques (NCBI) | [https://www.ncbi.nlm.nih.gov/Structure/icn3d/](https://www.ncbi.nlm.nih.gov/Structure/icn3d/) |
 
 
-## Uniprot
+## Annotations fonctionnelles dans Uniprot
 
 [TP Uniprot](TP1a_Uniprot.md)
 
-## Structure des protéines
+## Analyse de la structure des protéines
 
 
 [TP PDB](TP1b_PDB.md)
