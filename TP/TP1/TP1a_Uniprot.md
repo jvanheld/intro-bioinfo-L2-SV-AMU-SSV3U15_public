@@ -40,65 +40,18 @@ Durant le TP, vous apprendrez à :
 Dans un premier temps nous allons faire une requête "naïve" en entrant "Human" dans la boîte de recherche. 
 
 1. Ouvrez une connexion à Uniprot ([uniprot.org](https://uniprot.org))
+
 2. Cliquez **Search** en veillant à laisser la boîte de recherche vide. Ceci sélectionnera l'ensemble des entrées la base de données. 
 
-    - *Quel est le nombre total de protéines?*
-    - *Quel est le nombre de protéines révisées par un annotateur?*
-    - *Comment s'appelle la base de connaissances des protéines révisées par des annotateurs?*
-    - *Quel est le nombre de protéines non révisées?*
-    - *Comment s'appelle la base de données des protéines non révisées par des annotateurs?*
-    - *Swiss-Prot est (a) une base de données; (b) une base de connaissances*
-    - *TrEMBL est (a) une base de données; (b) une base de connaissances*
+Connectez-vous à Ametice et répondez à la première section questionnaire du TP1: **Requêetes naîves sur UniprotKB**. 
 
 3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
 
-    - *combien de résultats au total obtenez-vous?*
-    - *combien de résultats obtenez-vous dans Swiss-Prot?*
-    - *combien de résultats obtenez-vous dans TrEMBL?*
-    - dans la section "Popular organisms" du panneau de gauche, combien de protéines sont associées à l'humain ?
-    - quels sont les autres "organismes populaires" ?
-    - pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
+Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TP1: **Requêetes naîves sur UniprotKB**. 
 
 4. Dans la section "Popular organisms", cliquez "Human". 
 
-    - *combien de résultats obtenez-vous dans Swiss-Prot?*
-    - *combien de résultats obtenez-vous dans TrEMBL?*
-
-
-### Réponses
-
-Résultats de la requête le 19 septembre 2024. 
-
-
-| Toutes les protéines d'Uniprot  | Requête non structurée "Human" | Après avoir cliqué sur "Homo sapiens" sous "Popular organisms" |
-|:-------------------------------:|:-------------------------------:|:-------------------------------:|
-| !["Résutat de la recherche de toutes les protéines d'Uniprot"](images/request-all-uniprot.png) | ![Recheche naîve "Human"](images/naivre-request-Human.png) | ![Sous-ensemble "Popular organism: Homo sapiens"](images/naive-request-Human-popular-homo-sapiens.png) |
-
-
-#### Toutes les protéines d'Uniprot
-
-- *Quel est le nombre total de protéines?* : 245.896.766
-- *Quel est le nombre de protéines révisées par un annotateur?* Reviewed (Swiss-Prot) (571.864)
-- *Comment s'appelle la base de connaissances des protéines révisées par des annotateurs?* : Swiss-Prot
-- *Quel est le nombre de protéines non révisées?* : Unreviewed (TrEMBL) (245,324,902)
-- *Comment s'appelle la base de données des protéines non révisées par des annotateurs?* : TrEMBL
-- *Swiss-Prot est (a) une base de données; (b) une base de connaissances* : une base de connaissances
-- *TrEMBL est (a) une base de données; (b) une base de connaissances* : une base de données
-
-
-#### Requête non structurée "Human"
-
-- *combien de résultats au total obtenez-vous?* : 6.201.771
-- *combien de résultats obtenez-vous dans Swiss-Prot?* : 52.187
-- *combien de résultats obtenez-vous dans TrEMBL?* : 6.149.584
-- dans la section "Popular organisms" du panneau de gauche, combien de protéines sont associées à l'humain ? : 204.411
-- quels sont les autres "organismes populaires" ? : Zebrafish, Mouse, Rat, Bovine
-- pourquoi la recherche avec le mot "human" retourne-t-elle des protéines appartenant à d'autres organismes ?
-        - parce qu'elle retourne toutes les protéines pour lesquelles les annotations contiennent le mot "Human", quel que soit l'endroit où c'est mentionné. Par exemple, si dans les annotations on indique que la protéine est homologue à une protéin humaine, cette protéine sera  sélectionnée par la recherche. 
-
-#### Après avoir cliqué sur "Homo sapiens" sous "Popular organisms"
-
-(voir capture d'écran ci-dessus)
+Connectez-vous à Ametice et répondez à la troisième section questionnaire du TP1: **Requêetes naîves sur UniprotKB**. 
 
 ## Requête avancée
 

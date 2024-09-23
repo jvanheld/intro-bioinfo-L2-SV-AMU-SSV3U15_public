@@ -64,9 +64,19 @@ Ce TP mobilisera les notions suivantes abordées au cours
 
 ----------------------------------------------------------------
 
-## Facultatif: concours intergalactique de la plus belle image de structure de protéine
+## Facultatif: challenge intergalactique de la plus belle image de structure de protéine
 
+*Si vous le désirez*, vous pouvez participer au challenge de générer la plus belle image de structure tridimensionnelle de structure protéique. Cette activité ne vous donnera aucun bonus, mais elle vous permet de vous familiariser avec des outils de structure, et elle peut vous apporter la gloire intergalactique si vous faites partie des gagnants.  
 
- ***A rédiger***
+**Défi :** en utilisant l'outil bioinformatique de votre choix, générez une image tridimensionnelle d'une structure protéique, en tentant d'utiliser au mieux les options d'affichage pour mettre en évidence les particularités structurelles et fonctionnelles de cette protéine. 
+
+### Instructions
+
+- Vous pouvez sélectionner n'importe quelle protéine, pourvu que sa structure tridimensionnelle soit disponible dans une base de données. Vous devrez indiquer l'identifiant et l'URL de la structure. 
+- Les complexes multi-protéines, protéine ADN ou autres sont acceptés, pour autant qu'ils incluent au moins une chaîne polypeptidique
+- Les animations sont autorisées
+- Vous pouvez soumettre jusqu'à 5 fichiers. Ceux-ci peuvent par exemple correspondre à des angles d'affichage différents.
+
+**Dépôt des fichiers: ** [LIEN A AJOUTER]
 
 ----------------------------------------------------------------
