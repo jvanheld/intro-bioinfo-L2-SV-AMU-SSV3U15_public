@@ -37,14 +37,14 @@ Nous allons combiner les informations de Swiss-prot et de la Protein Data Bank (
 
 ## Exploration de PDB
 
-Nous commençons ce TP par explirerexpl orer sommairement l'interface usager de Protein Data Bank, la base de données de référence pour les structures tridimensionnelle des protéines. 
+Nous commençons ce TP par explorer sommairement l'interface usager de Protein Data Bank, la base de données de référence pour les structures tridimensionnelles des protéines. 
 
 1. Ouvrez une connexion à PDB ([www.rcsb.org](https://www.rcsb.org))
 2. Notez le nombre de protéines présentes dans PDB
 
 3. En cliquant sur le nombre de structures (expérimentales) affiché en haut de la page d'accueil, vous pourrez observer la répartition de ces structures. Observez le nombre de structures expérimentales caractérisées par organisme, groupe taxonomique, méthode expérimentale, ...
 
-3. Sous la boîte de recherche, cliquez "[Browse"Annotations](https://www.rcsb.org/search/browse)". 
+3. Sous la boîte de recherche, cliquez sur "[Browse Annotations](https://www.rcsb.org/search/browse)" pour parcourir la base de données en fonction des propriétés des structures. 
 
     - Combien de structures (expérimentales) contient PDB ?
     - Quel est l'organisme le plus représenté pour les structures expérimentales ?
@@ -68,11 +68,11 @@ Nous commençons ce TP par explirerexpl orer sommairement l'interface usager de 
 2. Consultez la section "[Subcellular location](https://www.uniprot.org/uniprotkb/P11166/entry#subcellular_location)". 
 
     - quelle est la localisation sous-cellulaire principale de cette protéine ?
-    - combien y a--til de domaines transmembranaires annotés dans la section "Features" ?
+    - combien y a-t-il de domaines transmembranaires annotés dans la section "Features" ?
     - quel est le type de reploiement de ces domaines transmembranaires ?
-    - combien y a--t-il d'autres domaines topologiques annotés dans la sous-section "Features" de "Subcellular location" ?
-    - combien y a--t-il de domaines cytoplasmiques ?
-    - combien y a--t-il de domaines intracellulaires ?
+    - combien y a-t-il d'autres domaines topologiques annotés dans la sous-section "Features" de "Subcellular location" ?
+    - combien y a-t-il de domaines cytoplasmiques ?
+    - combien y a-t-il de domaines intracellulaires ?
 
 3. Consultez la section "[Diseases and variants](https://www.uniprot.org/uniprotkb/P11166/entry#disease_variants)"
 
@@ -94,6 +94,7 @@ Nous commençons ce TP par explirerexpl orer sommairement l'interface usager de 
     - Par quelle(s) méthode(s) expérimentale(s) ont-elles été caractérisées ?
     - Quelle est la meilleure résolution (en Angstroms) ?
     
+
 
 6. CLiquez sur le lien "[RCSC-PDB](https://www.rcsb.org/structure/6THA)" de la structure  avec la meilleure résolution (**6THA**). Ceci ouvre un nouvel onglet vers le serveur RCSC-PDB. 
 
@@ -151,7 +152,7 @@ Quand vous cliquez sur un élément, l'affichage de la structure est recadrée s
 
 Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/), et entrez l'identifiant de la structure PDB (6THA) dans la boîte de requête, et pressez la touche "Entrée". Vérifiez que vous avez bien chargé la bonne structure : "PDB ID 6THA: Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation".
 
-1. Choisissez une coloration en arc-en-ciel pour reprérer la position des différents éléments de structure par rapport aux extrémités dude la chaîne polypeptidique (*Color -> Rainbow -> For selection*). 
+1. Choisissez une coloration en arc-en-ciel pour repérer la position des différents éléments de structure par rapport aux extrémités de la chaîne polypeptidique (*Color -> Rainbow -> For selection*). 
 
 
 2. Testez les différents modes d'affichage de la protéine en explorant les options du menu *Styles -> Proteins* et tentez d'identifier l'intérêt des différents modes de représentation. En particulier, assurez-vous de comprendre les options d'affichage suivantes : 
@@ -164,11 +165,11 @@ Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.
 
 (la réponse à cette question peut faire l'objet d'un debriefing en séance)
 
-3. Revenz à al représentation Ribbon, que nous utiliserons principalement pour la suite. 
+3. Revenz à la représentation Ribbon, que nous utiliserons principalement pour la suite. 
 
 4. Faites tourner la structure et localisez les molécules qui ne font pas partie de la protéine. Sélectionnez ces molécules (*Select -> Defined sets*, puis cliquez *chemicals* dans la boîte qui apparaît à droite de la fenêtre). Affichez-les en style "Balls and stick" (*Style -> Chemicals -> Balls and sticks*), et colorez-les en fonction des atomes (*Color -> Atom*). Désélectionnez ensuite ces molécules (*Select -> Clear Selection*). 
 
-5. Sélectionnez la protéine (*Select -> Defined sets* puis *protein*) et colorez-la en focntion de la charge des résidus (*Color -> Charge*). Défaites la sélection pour mieux voir le résultat. 
+5. Sélectionnez la protéine (*Select -> Defined sets* puis *protein*) et colorez-la en fonction de la charge des résidus (*Color -> Charge*). Défaites la sélection pour mieux voir le résultat. 
 
     - estimez le nombre de résidues chargés positivement
     - estimez le nombre de résidues chargés négativement
@@ -177,7 +178,7 @@ Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.
 6. Analysez la localisation de ces résidus chargés, et interprétez le résultat dans le contexte des annotations d'Uniprot. 
 
     - quelle est la localisation majoritaire pour les résidus chargés ?
-    - y a-t-il de srésidus chargés sont ils localisés dans les parties transmembranaires ?
+    - il y a-t-il des résidus chargés localisés dans les parties transmembranaires ?
     - si oui, sont-ils localisés du côté extérieur (membrane) ou intérieur (canal) du transporteur ?
 
  
