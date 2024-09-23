@@ -10,7 +10,7 @@ Auteurs: Jacques van Helden
 - [Transporteur de glucose](#transporteur-de-glucose)
 
 
-[Retour au TP 1](TP1_tuto-exo.md)
+[Retour au TP 1](README.md)
 
 ----------------------------------------------------------------
 
@@ -112,6 +112,6 @@ PDB contient actuellement (22 septembre 2024)
 
 ----------------------------------------------------------------
 
-[Retour au TP 1](TP1_tuto-exo.md)
+[Retour au TP 1](README.md)
 
 ----------------------------------------------------------------

@@ -11,7 +11,8 @@ Auteurs: Jacques van Helden
 - [Exercices](#exercices)
 
 
-[Retour au TP 1](TP1_tuto-exo.md)
+[Retour au TP 1](README.md)
+
 
 
 ----------------------------------------------------------------
@@ -225,6 +226,6 @@ Notez que la somme des nombres des sous-catégories dépasse de loin la taille d
 
 ----------------------------------------------------------------
 
-[Retour au TP 1](TP1_tuto-exo.md)
+[Retour au TP 1](README.md)
 
 ----------------------------------------------------------------
