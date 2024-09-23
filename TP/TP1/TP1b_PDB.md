@@ -127,7 +127,7 @@ Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.
 5. Sélectionnez la protéine (*Select -> Defined sets* puis *protein*) et colorez-la en fonction de la charge des résidus (*Color -> Charge*). Défaites la sélection pour mieux voir le résultat. 
 
     - estimez le nombre de résidues chargés positivement
-    - estimez le nombre de résidues chargés négativeme,nt
+    - estimez le nombre de résidues chargés négativement
     - estimez la proportion de ces résidus par rapport à la taille de la protéine
 
 6. Analysez la localisation de ces résidus chargés, et interprétez le résultat dans le contexte des annotations d'Uniprot. 
