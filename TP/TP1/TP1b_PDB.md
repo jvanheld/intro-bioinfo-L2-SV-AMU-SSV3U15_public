@@ -44,7 +44,7 @@ Nous commençons ce TP par explorer sommairement l'interface usager de Protein D
 
 3. En cliquant sur le nombre de structures (expérimentales) affiché en haut de la page d'accueil, vous pourrez observer la répartition de ces structures. Observez le nombre de structures expérimentales caractérisées par organisme, groupe taxonomique, méthode expérimentale, ...
 
-3. Sous la boîte de recherche, cliquez "[Browse"Annotations](https://www.rcsb.org/search/browse)". 
+3. Sous la boîte de recherche, cliquez sur "[Browse Annotations](https://www.rcsb.org/search/browse)" pour parcourir la base de données en fonction des propriétés des structures. 
 
     - Combien de structures (expérimentales) contient PDB ?
     - Quel est l'organisme le plus représenté pour les structures expérimentales ?
