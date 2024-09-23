@@ -62,6 +62,9 @@ PDB contient actuellement (22 septembre 2024)
 
 ## Transporteur de glucose
 
+
+### Annotations dans Uniprot
+
 1. Dans [Uniprot](https://www.uniprot.org/), ouvrez la fiche de la protéine dénommée "Solute carrier family 2, facilitated glucose transporter member 1" (identifiant [GTR1_HUMAN](https://www.uniprot.org/uniprotkb/P11166))
 
 2. Consultez la section "[Subcellular location](https://www.uniprot.org/uniprotkb/P11166/entry#subcellular_location)". 
@@ -77,10 +80,14 @@ PDB contient actuellement (22 septembre 2024)
 
     - quels sont les types de pathologies associés aux mutations de cette protéine ?
 
+### Profils transcriptomiques tissulaires (sur GTEx)
+
 4. Dans un onglet séparé, connectez-vous au portail GTEx ([gtexportal.org/](https://gtexportal.org/)) et consultez le profil transcriptomique du gène qui code pour cette protéine (vous trouverez son nom dans la section "[Names and taxonomy](https://www.uniprot.org/uniprotkb/P11166/entry#names_and_taxonomy)" de la fiche Uniprot)
 
     - dans quels tissus ce gène est-il principalement exprimé ?
     - voyez-vous un lien avec les pathologies suscitées par des mutations de ce gène ?
+
+### Structure du transporteur de glucose sur PDB
 
 5. Revenez à la page de cette protéine dans Uniprot et consultez la section "[Structure](https://www.uniprot.org/uniprotkb/P11166/entry#structure)". 
 
@@ -90,7 +97,7 @@ PDB contient actuellement (22 septembre 2024)
     - Quelle est la meilleure résolution (en Angstroms) ?
     
 
-6. CLiquez sur le lien "[RCSC-PDB](https://www.rcsb.org/structure/6THA)" de la structure 6HTA et consultez rapidement les annotations pour identifier les types d'informations disponibles. Vous constaterez que les annotations de PDB sont à première vue moins détaillées que celles d'Uniprot (ce qui est normal, puisque PDB se concentre sur la structure protéique). 
+6. CLiquez sur le lien "[RCSC-PDB](https://www.rcsb.org/structure/6THA)" de la structure **** et consultez rapidement les annotations pour identifier les types d'informations disponibles. Vous constaterez que les annotations de PDB sont à première vue moins détaillées que celles d'Uniprot (ce qui est normal, puisque PDB se concentre sur la structure protéique). 
 
 7. Dans la section "Explore 3D" sous l'image de la structure, cliquez "[Sequence annotations](https://www.rcsb.org/3d-sequence/6THA?assemblyId=1)". Ceci ouvre un onglet qui vous permet de positionner les segments annotés de la protéine (panneau de gauche) avec la structure tridimensionnelle (panneau de droite). Cliquez successive=ment sur les segments de la piste d'annotation "Membrane topology" et identifiez les éléments structurels (hélices alpha, feuillets beta) correspondants. 
 
@@ -98,12 +105,40 @@ PDB contient actuellement (22 septembre 2024)
     - Quel est le type d'élément structurel associé plus grand segment intracellulaire ?
     - Quel est le type d'élément structurel associé plus grand segment extracellulaire ?
 
-
+### Analyse de la structure avec icn3D
     
+Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/), et entrez l'identifiant de la structure PDB (6THA) dans la boîte de requête, et pressez la touche "Entrée". Vérifiez que vous avez bien chargé la bonne structure : "PDB ID 6THA: Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation".
 
-    - 
+1. Choisissez une coloration en arc-en-ciel pour reprérer la position des différents éléments de structure par rapport aux extrémités dude la chaîne polypeptidique (*Color -> Rainbow -> For selection*). 
 
 
+2. Testez les différents modes d'affichage de la protéine en explorant les options du menu *Styles -> Proteins* et tentez d'identifier l'intérêt des différents modes de représentation. En particulier, assurez-vous de comprendre les options d'affichage suivantes : 
+
+    - C Alpha trace
+    - Balls and stick
+    - Sphere
+    - Backbone
+    - Ribbon
+
+(la réponse à cette question peut faire l'objet d'un debriefing en séance)
+
+3. Revenz à al représentation Ribbon, que nous utiliserons principalement pour la suite. 
+
+4. Faites tourner la structure et localisez les molécules qui ne font pas partie de la protéine. Sélectionnez ces molécules (*Select -> Defined sets*, puis cliquez *chemicals* dans la boîte qui apparaît à droite de la fenêtre). Affichez-les en style "Balls and stick" (*Style -> Chemicals -> Balls and sticks*), et colorez-les en fonction des atomes (*Color -> Atom*). Désélectionnez ensuite ces molécules (*Select -> Clear Selection*). 
+
+5. Sélectionnez la protéine (*Select -> Defined sets* puis *protein*) et colorez-la en focntion de la charge des résidus (*Color -> Charge*). Défaites la sélection pour mieux voir le résultat. 
+
+    - estimez le nombre de résidues chargés positivement
+    - estimez le nombre de résidues chargés négativeme,nt
+    - estimez la proportion de ces résidus par rapport à la taille de la protéine
+
+6. Analysez la localisation de ces résidus chargés, et interprétez le résultat dans le contexte des annotations d'Uniprot. 
+
+    - quelle est la localisation majoritaire pour les résidus chargés ?
+    - y a-t-il de srésidus chargés sont ils localisés dans les parties transmembranaires ?
+    - si oui, sont-ils localisés du côté extérieur (membrane) ou intérieur (canal) du transporteur ?
+
+ 
     
 
 ----------------------------------------------------------------
