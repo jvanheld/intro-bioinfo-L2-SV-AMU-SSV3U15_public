@@ -43,15 +43,30 @@ Dans un premier temps nous allons faire une requête "naïve" en entrant "Human"
 
 2. Cliquez **Search** en veillant à laisser la boîte de recherche vide. Ceci sélectionnera l'ensemble des entrées la base de données. 
 
-Connectez-vous à Ametice et répondez à la première section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
+3. Connectez-vous à Ametice et répondez à la première section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
-3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
+    - Dans UniprotKB, Quel est le nombre total de protéines ? (les nombres proposés datent du 24 septembre 2024, ils peuvent fluctuer en cours de semestre)
+    - Dans UniprotKB, quel est le nombre de protéines révisées par un annotateur ?
+    - Comment s'appelle la base de connaissances des protéines révisées par des annotateurs ?
+    - Swiss-prot est (a) une base de données; (b) une base de connaissances
+    - Dans UniprotKB, quel est le nombre de protéines non révisées par un annotateur (tous organismes confondus) ? 
+    - Comment s'appelle la base de connaissances des protéines non révisées par des annotateurs ?
+    - TrEMBL est (a) une base de données; (b) une base de connaissances
 
-Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
-4. Dans la section "Popular organisms", cliquez "Human". 
+4. Dans la boîte de recherche, tapez "Human" et cliquez "Search". Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
-Connectez-vous à Ametice et répondez à la troisième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
+    - Dans la boîte de recherche, tapez "Human" et cliquez "Search". Combien de résultats obtenez-vous au total ? **Attention: pour entrer une réponse numérique, n'utilisez aucun séparateur de milliers (ni point ni virgule ni espace)**
+    - Dans la boîte de recherche, tapez "Human" et cliquez "Search". Combien de résultats obtenez-vous dans Swiss-prot ?
+    - Dans la boîte de recherche, tapez "Human" et cliquez "Search". Combien de résultats obtenez-vous dans TrEMBL ?
+    - Dans la boîte de recherche, tapez "Human" et cliquez "Search". Dans la section "Popular organisms" du panneau de gauche, combien de protéines sont associées à l'humain ?
+    - Dans la boîte de recherche, tapez "Human" et cliquez "Search". Dans la section "Popular organisms" du panneau de gauche, quel est l'organisme le plus représenté, à part l'humain ? Ecrivez les noms d'organismes sous la forme où ils sont affichés sur la page d'Uniprot.
+
+5. Dans la section "Popular organisms", cliquez "Human".  Connectez-vous à Ametice et répondez à la troisième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
+
+    - Combien de résultats obtenez-vous dans Swiss-Prot ?
+    - Combien de résultats obtenez-vous dans TrEMBL ?
+
 
 ## Requête avancée
 
