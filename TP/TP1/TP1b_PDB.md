@@ -40,11 +40,10 @@ Nous allons combiner les informations de Swiss-prot et de la Protein Data Bank (
 Nous commençons ce TP par explorer sommairement l'interface usager de Protein Data Bank, la base de données de référence pour les structures tridimensionnelles des protéines. 
 
 1. Ouvrez une connexion à PDB ([www.rcsb.org](https://www.rcsb.org))
-2. Notez le nombre de protéines présentes dans PDB
+2. En haut à gauche de la fenêtre, la page web affiche le nombre toal de structures expérimentales, et le nombre total de modèles prédits (computed).  
 
-3. En cliquant sur le nombre de structures (expérimentales) affiché en haut de la page d'accueil, vous pourrez observer la répartition de ces structures. Observez le nombre de structures expérimentales caractérisées par organisme, groupe taxonomique, méthode expérimentale, ...
+3. En cliquant sur le nombre de structures (expérimentales) affiché en haut de la page d'accueil (*Structures from the PDB*), vous pourrez observer la répartition de ces structures. Observez le nombre de structures expérimentales caractérisées par organisme, groupe taxonomique, méthode expérimentale, ...
 
-3. Sous la boîte de recherche, cliquez sur "[Browse Annotations](https://www.rcsb.org/search/browse)" pour parcourir la base de données en fonction des propriétés des structures. 
 
     - Combien de structures (expérimentales) contient PDB ?
     - Quel est l'organisme le plus représenté pour les structures expérimentales ?
