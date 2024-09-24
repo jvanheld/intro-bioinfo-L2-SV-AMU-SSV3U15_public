@@ -53,6 +53,8 @@ Dans un premier temps nous allons faire une requête "naïve" en entrant "Human"
     - Comment s'appelle la base de connaissances des protéines non révisées par des annotateurs ?
     - TrEMBL est (a) une base de données; (b) une base de connaissances
 
+3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
+
 
 4. Dans la boîte de recherche, tapez "Human" et cliquez "Search". Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
