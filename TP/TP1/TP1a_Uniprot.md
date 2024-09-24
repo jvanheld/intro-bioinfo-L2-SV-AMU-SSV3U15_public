@@ -45,6 +45,15 @@ Dans un premier temps nous allons faire une requête "naïve" en entrant "Human"
 
 Connectez-vous à Ametice et répondez à la première section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
+    - Dans UniprotKB, Quel est le nombre total de protéines ? (les nombres proposés datent du 24 septembre 2024, ils peuvent fluctuer en cours de semestre)
+    - Dans UniprotKB, quel est le nombre de protéines révisées par un annotateur ?
+    - Comment s'appelle la base de connaissances des protéines révisées par des annotateurs ?
+    - Swiss-prot est (a) une base de données; (b) une base de connaissances
+    - Dans UniprotKB, quel est le nombre de protéines non révisées par un annotateur (tous organismes confondus) ? 
+    - Comment s'appelle la base de connaissances des protéines non révisées par des annotateurs ?
+    - TrEMBL est (a) une base de données; (b) une base de connaissances
+    
+
 3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
 
 Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
