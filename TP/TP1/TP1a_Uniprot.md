@@ -43,15 +43,15 @@ Dans un premier temps nous allons faire une requête "naïve" en entrant "Human"
 
 2. Cliquez **Search** en veillant à laisser la boîte de recherche vide. Ceci sélectionnera l'ensemble des entrées la base de données. 
 
-Connectez-vous à Ametice et répondez à la première section questionnaire du TP1: **Requêtes naïves sur UniprotKB**. 
+Connectez-vous à Ametice et répondez à la première section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
 3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
 
-Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TP1: **Requêtes naïves sur UniprotKB**. 
+Connectez-vous à Ametice et répondez à la deuxième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
 4. Dans la section "Popular organisms", cliquez "Human". 
 
-Connectez-vous à Ametice et répondez à la troisième section questionnaire du TP1: **Requêtes naïves sur UniprotKB**. 
+Connectez-vous à Ametice et répondez à la troisième section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
 ## Requête avancée
 

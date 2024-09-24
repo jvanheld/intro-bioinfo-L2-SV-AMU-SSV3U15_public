@@ -8,7 +8,7 @@ Auteurs: Jacques van Helden
 - [Ressources](#ressources)
 - [Exploration de PDB](#exploration-de-pdb)
 - [Transporteur de glucose](#transporteur-de-glucose)
-
+- [Facultatif: Analyse de la structure avec icn3D](#facultatif-analyse-de-la-structure-avec-icn3d)
 
 [Retour au TP 1](README.md)
 
@@ -49,11 +49,11 @@ Nous commençons ce TP par explorer sommairement l'interface usager de Protein D
     - Combien de structures (expérimentales) contient PDB ?
     - Quel est l'organisme le plus représenté pour les structures expérimentales ?
     - Quelle est la méthode la plus utilisée pour caractériser les structures expérimentales ?
-    - PDB contient d'autres types de macromolécules que les protéines. Lesquels ? 
+    - PDB contient d'autres types de macromolécules que les protéines. Citez en un.  
     - Combien PDB contient-elle de modèles de structures rpédites (computed structure models)) ?
-    - Quel est la méthode la plus utilisée pour les structures prédites ?
+    - Quelme est la méthode la plus utilisée pour les structures prédites ?
     - Quel est l'organisme le plus représenté pour les structures prédites ?
-
+    - Quel est le groupe taxonomique le plus représenté pour les structures prédites ?
 
 
 ----------------------------------------------------------------
@@ -146,16 +146,18 @@ Quand vous cliquez sur un élément, l'affichage de la structure est recadrée s
 - Quels sont les types d'éléments structurels associés au plus grand segment cytoplasmique ?
 - Quel est le type d'élément structurel associé plus grand segment extracellulaire ?
 
+----------------------------------------------------------------
 
-### Analyse de la structure avec icn3D
+### FACULTATIF: Analyse de la structure avec icn3D
+
+Cette section est facultative. Elle permettra à ceux qui le désirent de découvrir un autre outil Web pour l'analyse des structures de protéines. 
+
+1. Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/), et entrez l'identifiant de la structure PDB (6THA) dans la boîte de requête, et pressez la touche "Entrée". Vérifiez que vous avez bien chargé la bonne structure : *"PDB ID 6THA: Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation"*.
+
+2. Choisissez une coloration en arc-en-ciel pour repérer la position des différents éléments de structure par rapport aux extrémités de la chaîne polypeptidique (*Color -> Rainbow -> For Chains*). 
 
 
-Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/), et entrez l'identifiant de la structure PDB (6THA) dans la boîte de requête, et pressez la touche "Entrée". Vérifiez que vous avez bien chargé la bonne structure : "PDB ID 6THA: Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation".
-
-1. Choisissez une coloration en arc-en-ciel pour repérer la position des différents éléments de structure par rapport aux extrémités de la chaîne polypeptidique (*Color -> Rainbow -> For selection*). 
-
-
-2. Testez les différents modes d'affichage de la protéine en explorant les options du menu *Styles -> Proteins* et tentez d'identifier l'intérêt des différents modes de représentation. En particulier, assurez-vous de comprendre les options d'affichage suivantes : 
+3. Testez les différents modes d'affichage de la protéine en explorant les options du menu *Styles -> Proteins* et tentez d'identifier l'intérêt des différents modes de représentation. En particulier, assurez-vous de comprendre les options d'affichage suivantes : 
 
     - C Alpha trace
     - Balls and stick
@@ -171,8 +173,8 @@ Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.
 
 5. Sélectionnez la protéine (*Select -> Defined sets* puis *protein*) et colorez-la en fonction de la charge des résidus (*Color -> Charge*). Défaites la sélection pour mieux voir le résultat. 
 
-    - estimez le nombre de résidues chargés positivement
-    - estimez le nombre de résidues chargés négativement
+    - estimez le nombre de résidus chargés positivement
+    - estimez le nombre de résidus chargés négativement
     - estimez la proportion de ces résidus par rapport à la taille de la protéine
 
 6. Analysez la localisation de ces résidus chargés, et interprétez le résultat dans le contexte des annotations d'Uniprot. 
@@ -182,9 +184,6 @@ Dans un onglet séparé, connectez-vous au serveur [icn3D](https://www.ncbi.nlm.
     - si oui, sont-ils localisés du côté extérieur (membrane) ou intérieur (canal) du transporteur ?
 
  
-    
-
-
 ----------------------------------------------------------------
 
 [Retour au TP 1](README.md)
