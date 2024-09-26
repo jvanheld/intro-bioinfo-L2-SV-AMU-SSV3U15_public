@@ -17,10 +17,9 @@
     - [Transporteur de glucose](#transporteur-de-glucose)
 
 - [Exercices supplémentaires](#exercices-supplémentaires)
-    - [Protéome de référence](#protéome-de-référence)
     - [Analyse de la structure avec icn3D](#facultatif-analyse-de-la-structure-avec-icn3d)
-
-- [Facultatif: challenge intergalactique de la plus belle image de structure de protéine](#facultatif-challenge-intergalactique-de-la-plus-belle-image-de-structure-de-protéine)
+    - [Protéome de référence](#protéome-de-référence)
+    - [Facultatif: challenge intergalactique de la plus belle image de structure de protéine](#facultatif-challenge-intergalactique-de-la-plus-belle-image-de-structure-de-protéine)
 
 ## Auteurs
 
