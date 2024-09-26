@@ -83,12 +83,12 @@ Dans un premier temps nous allons faire une requête "naïve" en entrant "Human"
 
 3. Connectez-vous à Ametice et répondez à la première section questionnaire du TPa1: **Questionnaire TP1a - Requêtes sur UniprotKB**. 
 
-    - Dans UniprotKB, Quel est le nombre total de protéines ? (les nombres proposés datent du 24 septembre 2024, ils peuvent fluctuer en cours de semestre)
+    - Dans UniprotKB, quel est le nombre total de protéines ? (les nombres proposés datent du 24 septembre 2024, ils peuvent fluctuer en cours de semestre)
     - Dans UniprotKB, quel est le nombre de protéines révisées par un annotateur ?
     - Comment s'appelle la base de connaissances des protéines révisées par des annotateurs ?
     - Swiss-prot est (a) une base de données; (b) une base de connaissances
     - Dans UniprotKB, quel est le nombre de protéines non révisées par un annotateur (tous organismes confondus) ? 
-    - Comment s'appelle la base de connaissances des protéines non révisées par des annotateurs ?
+    - Comment s'appelle la base de données des protéines non révisées par des annotateurs ?
     - TrEMBL est (a) une base de données; (b) une base de connaissances
 
 3. Dans la boîte de recherche, tapez "Human" et cliquez "Search"
@@ -178,8 +178,8 @@ Nous commençons ce TP par explorer sommairement l'interface usager de Protein D
     - Quel est l'organisme le plus représenté pour les structures expérimentales ?
     - Quelle est la méthode la plus utilisée pour caractériser les structures expérimentales ?
     - PDB contient d'autres types de macromolécules que les protéines. Citez en un.  
-    - Combien PDB contient-elle de modèles de structures rpédites (computed structure models)) ?
-    - Quelme est la méthode la plus utilisée pour les structures prédites ?
+    - Combien PDB contient-elle de modèles de structures prédites (computed structure models)) ?
+    - Quelle est la méthode la plus utilisée pour les structures prédites ?
     - Quel est l'organisme le plus représenté pour les structures prédites ?
     - Quel est le groupe taxonomique le plus représenté pour les structures prédites ?
 
@@ -225,7 +225,7 @@ Pour les exercices suivants, nous allons nous concentrer sur un cas d'étude : l
     
 
 
-6. CLiquez sur le lien "[RCSC-PDB](https://www.rcsb.org/structure/6THA)" de la structure  avec la meilleure résolution (**6THA**). Ceci ouvre un nouvel onglet vers le serveur RCSC-PDB. 
+6. Cliquez sur le lien "[RCSC-PDB](https://www.rcsb.org/structure/6THA)" de la structure  avec la meilleure résolution (**6THA**). Ceci ouvre un nouvel onglet vers le serveur RCSC-PDB. 
 
 Dans la seection suivante, nous utiliserons ce serveur pour visualiser la structure du transporteur du glucose et analyser la relation entre séquence et structure. Conservez toutefois l'onglet Uniprot ouvert, nous serons amenés à faire des aller-retours entre PDB et Uniprot. 
 
@@ -235,7 +235,7 @@ Dans la seection suivante, nous utiliserons ce serveur pour visualiser la struct
 
 #### Tutoriel : affichage des annotations de séquence sur la structure
 
-1. Consultez rapidement les annotations  de la structure intitulée ["Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation" (identifiant PDB 6THA)](https://www.rcsb.org/structure/6THA) sur le serveur RCSB-PDB. Evaluez les types d'informations disponibles. Notez que la page propose une sérue d'onglets avec différents types d'infirmation (Structure, Annotations, Experiment, Sequence, Genome, Ligands, Versions). Dans ce tutoriel, nous combinerons les informations de séquence et de structure. 
+1. Consultez rapidement les annotations de la structure intitulée ["Crystal structure of human sugar transporter GLUT1 (SLC2A1) in the inward conformation" (identifiant PDB 6THA)](https://www.rcsb.org/structure/6THA) sur le serveur RCSB-PDB. Evaluez les types d'informations disponibles. Notez que la page propose une série d'onglets avec différents types d'information (Structure, Annotations, Experiment, Sequence, Genome, Ligands, Versions). Dans ce tutoriel, nous combinerons les informations de séquence et de structure. 
 
 2. Dans la section "Explore 3D" sous l'image de la structure, cliquez "[Sequence annotations](https://www.rcsb.org/3d-sequence/6THA?assemblyId=1)". Ceci ouvre une page avec deux deux panneaux : 
 
@@ -244,7 +244,7 @@ Dans la seection suivante, nous utiliserons ce serveur pour visualiser la struct
     
 Nous allons commencer par personnaliser l'affichage de la protéine, et nous explorerons ensuite les relations entre les caractéristiques de la séquence (panneau de gauche) et de la structure (panneau de droite). 
 
-3. En haut à droite de la fenêtre, une série d'icones vous proposent différents outils pour ma,ipuler et analyser la structure. un premier click sur une icône affiche l'outil, un second click le masque.Cliquez sur l'icône de clé à molette. Ceci affichera deux nouveaux panneaux
+3. En haut à droite de la fenêtre, une série d'icones vous proposent différents outils pour manipuler et analyser la structure. Un premier click sur une icône affiche l'outil, un second click le masque. Cliquez sur l'icône de clé à molette. Ceci affichera deux nouveaux panneaux :
 
     - à droite, une boîte à outils présentant de nombreuses options de personnalisation de l'affichage et d'anlayse de la structure
     - au-dessus de la structure, la séquence de la protéine
@@ -252,11 +252,11 @@ Nous allons commencer par personnaliser l'affichage de la protéine, et nous exp
 Vous pouvez déplacer la limite verticale entre le panneau d'annotation et celui de structure pour qu'ils occupent chacun la moitié de l'écran (sans compter le panneau d'outils). 
 
 
-4. Dans la section "Components" de la boîte à outils, masquez les molécules d'eau et les ions.  en cliquant sur l'oeil. Testez également l'effet de l'affichage / masquage des autres composantes de la structure, puis veillez à réactiver leur affichage.
+4. Dans la section "Components" de la boîte à outils, masquez les molécules d'eau et les ions en cliquant sur l'oeil. Testez également l'effet de l'affichage / masquage des autres composantes de la structure, puis veillez à réactiver leur affichage.
 
-5. Nous allons maintennat colorer la protéine pour mettre en évidence ses éléments de structure. A côte de la composante "Polymer", cliquez l'icône `...` pour afficher les options de représentation de la protéine. L'affichage par défaut se fait au niveau de la chaîne polypeptidique, ce qui peut être intéressant pour des complexes protéiques ou protéine-ADN, mais n'est pas très illustratif quand on visualise une protéine composée d'une seule chaîne polypeptidique, ce qui est notre cas. Testez des modes alternatifs de représentation au niveau des propriétés des résidus et interprétez ce que vous voyez. Retenez ensuite la propriété "Sequence ID", qui assigne une couleur différente à chaque élément structurel, selon un gadient du bleu au rouge. 
+5. Nous allons maintennat colorer la protéine pour mettre en évidence ses éléments de structure. A côte de la composante "A", cliquez l'icône `...` pour afficher les options de représentation de la protéine. L'affichage par défaut se fait au niveau de la chaîne polypeptidique, ce qui peut être intéressant pour des complexes protéiques ou protéine-ADN, mais n'est pas très illustratif quand on visualise une protéine composée d'une seule chaîne polypeptidique, ce qui est notre cas. Testez des modes alternatifs de représentation au niveau des propriétés des résidus et interprétez ce que vous voyez. Retenez ensuite la propriété "Sequence ID", qui assigne une couleur différente à chaque élément structurel, selon un gadient du bleu au rouge. 
 
-8. Après avoir personnalisé l'affichage des éléments de structure, nous allons sélectionner différents segments annotés de la protéine (panneau de gauche), et les localiser sur la structure tridimensionnelle (panneau de droite). Cliquez successive=ment sur les segments de la piste d'annotation "Membrane topology" et identifiez les éléments structurels (hélices alpha, feuillets beta) correspondants. Explorez en particulier les éléments structurels (rectangles roses sur la piste "Secondary structure") et les annotations de topologie de membrane (rectangles verts ou violets sur les pistes "Membrane Topology"). 
+8. Après avoir personnalisé l'affichage des éléments de structure, nous allons sélectionner différents segments annotés de la protéine (panneau de gauche), et les localiser sur la structure tridimensionnelle (panneau de droite). Cliquez successivement sur les segments de la piste d'annotation "Membrane topology" et identifiez les éléments structurels (hélices alpha, feuillets beta) correspondants. Explorez en particulier les éléments structurels (rectangles roses sur la piste "Secondary structure") et les annotations de topologie de membrane (rectangles verts ou violets sur les pistes "Membrane Topology"). 
 
 
 Quand vous cliquez sur un élément, l'affichage de la structure est recadrée sur cet élément, dans le panneau de droite, et le segment de séquence correspondant est marqué dans la partie supérieure du panneau de droite. Pour voir l'élément dans le contexte global de la protéine, utilisez les options *Reset Zoom*. Faites tourner la structure pour afficher au mieux les segments que vous sélectionnez successivement. Vous pouvez à tout moment revenir à la position initiale avec la fonction *Reset Axes*.
