@@ -130,7 +130,8 @@ Cependant, pendant la séance de TP nous vous suggérons d'attaquer d'emblée la
 il vous sera loisible de terminer les exercices facultatifs ultérieurement. 
 
 
-## Facultatif (à faire chez soi) : protéome de référence
+
+## Protéome de référence
 
 Le protéome d'un organisme consiste en l'ensemble de ses protéines. Dans Uniprot, les séquences protéiques proviennent de la traduction automatique de séquences génomiques. Avec la multiplication des projets de séquençages individuels d'humains, le nombre de séquences différentes a augmenté, avec une certaine redondance. 
 

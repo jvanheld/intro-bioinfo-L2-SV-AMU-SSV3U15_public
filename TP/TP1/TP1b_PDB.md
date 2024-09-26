@@ -64,18 +64,18 @@ Nous commençons ce TP par explorer sommairement l'interface usager de Protein D
 
 1. Dans [Uniprot](https://www.uniprot.org/), ouvrez la fiche de la protéine dénommée "Solute carrier family 2, facilitated glucose transporter member 1" (identifiant [GTR1_HUMAN](https://www.uniprot.org/uniprotkb/P11166))
 
-2. Consultez la section "[Subcellular location](https://www.uniprot.org/uniprotkb/P11166/entry#subcellular_location)". 
+2. Consultez la section "[Subcellular location](https://www.uniprot.org/uniprotkb/P11166/entry#subcellular_location)". Répondez aux questions suivantes sur Ametice (Questionnaire TP1c)
 
-    - quelle est la localisation sous-cellulaire principale de cette protéine ?
-    - combien y a-t-il de domaines transmembranaires annotés dans la section "Features" ?
-    - quel est le type de reploiement de ces domaines transmembranaires ?
-    - combien y a-t-il d'autres domaines topologiques annotés dans la sous-section "Features" de "Subcellular location" ?
-    - combien y a-t-il de domaines cytoplasmiques ?
-    - combien y a-t-il de domaines intracellulaires ?
+    - Quelle est la localisation sous-cellulaire principale de cette protéine ?
+    - Combien y a-t-il de domaines transmembranaires annotés dans la section "Features" ?
+    - Quel est le type des éléments de structure des domaines transmembranaires du transporteur de glucose ?
+    - Combien y a-t-il d'autres domaines topologiques annotés dans la sous-section "Features" de "Subcellular location" ?
+    - Combien y a-t-il de domaines cytoplasmiques dans le transporteur du glucose ?
+    - Combien y a-t-il de domaines extracellulaires dans le transporteur du glucose ?
 
 3. Consultez la section "[Diseases and variants](https://www.uniprot.org/uniprotkb/P11166/entry#disease_variants)"
 
-    - quels sont les types de pathologies associés aux mutations de cette protéine ?
+    - Quels sont les types de pathologies associés aux mutations de cette protéine ?
 
 ### Profils transcriptomiques tissulaires (sur GTEx)
 
@@ -143,7 +143,7 @@ Quand vous cliquez sur un élément, l'affichage de la structure est recadrée s
 - Dans la position initiale de la structure (obtenie après avoir cliqué *Reset Axes*), les segments transmembranaires sont-ils orientés (a) verticalement; (b) horizontalement; (c) perpendiculairement à l'écran ?
 - Quel est le type d'élément structurel associé aux segments transmembranaires ?
 - Quels sont les types d'éléments structurels associés au plus grand segment cytoplasmique ?
-- Quel est le type d'élément structurel associé plus grand segment extracellulaire ?
+- Quel est le type d'élément de structure associé plus grand segment extracellulaire ?
 
 ----------------------------------------------------------------
 
