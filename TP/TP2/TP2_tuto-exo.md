@@ -102,21 +102,21 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     c. La ligne verte représente le gène, les lignes violettes deux transcrits alternatifs de l’ARNm et les lignes rouges les protéines codées par ces deux variants d’ARNm. Les parties épaisses des lignes violettes et rouges sont respectivement les portions de séquence présentes dans l’ARNm mature  et traduites en protéine. Faites une capture d’écran ou laissez cette page ouverte, car vous aurez besoin de ce graphique plus tard.
 
-        **Questions**
-        
-        - Quelle est la taille du gène PDC ?
-        - Quelle est la taille du variant 1 d’ARNm ? 
-        - Comment expliquez-vous cette différence de taille ?
-        - Combien d’exons trouvez-vous dans l’ARNm variant 1 et variant 2 ?
-        - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
-        - Tous les exons sont-ils traduits en acides aminés sur toutes leurs longueurs ?
+    **Questions**
+    
+    - Quelle est la taille du gène PDC ?
+    - Quelle est la taille du variant 1 d’ARNm ? 
+    - Comment expliquez-vous cette différence de taille ?
+    - Combien d’exons trouvez-vous dans l’ARNm variant 1 et variant 2 ?
+    - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
+    - Tous les exons sont-ils traduits en acides aminés sur toutes leurs longueurs ?
 
     d. Quand vous posez la souris sur les lignes (sans cliquer) une boîte apparaît avec des informations essentielles, et les liens vers les séquences. Utilisez ces liens pour télécharger les séquences du gène, du variant 1 de l'ARNm et de l'isoforme a de la protéine en format FASTA et enregistrez-les.
     
-        **Questions**
-        - Sur quel chromosome se trouve le gène ?
-        - Quelles sont les coordonnées du gène (position de début et fin) sur le chromosome ?
-        - Le gène se trouve-t-il sur le brin + ou le brin - ?
+    **Questions**
+    - Sur quel chromosome se trouve le gène ?
+    - Quelles sont les coordonnées du gène (position de début et fin) sur le chromosome ?
+    - Le gène se trouve-t-il sur le brin + ou le brin - ?
 
 4. La séquence téléchargée du gène est un extrait du brin direct (ou brin plus) du chromosome. Il faut donc utiliser la séquence complémentaire de cette séquence pour orienter correctement la séquence du gène.
     a. Connectez-vous à SMS ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l’outil **Reverse Complement** dans le menu à gauche.
