@@ -38,20 +38,20 @@ Pour les gènes codants, l'ARN "messager"" (ARNm) comporte une région codante, 
 
 Nous nous baserons sur le cas d'étude suivant. 
 
-**Comparaison des séquences de gène de phosducine (PDC) sa transcription (l'ARNm) et la protéine codée par le gène**. La phosphoducine est une phosphoprotéine située dans les  bâtonnets de la rétine. Elle module la cascade de phototransduction en interagissant avec la protéine G rétinienne. Le gène est un gène candidat pour la rétinite pigmentaire et le syndrome d'Usher de type II. Des variantes de transcription à épissage alternatif codant pour différentes isoformes ont été identifiées.
+**Comparaison entre les séquences du gène de la phosphoducine (PDC), son transcrit (l'ARNm) et la protéine codée par le gène**. La phosphoducine est une phosphoprotéine située dans les  bâtonnets de la rétine. Elle module la cascade de phototransduction en interagissant avec la protéine G rétinienne. Le gène est impliqué dans la rétinite pigmentaire et le syndrome d'Usher de type II. Des variants de transcription ont été identifiés, qui codent pour différentes isoformes de la protéine via un épissage alternatif.
 
 
 ### Notions abordées
 
-Nous mettrons en pratique plusieurs notions abordées lors des CM: 
-- Gène, exon, intron, UTR
-- Alignment par paire
-- Complémentarité des nucléotides, et séquences réverse complémentaires
-- Traduction
-- Cadre de lecture (traduction)
+Dans ce TP, nous mettrons en pratique plusieurs notions abordées lors des CM :
+
+- gène, exon, intron, UTR,
+- alignment par paire,
+- complémentarité des nucléotides, et séquences réverse complémentaires,
+- traduction,
+- cadre de lecture (traduction)
 
 N'oubliez pas que vous pouvez à tout moment consulter le **glossaire du cours** pour obtenir une définition sommaire des principaux termes utilisés. 
-
 
 ### Compétences acquises au cours de ce TP
 
@@ -60,7 +60,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 - Recherche avancée dans une base de donnée de séquences
 - Téléchargement des séquences
 - Alignement par paire (alignement exact et BLAST)
-- Interprétation des alignements et leurs divers représentations graphique
+- Interprétation des alignements et leurs diverses représentations graphiques
 
 ----------------------------------------------------------------
 
