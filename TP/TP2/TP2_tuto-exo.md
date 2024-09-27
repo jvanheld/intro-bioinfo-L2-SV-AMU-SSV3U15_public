@@ -92,7 +92,7 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
 3. Sur la page de résultats du gène **PDC (ID : 5132)**, intéressons-nous à la section ‘**Genomic regions, transcripts, and products**’ et particulièrement au champ ‘**NCBI RefSeq Annotation**’.
 
-    a. Éliminez les champs qui ne nous intéressent pas pour le moment, en utilisant les croix en haut à droite de chaque champ. Puis, cliquez sur le bouton ‘Switch ON mode "Show all" for Gene Tracks’.
+    a. Éliminez les champs qui ne nous intéressent pas pour le moment, en utilisant les croix en haut à droite de chaque champ. Puis, cliquez sur le bouton ‘**Switch ON mode "Show all" for Gene Tracks**’.
 
     ![show all](images/NCBI_show_all.png)
     
