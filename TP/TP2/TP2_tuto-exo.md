@@ -71,26 +71,26 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 1. Connectez-vous à la base de données [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/).
 2. Effectuez une recherche avancée pour trouver des séquences de **Phosducin** chez l'**humain**. Pour cela :
 
-    a. Cliquez sur ‘Advanced’ en dessous de la boîte de recherche sur la page d’accueil de la base de données. 
+    a. Cliquez sur ‘**Advanced**’ en dessous de la boîte de recherche sur la page d’accueil de la base de données. 
     
     ![NCBI gene advanced search](images/NCBI_gene_advanced.png)
     
-    b. Choisissez le champ ‘Organism‘ dans le premier menu déroulant, et entrez ‘Homo sapiens’ dans la boîte de recherche à côté, pour spécifier que vous cherchez uniquement des séquences humaines.
+    b. Choisissez le champ ‘**Organism**‘ dans le premier menu déroulant, et entrez ‘**Homo sapiens**’ dans la boîte de recherche à côté, pour spécifier que vous cherchez uniquement des séquences humaines.
     
-    c. Dans le second menu déroulant, choisissez ‘Gene name’ et entrez ‘PDC’ dans la boîte de recherche à côté, pour spécifier que vous cherchez le gène PDC (abréviation de Phosducin).
+    c. Dans le second menu déroulant, choisissez ‘**Gene name**’ et entrez ‘**PDC**’ dans la boîte de recherche à côté, pour spécifier que vous cherchez le gène PDC (abréviation de Phosducin).
     
-    d. Les deux expressions de recherche Homo sapiens[Organism] et PDC[Gene Name] sont automatiquement connectées par le connecteur logique AND, pour spécifier que les deux conditions doivent être remplies à la fois. Ceci correspond à notre but, mais dans d’autres cas, il est possible de changer le connecteur logique en OR ou NOT selon les besoins (cf le petit menu déroulant correspondant).
+    d. Les deux expressions de recherche **Homo sapiens[Organism]** et **PDC[Gene Name]** sont automatiquement connectées par le connecteur logique **AND**, pour spécifier que les deux conditions doivent être remplies à la fois. Ceci correspond à notre but, mais dans d’autres cas, il est possible de changer le connecteur logique en OR ou NOT selon les besoins (cf le petit menu déroulant correspondant).
     
-    e. La phrase de recherche (Homo sapiens[Organism]) AND PDC[Gene Name] apparait dans la boite de recherche principale (en haut).
+    e. La phrase de recherche **(Homo sapiens[Organism]) AND PDC[Gene Name]** apparait dans la boite de recherche principale (en haut).
     
     ![homo PDC](images/NCBI_homo_PDC.png)
     
     f. Cliquez sur **Search**.
 
-    g. Parmi les résultats obtenus, cliquez sur la ligne avec le nom de gène PDC (ID : 5132). L’autre résultat apparaît car PDC est un nom alternatif pour le gène PNDK. Ceci ne nous intéresse pas pour le moment.
+    g. Parmi les résultats obtenus, cliquez sur la ligne avec le nom de gène **PDC (ID : 5132)**. L’autre résultat apparaît car PDC est un nom alternatif pour le gène PNDK. Ceci ne nous intéresse pas pour le moment.
 
 
-3. Sur la page de résultats du gène PDC (ID : 5132), intéressons-nous à la section ‘Genomic regions, transcripts, and products’ et particulièrement au champ ‘NCBI RefSeq Annotation’.
+3. Sur la page de résultats du gène **PDC (ID : 5132)**, intéressons-nous à la section ‘Genomic regions, transcripts, and products’ et particulièrement au champ ‘NCBI RefSeq Annotation’.
 
     a. Éliminez les champs qui ne nous intéressent pas pour le moment, en utilisant les croix en haut à droite de chaque champ. Puis, cliquez sur le bouton ‘Switch ON mode "Show all" for Gene Tracks’.
 
