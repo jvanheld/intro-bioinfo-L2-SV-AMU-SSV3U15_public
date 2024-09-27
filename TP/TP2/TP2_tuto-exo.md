@@ -132,7 +132,7 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’
 
 Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d’ARNm afin d’identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.  
 
-    ![zoom on a gene](images/NCBI_gene_zoom.png)
+![zoom on a gene](images/NCBI_gene_zoom.png)
 
 
 1. Connectez-vous à l’outil needle sur EBI. **Needle** est un programme qui fait des alignements globaux entre deux séquences.
