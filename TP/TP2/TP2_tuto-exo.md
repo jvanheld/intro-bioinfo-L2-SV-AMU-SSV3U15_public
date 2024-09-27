@@ -20,6 +20,7 @@
 - Aitor Gonzalez
 
 ----------------------------------------------------------------
+
 ## Introduction
 
 ### But du TP
@@ -62,6 +63,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 - Interprétation des alignements et leurs divers représentations graphique
 
 ----------------------------------------------------------------
+
 ## Ressources informatiques
 
 | Ressource | Lien | Description |
@@ -73,6 +75,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
 
 ----------------------------------------------------------------
+
 ## Exercice 1 - Téléchargement des séquences à partir de NCBI Gene
 
 1. Connectez-vous à la base de données [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/).
@@ -135,6 +138,7 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 
 ----------------------------------------------------------------
+
 ## Exercice 2 - Comparaison d'un gène et de son ARNm - alignement global avec needle
 
 Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d'ARNm afin d'identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.  
@@ -161,6 +165,7 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 
 ----------------------------------------------------------------
+
 ## Exercice 3 - Comparaison de l'ARNm et de la protéine - alignement local avec BLAST
 
 On ne peut pas aligner directement une séquence protéique avec une séquence nucléique. Une possibilité serait de traduire la séquence d'ARNm en acides aminés à l'aide d'un programme de traduction comme celui de [Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/). Dans ce cas, il est difficile de savoir dans quel cadre de lecture il faut faire cette traduction.
@@ -184,6 +189,7 @@ BLAST fait des alignements locaux, ce qui veut dire qu'il alignera que des porti
 Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice 3.
 
 ----------------------------------------------------------------
+
 ## Exercice 4 - Comparaison de l'ARNm et protéine - alignement global avec needle
 
 Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utiliser needle, pour faire un alignement global.
@@ -202,6 +208,7 @@ Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utilis
 Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice1.
 
 ----------------------------------------------------------------
+
 ## Exercice 5 - Comparaison d'un gène et de son ARNm - alignement local avec BLAST
 
 
