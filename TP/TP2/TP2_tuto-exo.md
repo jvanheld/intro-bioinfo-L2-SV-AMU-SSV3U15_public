@@ -119,6 +119,7 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     - Le gène se trouve-t-il sur le brin + ou le brin - ?
 
 4. La séquence téléchargée du gène est un extrait du brin direct (ou brin plus) du chromosome. Il faut donc utiliser la séquence complémentaire de cette séquence pour orienter correctement la séquence du gène.
+
     a. Connectez-vous à SMS ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l’outil **Reverse Complement** dans le menu à gauche.
     b. Générez le "reverse complément"" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
 
