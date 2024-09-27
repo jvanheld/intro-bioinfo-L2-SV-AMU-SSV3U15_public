@@ -102,7 +102,7 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     c. La ligne verte représente le gène, les lignes violettes deux transcrits alternatifs de l’ARNm et les lignes rouges les protéines codées par ces deux variants d’ARNm. Les parties épaisses des lignes violettes et rouges sont respectivement les portions de séquence présentes dans l’ARNm mature  et traduites en protéine. Faites une capture d’écran ou laissez cette page ouverte, car vous aurez besoin de ce graphique plus tard.
 
-    **Questions**
+    **Questions** (hors questionnaire)
     
     - Quelle est la taille du gène PDC ?
     - Quelle est la taille du variant 1 d’ARNm ? 
@@ -113,7 +113,7 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     d. Quand vous posez la souris sur les lignes (sans cliquer) une boîte apparaît avec des informations essentielles, et les liens vers les séquences. Utilisez ces liens pour télécharger les séquences du gène, du variant 1 de l'ARNm et de l'isoforme a de la protéine en format FASTA et enregistrez-les.
     
-    **Questions**
+    **Questions**  (hors questionnaire)
     - Sur quel chromosome se trouve le gène ?
     - Quelles sont les coordonnées du gène (position de début et fin) sur le chromosome ?
     - Le gène se trouve-t-il sur le brin + ou le brin - ?
@@ -123,17 +123,101 @@ A l’issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     a. Connectez-vous à SMS ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l’outil **Reverse Complement** dans le menu à gauche.
     b. Générez le "reverse complément"" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
 
-
-### Tutoriel 1 : 
-
-
-### Exercice 1 : 
+### Questionnaire TP2 – Exercice 1
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice1.
 
 
-### Tutoriel 2 : 
+
+## Exercice 2 - Comparaison d’un gène et de son ARNm – alignement global par needle
+
+Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d’ARNm afin d’identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.  
+
+    ![zoom on a gene](images/NCBI_gene_zoom.png)
 
 
-### Exercice 2 : 
+1. Connectez-vous à l’outil needle sur EBI. **Needle** est un programme qui fait des alignements globaux entre deux séquences.
+2. Choisissez DNA dans le champ **‘Sequence type’**.
+3. Entrez la séquence du gène (correctement orientée) dans le premier encadré et la séquence de l'ARNm dans le deuxième encadré. 
+**Astuce!** Copiez-collez les séquences ensemble avec leurs lignes d'identification (lignes commençant par le sign ‘>’). Les identifiants vont apparaître dans l'alignement. Ceci vous aide de savoir quelle séquence correspond au gène et la quelle à l’ARN.
+4. Cliquer sur** ‘Submit’**.
+5. Regardez l’alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
+6. Refaisons l’alignement en modifiant les paramètres de logiciel needle.
+    a. Suivez la même procédure que précédemment, mais dans le champ **‘Parameters’ **cliquer sur **‘More options’**.
+    b. Réglez
+    - GAP OPEN : 100
+    - GAP EXTEND : 0
+    - Laissez les autres paramètres à leurs valeurs par défaut.
 
+
+### Questionnaire TP2 – Exercice 2
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice2.
+
+## Exercice 3 - Comparaison d’un gène et de son ARNm – alignement global par needle
+
+On ne peut pas aligner directement une séquence protéique avec une séquence nucléique. Une possibilité serait de traduire la séquence d’ARNm en acides aminés à l’aide d’un programme de traduction comme celui de [Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/). Dans ce cas, il est difficile de savoir dans quel cadre de lecture il faut faire cette traduction.
+
+Une autre possibilité est d’utiliser le logiciel BLAST. Le but original de BLAST est de comparer une séquence (séquence requête) avec l’ensemble des séquences contenues dans une base de données, afin de de trouver des séquences similaires à la séquence requête. Il est possible de détourner cette fonction originale en alignant une séquence donnée avec une ou plusieurs autres séquences, fournies par l’utilisateur.
+
+L’avantage est que BLAST peut comparer des séquences de différentes natures (séquences protéiques ou nucléiques) en faisant la traduction automatique des séquences nucléiques dans les 6 cadres de lecture possibles (3 sur le brin+ et 3 sur le brin-). Il alignera ensuite les traductions des séquences nucléiques avec les séquences protéiques. 
+BLAST fait des alignements locaux, ce qui veut dire qu’il alignera que des portions des séquences qui sont similaires.
+
+1. Connectez-vous à l’[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastx**. C’est la version de BLAST qui compare une séquence requête nucléique avec des séquences protéiques.
+2. Cochez la case **‘Align two or more sequences’**. Une cadre supplémentaire apparaît.
+3. Entrez la séquence de l’ARNm dans le premier cadre (**Enter Query Sequence**) et la séquence la protéine dans le deuxième (**Enter Subject Sequence**).
+4. Cochez la case ‘**Show results in a new window**’ pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
+5. Cliquez sur le bouton ‘BLAST’ pour lancer l'alignement.
+6. Sur la page de résultats, dans l’onglet **‘Graphique Summary**’, on peut voir que la protéine (représentée par une ligne rouge) s’aligne à peu près entre les positions 50 et 800 de l’ARNm (représenté par la ligne turquoise épaisse, notée **Query**).
+7. Dans l’onglet **‘Alignments’**, on peut trouver les positions précises de début et de fin de l’alignement (81-818 pour ARNm 1-246 pour la protéine). Il y a 100 % d'identité sur la longueur totale de la protéine. Dans l’entête de l’alignement, **Frame +3** indique que l’alignement a été fait entre la protéine et la traduction de l’ARNm sur le brin+ dans la cadre de lecture 3.
+
+
+### Questionnaire TP2 – Exercice 3
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice3.
+
+## Exercice 4 - Comparaison d’un gène et de son ARNm – alignement global par needle
+
+Maintenant qu’on sait qu’il faut traduire l’ARNm dans le cadre 3, on peut utiliser needle, pour faire un alignement global.
+
+1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/) et trouvez l’outil **‘Translate’** dans le menu à gauche.
+2. Traduisez l’ARNm sur le brin direct dans la cadre de lecture 3. Nous avons une séquence humaine, d’un gène nucléaire. Quel Code génétique allez-vous utiliser ?
+3. Connectez-vous à l’outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
+4. Choisissez Protein dans le champ **‘Sequence type’**
+5. Entrez la **séquence traduite de l’ARNm** et la séquence de la **protéine** dans les deux cases suivantes.
+6. Cliquer sur ‘Submit’.
+7. Regardez l’alignement. Est-ce cohérent de vos attentes ?
+
+
+### Questionnaire TP2 – Exercice 4
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice1.
+
+## Exercice 5 - Comparaison d’un gène et de son ARNm – alignement global par needle
+
+Utilisons maintenant le logiciel BLAST, pour comparer le gène et sa transcription mature. Vous avez vu à l'exercice 2 que l’alignement global entre ces deux séquences est pratique pour pouvoir détecter des introns et les exons, mais l'alignement est très long et difficile à voir l’ensemble.
+
+Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche que des régions significativement similaires. On peut aussi profiter des différents affichages graphiques des résultats.
+
+1. Connectez-vous à l’[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastn.** C’est la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques.
+
+2. Cochez la case **‘Align two or more sequences’**. Une cadre supplémentaire apparaît.
+
+3. Entrez la séquence de gène correctement orienté dans le premier cadre (**Enter Query Sequence**) et la séquence l’ARNm mature dans le deuxième (**Enter Subject Sequence**).
+
+4. Cochez la case ‘**Show results in a new window**’ pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
+
+5. Cliquez sur le bouton ‘BLAST’ pour lancer l'alignement.
+
+6. Sur la page de résultats
+
+    a. Dans l’onglet **‘Graphique Summary**’, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l’ARNm.
+    b. Dans l’onglet **‘Alignements'** vous trouvez 4 alignements locaux.
+    c. L’onglet ‘**Dot Plot**’ est une représentation visuelle des alignements. En abscisse vous trouvez les positions dans le gène, en ordonnée les positions de ARNm. Les lignes obliques montrent des régions où le gène et l’ARNm s’alignent.
+
+
+### Questionnaire TP2 – Exercice 5
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice1.
 
 ## Que retenir de ce TP
+Au cours de ce TP, nous avons vu qu’un gène eucaryote est une succession des exons et des introns. Les gènes sont transcrits en ARNm et ARNm mature ne contiennent que des exons. Tous les exons ne sont pas nécessairement codants.  Les 5’UTR et le 3’UTR sont également des exons, mais ils ne sont pas traduits.
+
+Nous pouvons aligner des séquences pour identifier les zones similaires entre elles.  Un alignement global (par exemple needle) bien paramétré entre gène et ARNm, permet de détecter les limites des exons et les introns. Il est également possible d'utiliser des alignements locaux pour n'aligner que les zones similaires. BLAST est un des logiciels disponibles pour le faire. Il produit également des affichages graphiques un plus des alignements. L'alignement entre deux séquences n’est pas l'utilisation principale de BLAST. Vous allez voir son usage typique (comparaison d’une séquence à une base de données) dans les TP ultérieurs.
+
+BLAST permet également à traduire automatiquement des séquences nucléiques  en séquences protéiques dans les 6 cadres de lecture, puis comparer ces traductions aux séquences protéiques.  Nous avons utilisé cette méthode pour aligner la traduction de l’ARNm avec la protéine codée par l’ARN. Cet alignement a permis d’identifier les parties codantes de l’ARNm.
