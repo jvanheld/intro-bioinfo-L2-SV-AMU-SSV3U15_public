@@ -2,10 +2,14 @@
 
 ## Table des matières
 
-- [Auteurs](#auteurs)
 - [Introduction](#introduction)
 - [Ressources informatiques](#ressources-informatiques) 
 - [Tutoriels et exercices](#tutoriels-et-exercices) 
+
+    - [Exercice 1 - Téléchargement des séquences à partir de NCBI Gene](#exercice-1---téléchargement-des-séquences-à-partir-de-ncbi-gene)
+    - [Exercice 2 - Comparaison d’un gène et de son ARNm – alignement global par needle](#exercice-2---comparaison-dun-gène-et-de-son-arnm-–-alignement-global-par-needle)
+    - [Exercice 3 - Comparaison d’un gène et de son ARNm – alignement global par needle](#exercice-3---comparaison-dun-gène-et-de-son-arnm-–-alignement global par needle)
+    
 - [Que retenir de ce TP ?](#que-retenir-de-ce-tp)
 
 
@@ -150,7 +154,7 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 
 
 ### Questionnaire TP2 – Exercice 2
-Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice2.
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice 2.
 
 ## Exercice 3 - Comparaison d’un gène et de son ARNm – alignement global par needle
 
@@ -171,7 +175,7 @@ BLAST fait des alignements locaux, ce qui veut dire qu’il alignera que des por
 
 
 ### Questionnaire TP2 – Exercice 3
-Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice3.
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice 3.
 
 ## Exercice 4 - Comparaison d’un gène et de son ARNm – alignement global par needle
 
@@ -213,11 +217,19 @@ Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche qu
 
 
 ### Questionnaire TP2 – Exercice 5
-Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice1.
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l’Exercice 1.
 
 ## Que retenir de ce TP
-Au cours de ce TP, nous avons vu qu’un gène eucaryote est une succession des exons et des introns. Les gènes sont transcrits en ARNm et ARNm mature ne contiennent que des exons. Tous les exons ne sont pas nécessairement codants.  Les 5’UTR et le 3’UTR sont également des exons, mais ils ne sont pas traduits.
+Au cours de ce TP, nous avons vu qu'un gène d'eucaryote consiste en une succession d'exons et d'introns. Les gènes sont transcrits en ARN primaire, qui font l'objet de différentes étapes de maturation. Les ARN matures sont exportés dans le cytoplasme, et ils ne retiennent que les exons. 
 
-Nous pouvons aligner des séquences pour identifier les zones similaires entre elles.  Un alignement global (par exemple needle) bien paramétré entre gène et ARNm, permet de détecter les limites des exons et les introns. Il est également possible d'utiliser des alignements locaux pour n'aligner que les zones similaires. BLAST est un des logiciels disponibles pour le faire. Il produit également des affichages graphiques un plus des alignements. L'alignement entre deux séquences n’est pas l'utilisation principale de BLAST. Vous allez voir son usage typique (comparaison d’une séquence à une base de données) dans les TP ultérieurs.
+**Attention**, les exons ne sont pas nécessairement codants. 
 
-BLAST permet également à traduire automatiquement des séquences nucléiques  en séquences protéiques dans les 6 cadres de lecture, puis comparer ces traductions aux séquences protéiques.  Nous avons utilisé cette méthode pour aligner la traduction de l’ARNm avec la protéine codée par l’ARN. Cet alignement a permis d’identifier les parties codantes de l’ARNm.
+- Pour les gènes qui codent pour des protéines, les ARN messagers contiennent des régions non traduties en amont (5’UTR) et en aval (3’UTR). Ces UTR sont exoniques (on les retrouve dans la fraction cytoplasmique de l'ARN), mais ils ne sont pas traduits.
+
+- Il existe des gènes à ARN (ARNt, ARNr), qui sont intrinsèquement non-codants, mais peuvent cependant faire l'objet d'épisage. 
+
+Nous pouvons aligner des séquences pour identifier les zones similaires entre elles.  Un alignement global (par exemple celui produit par le logiciel `needle`), bien paramétré, entre gène et ARNm, permet de détecter les limites des exons et les introns. 
+
+Il est également possible d'utiliser des alignements locaux pour n'afficher que les zones qui présentent un degré significatif de similarité entre les deux séquences alignées. BLAST est l'un des logiciels disponibles pour faire des alignements locaux. Il produit également des affichages graphiques en plus des alignements. Notez que l'alignement entre deux séquences n’est pas l'utilisation principale de BLAST. Nous reviendrons sur son usage typique (comparaison d’une séquence à une base de données) dans les TP ultérieurs.
+
+BLAST permet également de traduire automatiquement des séquences nucléiques  en séquences protéiques dans les 6 cadres de lecture, puis comparer ces traductions aux séquences protéiques.  Nous avons utilisé cette méthode pour aligner la traduction de l’ARNm avec la protéine codée par l’ARN. Cet alignement a permis d’identifier les parties codantes de l’ARNm.
