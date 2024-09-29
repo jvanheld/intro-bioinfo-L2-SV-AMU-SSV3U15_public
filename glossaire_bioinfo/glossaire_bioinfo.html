@@ -356,6 +356,7 @@ display: none;
 <h1>Glossaire des termes utilisés</h1>
 <p>Cours d’<strong>Introduction à la bioinformatique</strong>
 (SSV3U15)</p>
+<p><a href="../">Retour à la page d’accueil du cours</a></p>
 <p><span id="contenu"></span></p>
 <div id="table-des-matières" class="section level2">
 <h2>Table des matières</h2>
@@ -470,31 +471,31 @@ fournissent des informations complémentaires concernant la qualité de
 l’alignement.</p>
 <table>
 <colgroup>
-<col width="50%" />
-<col width="50%" />
+<col width="38%" />
+<col width="61%" />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Longueur de l’alignement</td>
 <td><p>Nombre de colonnes de l’alignement. Attention, la longueur de
 l’alignement diffère généralement de celle des séquences alignées, pour
-différentes raisons:</p>
+différente raisons:</p>
 <ul>
-<li>Dans un alignement global, la présence de gaps alternés dans les
-deux séquences peut générer un alignement plus log que chacune des
-séquences alignées.</li>
-<li>En cas d’alignement local, l’alignement peut se limiter à un
-fragment des protéines alignées, et peut donc être plus court que
-chacune des séquences alignées. Notons que ceci n’est pas forcé: selon
-les cas, un algorithme d’alignement local peut éventuellement arriver à
-un alignement qui recouvre les séquences alignées sur toute leur
-longeur, et, s’il y a des gaps, ce alignement sera plus long que les
-protéines alignées.</li>
+<li><p>Dans un <strong>alignement global</strong>, la présence de gaps
+alternés dans les deux séquences peut générer un alignement plus long
+que chacune des séquences alignées.</p></li>
+<li><p>En cas d’<strong>alignement local</strong>, l’alignement peut se
+limiter à un fragment des protéines alignées, et peut donc être plus
+court que chacune des séquences alignées. Notons que ceci n’est pas
+forcé: selon les cas, un algorithme d’alignement local peut
+éventuellement arriver à un alignement qui recouvre les séquences
+alignées sur toute leur longeur, et, s’il y a des gaps, ce alignement
+sera plus long que les protéines alignées.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Nombre d’identités</td>
-<td>nombre de positions où sont alignés deux résidus identiques</td>
+<td>Nombre de positions où sont alignés deux résidus identiques</td>
 </tr>
 <tr class="odd">
 <td>Pourcentage d’identités</td>
@@ -509,8 +510,8 @@ positif dans la matrice de substitution (identités et substitutions
 </tr>
 <tr class="odd">
 <td>Pourcentage de similarités</td>
-<td>Nombre de similarités divisé par la longueur totale de
-l’alignement.</td>
+<td>Nombre de similarités divisé par la longueur totale de l’alignement,
+fois <span class="math inline">\(100\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -569,18 +570,18 @@ certain risque de louper des similarités.</p>
 Pour ces recherches croisées, les séquences nucléiques sont traduites
 dans les 6 cadres de lectures (3 cadres de lecture par brin), et le
 résultat est analysé avec l’algorithme blastp.</p>
-<table style="width:97%;">
+<table style="width:98%;">
 <colgroup>
-<col width="23%" />
-<col width="23%" />
-<col width="28%" />
-<col width="23%" />
+<col width="19%" />
+<col width="19%" />
+<col width="15%" />
+<col width="43%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th align="left">Requête</th>
 <th align="left">Base de données</th>
-<th align="left">Logiciel</th>
+<th align="left">Outil</th>
 <th align="left">Exemples d’applications</th>
 </tr>
 </thead>
@@ -588,7 +589,7 @@ résultat est analysé avec l’algorithme blastp.</p>
 <tr class="odd">
 <td align="left">séquence peptidique</td>
 <td align="left">séquence peptidique</td>
-<td align="left"><span class="program">blastp</span></td>
+<td align="left"><strong>blastp</strong></td>
 <td align="left">En partant d’une protéine de fonction connue, collecter
 les protéines similaires dans la base de données Uniprot afin de
 constituer la famille de protéine supposées homologues.</td>
@@ -596,7 +597,7 @@ constituer la famille de protéine supposées homologues.</td>
 <tr class="even">
 <td align="left">séquence nucléique</td>
 <td align="left">séquence nucléique</td>
-<td align="left"><span class="program">blastn</span></td>
+<td align="left"><strong>blastn</strong></td>
 <td align="left">Comparer les séquences d’ARNm aux séquences
 génomiques.</td>
 </tr>
@@ -610,7 +611,7 @@ détecter ses cibles potentielles.</td>
 <tr class="even">
 <td align="left">séquence nucléique (traduite dans les 6 cadres)</td>
 <td align="left">séquence peptidique</td>
-<td align="left"><span class="program">blastx</span></td>
+<td align="left"><strong>blastx</strong></td>
 <td align="left">Après avoir séquencé un morceau d’ADN, chercher des
 fragments potentiellement codants (susceptibles de produire un
 polypeptide similaire à des protéines connues) dans cette séquence même
@@ -619,7 +620,7 @@ si on ne connaît pas la position des gènes.</td>
 <tr class="odd">
 <td align="left">séquence peptidique</td>
 <td align="left">séquence nucléique (traduite dans les 6 cadres)</td>
-<td align="left"><span class="program">tblastn</span></td>
+<td align="left"><strong>tblastn</strong></td>
 <td align="left">Identifier une région génomique susceptible de coder
 pour un homologue d’une protéine d’intéret.</td>
 </tr>
@@ -634,8 +635,10 @@ correspondant à une protéine d’intérêt.</td>
 <tr class="odd">
 <td align="left">séquence nucléique (traduite dans les 6 cadres)</td>
 <td align="left">séquence nucléique (traduite dans les 6 cadres)</td>
-<td align="left"><span class="program">tblastx</span></td>
-<td align="left"></td>
+<td align="left"><strong>tblastx</strong></td>
+<td align="left">A partir d’une séquence d’ADN, identifier des segments
+de régions codantes ayant une contrepartie dans un génome ou une base de
+données de référence</td>
 </tr>
 </tbody>
 </table>

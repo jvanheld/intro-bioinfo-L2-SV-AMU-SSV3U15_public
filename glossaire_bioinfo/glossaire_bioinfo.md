@@ -2,6 +2,8 @@
 
 Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
+[Retour à la page d'accueil du cours](../)
+
 
 []{#contenu}
 
@@ -103,53 +105,52 @@ Au-delà du score brut, on peut dériver une série de scores qui
 fournissent des informations complémentaires concernant la qualité de
 l'alignement.
 
-+-----------------------------------+-----------------------------------+
-| Longueur de l'alignement          | Nombre de colonnes de             |
-|                                   | l'alignement. Attention, la       |
-|                                   | longueur de l'alignement diffère  |
-|                                   | généralement de celle des         |
-|                                   | séquences alignées, pour          |
-|                                   | différentes raisons:              |
-|                                   |                                   |
-|                                   | -   Dans un alignement global, la |
-|                                   |     présence de gaps alternés     |
-|                                   |     dans les deux séquences peut  |
-|                                   |     générer un alignement plus    |
-|                                   |     log que chacune des séquences |
-|                                   |     alignées.                     |
-|                                   | -   En cas d'alignement local,    |
-|                                   |     l'alignement peut se limiter  |
-|                                   |     à un fragment des protéines   |
-|                                   |     alignées, et peut donc être   |
-|                                   |     plus court que chacune des    |
-|                                   |     séquences alignées. Notons    |
-|                                   |     que ceci n'est pas forcé:     |
-|                                   |     selon les cas, un algorithme  |
-|                                   |     d'alignement local peut       |
-|                                   |     éventuellement arriver à un   |
-|                                   |     alignement qui recouvre les   |
-|                                   |     séquences alignées sur toute  |
-|                                   |     leur longeur, et, s'il y a    |
-|                                   |     des gaps, ce alignement sera  |
-|                                   |     plus long que les protéines   |
-|                                   |     alignées.                     |
-+-----------------------------------+-----------------------------------+
-| Nombre d'identités                | nombre de positions où sont       |
-|                                   | alignés deux résidus identiques   |
-+-----------------------------------+-----------------------------------+
-| Pourcentage d'identités           | Nombre d'identités divisé par la  |
-|                                   | longueur totale de l'alignement.  |
-+-----------------------------------+-----------------------------------+
-| Nombre de similarités             | Nombre de positions de            |
-| (\"positives\")                   | l'alignement caractérisées par    |
-|                                   | un score positif dans la matrice  |
-|                                   | de substitution (identités et     |
-|                                   | substitutions \"conservatives\"). |
-+-----------------------------------+-----------------------------------+
-| Pourcentage de similarités        | Nombre de similarités divisé par  |
-|                                   | la longueur totale de             |
-|                                   | l'alignement.                     |
-+-----------------------------------+-----------------------------------+
++---------------------------+-------------------------------------------+
+| Longueur de l'alignement  |  Nombre de colonnes de  l'alignement.     |
+|                           | Attention, la longueur de l'alignement    |
+|                           | diffère généralement de celle des         |
+|                           | séquences alignées, pour différente       |
+|                           | raisons:                                  |
+|                           |                                           |
+|                           | - Dans un **alignement global**, la       |
+|                           |   présence de gaps alternés  dans les     |
+|                           |   deux séquences peut générer un          |
+|                           |   alignement plus long que chacune des    |
+|                           |    séquences alignées.                    |
+|                           |                                           |
+|                           | - En cas d'**alignement local**,          |
+|                           |             l'alignement peut se limiter  |
+|                           |             à un fragment des protéines   |
+|                           |             alignées, et peut donc être   |
+|                           |             plus court que chacune des    |
+|                           |             séquences alignées. Notons    |
+|                           |             que ceci n'est pas forcé:     |
+|                           |             selon les cas, un algorithme  |
+|                           |             d'alignement local peut       |
+|                           |             éventuellement arriver à un   |
+|                           |             alignement qui recouvre les   |
+|                           |             séquences alignées sur toute  |
+|                           |             leur longeur, et, s'il y a    |
+|                           |             des gaps, ce alignement sera  |
+|                           |             plus long que les protéines   |
+|                           |             alignées.                     |
++---------------------------+-------------------------------------------+
+| Nombre d'identités        | Nombre de positions où sont               |
+|                           |         alignés deux résidus identiques   |
++---------------------------+-------------------------------------------+
+| Pourcentage d'identités   | Nombre d'identités divisé par la          |
+|                           |         longueur totale de l'alignement.  |
++---------------------------+-------------------------------------------+
+| Nombre de similarités     | Nombre de positions de                    |
+| (\"positives\")           |         l'alignement caractérisées par    |
+|                           |         un score positif dans la matrice  |
+|                           |         de substitution (identités et     |
+|                           |         substitutions \"conservatives\"). |
++---------------------------+-------------------------------------------+
+| Pourcentage de similarités| Nombre de similarités divisé par          |
+|                           |         la longueur totale de             |
+|                           |         l'alignement, fois $100$          |
++---------------------------+-------------------------------------------+
 
 [Retour à la table des matières](#contenu)
 
@@ -217,11 +218,10 @@ type. Pour ces recherches croisées, les séquences nucléiques sont
 traduites dans les 6 cadres de lectures (3 cadres de lecture par brin),
 et le résultat est analysé avec l'algorithme blastp.
 
-  ---------------------------------------------------------------------------
-  Requête           Base de données   Logiciel              Exemples
-                                                            d'applications
-  ----------------- ----------------- --------------------- -----------------
-  séquence          séquence          [blastp]{.program}    En partant d'une
+  -----------------------------------------------------------------------------------------
+  Requête           Base de données   Outil         Exemples d'applications
+  ----------------- ----------------- ------------- ---------------------------------------
+  séquence          séquence          **blastp**    En partant d'une
   peptidique        peptidique                              protéine de
                                                             fonction connue,
                                                             collecter les
@@ -236,7 +236,7 @@ et le résultat est analysé avec l'algorithme blastp.
                                                             supposées
                                                             homologues.
 
-  séquence          séquence          [blastn]{.program}    Comparer les
+  séquence          séquence          **blastn**    Comparer les
   nucléique         nucléique                               séquences d'ARNm
                                                             aux séquences
                                                             génomiques.
@@ -249,7 +249,7 @@ et le résultat est analysé avec l'algorithme blastp.
                                                             cibles
                                                             potentielles.
 
-  séquence          séquence          [blastx]{.program}    Après avoir
+  séquence          séquence          **blastx**     Après avoir
   nucléique         peptidique                              séquencé un
   (traduite dans                                            morceau d'ADN,
   les 6 cadres)                                             chercher des
@@ -268,7 +268,7 @@ et le résultat est analysé avec l'algorithme blastp.
                                                             position des
                                                             gènes.
 
-  séquence          séquence          [tblastn]{.program}   Identifier une
+  séquence          séquence          **tblastn**    Identifier une
   peptidique        nucléique                               région génomique
                     (traduite dans                          susceptible de
                     les 6 cadres)                           coder pour un
@@ -288,11 +288,12 @@ et le résultat est analysé avec l'algorithme blastp.
                                                             une protéine
                                                             d'intérêt.
 
-  séquence          séquence          [tblastx]{.program}   
-  nucléique         nucléique                               
-  (traduite dans    (traduite dans                          
-  les 6 cadres)     les 6 cadres)                           
-  ---------------------------------------------------------------------------
+  séquence          séquence          **tblastx**   A partir d'une séquence d'ADN,  
+  nucléique         nucléique                       identifier des segments de régions 
+  (traduite dans    (traduite dans                  codantes ayant une contrepartie dans 
+  les 6 cadres)     les 6 cadres)                   un génome ou une base de données de 
+                                                    référence
+  -----------------------------------------------------------------------------------------
 
 [Retour à la table des matières](#contenu)
 
