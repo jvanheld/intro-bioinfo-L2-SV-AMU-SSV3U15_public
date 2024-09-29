@@ -1,4 +1,6 @@
-# Glossaire des termes utilisés (cours Introduction à la bioinformatique)
+# Glossaire des termes utilisés
+
+Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
 
 []{#contenu}
@@ -171,7 +173,7 @@ Les alignements locaux révèlent les segments conservés entre deux ou
 plusieurs séquences. On les utilise par exemple pour extraire un domaine
 conservé à partir d'une famille de séquences homologues.
 
-[\[Retour à la table des matières\]](#contenu)
+[Retour à la table des matières](#contenu)
 
 ------------------------------------------------------------------------
 
