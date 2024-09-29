@@ -55,7 +55,7 @@ Dans ce TP, nous mettrons en pratique plusieurs notions abordées lors des CM :
 - traduction,
 - cadre de lecture (traduction)
 
-N'oubliez pas que vous pouvez à tout moment consulter le **[glossaire du cours](../../glossaire_bioinfo/)** pour obtenir une définition sommaire des principaux termes utilisés. 
+N'oubliez pas que vous pouvez à tout moment consulter le **[glossaire du cours](../../glossaire_bioinfo/glossaire_bioinfo.html)** pour obtenir une définition sommaire des principaux termes utilisés. 
 
 ### Compétences acquises au cours de ce TP
 
