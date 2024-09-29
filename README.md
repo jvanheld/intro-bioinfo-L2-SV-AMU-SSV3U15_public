@@ -41,10 +41,11 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | 7 | Systèmes et réseaux biologiques |
 | 8 | Récapitulation, questions/réponses |
 
-## Supports de cours
+## Autres supports de cours
 
 | Titre | Description | Lien |
 |:------------|:-------------------|:-------------------------:|
+| Glossaire | Explication des termes de bioinformatique et concepts biologiques sous-jacents au cours | [html](glossaire_bioinfo/glossaire_bioinfo.html) |
 | Diaporama | Présentations du cours | [diapo_pdf_SSV3U15](diapo_pdf_SSV3U15/)
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
