@@ -29,10 +29,14 @@ Dans ce TP vous apprendrez à effectuer une recherche dans une base de données,
 
 ### Concepts
 
-Dans un gène eucaryote, les exons et les introns sont alternés. Après transcription du gène en ARN primaire, la maturation de ce transcrit inclut généralement une étape d'épissage, qui consiste à éliminer les introns et à rabouter les exons. Au terme de ce processus, seuls les exons seront présents dans l'ARN mature. Quand on aligne l'ADN d'un gène avec son ARN mature, on devrait donc trouver des régions parfaitement alignées et identiques entre elles à 100% (les exons) séparées par de longs gaps de l'alignement, qui correspondent aux introns (présents dans le gène, mais absents de l'ARN mature). Il faut noter que ce processus d'épissage peut se produire dans les gènes codants ou non codants (ARN de transfert ou ribosomique). 
 
-Pour les gènes codants, l'ARN "messager"" (ARNm) comporte une région codante, des régions non traduites en amont (5' UTR), en aval (3' UTR). La région codante sert de modèle pour synthétiser une protéine en polymérisant des acides aminés (traduction). Similairement, en alignant la traduction de l'ARN avec la protéine codée par le gène, la protéine devrait s'aligner avec les régions codantes des exons, mais pas avec les régions UTR.
+Chez les eucaryotes, après transcription, la maturation de l'ARN primaire inclut généralement une étape d'épissage, qui consiste à éliminer certains fragments (appelés **introns**) et à rabouter les autres (appelés **exons**). Dans les annotations génomiques, un gène eucaryote se présente donc sous la forme d'une alternance d'exons et d'introns.  Au terme de l'épissage, seuls les exons seront présents dans l'ARN mature. 
 
+Quand on aligne l'ADN d'un gène avec son ARN mature, on devrait donc trouver des régions parfaitement alignées et identiques entre elles à 100% (les exons) séparées par de longs gaps de l'alignement, qui correspondent aux introns (présents dans le gène, mais absents de l'ARN mature). 
+
+Il faut noter que ce processus d'épissage peut se produire dans les gènes codants ou non codants (ARN de transfert ou ribosomique). 
+
+Pour les gènes codants, l'**ARN messager** (ARNm) comporte une région codante, des **régions non traduites** en amont (5' UTR), en aval (3' UTR). Seule la région codante sert de modèle pour synthétiser une protéine en polymérisant des acides aminés (traduction). Par conséquent, si on aligne la séquence protéique avec une traduction de l'ARN, la protéine devrait s'aligner avec les régions codantes des exons, mais pas avec les régions UTR en 5' et 3'.
 
 ### Exemples traités
 
@@ -51,7 +55,7 @@ Dans ce TP, nous mettrons en pratique plusieurs notions abordées lors des CM :
 - traduction,
 - cadre de lecture (traduction)
 
-N'oubliez pas que vous pouvez à tout moment consulter le **glossaire du cours** pour obtenir une définition sommaire des principaux termes utilisés. 
+N'oubliez pas que vous pouvez à tout moment consulter le **[glossaire du cours](../../glossaire_bioinfo/)** pour obtenir une définition sommaire des principaux termes utilisés. 
 
 ### Compétences acquises au cours de ce TP
 
