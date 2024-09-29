@@ -1,6 +1,6 @@
 # Matériel complémentaire pour l'UE Introduction à la bioinformatique (SSV3U15, L2 SV AMU)
 
-Ce site contient le matériel complémentaire pour le cours **Introduciton à la bioinformatique**, dispesné 2ème licence en Sciences de la vie (L2 SV), Aix-Marseille Université (AMU). 
+Ce site contient le matériel complémentaire pour le cours **Introduction à la bioinformatique**, dispensé 2ème licence en Sciences de la vie (L2 SV), Aix-Marseille Université (AMU). 
 
 Le site principal se trouve sur la [plateforme Ametice](https://ametice.univ-amu.fr/) d'Aix-Marseille Université, en accès réservé aux étudiants inscrits. 
 
@@ -14,7 +14,7 @@ Le site principal se trouve sur la [plateforme Ametice](https://ametice.univ-amu
 
 ### Vidéos des CM
 
-Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapitres thématiques plutôt que par sénaces de CM. 
+Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapitres thématiques plutôt que par séances de CM. 
 
 | Chap | Titre | Lien |
 |:---:|:----------------------|:------------------------------------:|
@@ -26,7 +26,7 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | 5 | Génomique personnalisée | à venir | 
 | 6 | Exploration de la biodiversité | à venir |
 | 7 | Réseaux et systèmes biologiques | à venir |
-| 8 | L'information au coeur du vivant | à venir |
+| 8 | L'information au cœur du vivant | à venir |
 
 ## Travaux pratiques
 
