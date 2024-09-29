@@ -38,7 +38,7 @@ Pour les gènes codants, l'ARN "messager"" (ARNm) comporte une région codante, 
 
 Nous nous baserons sur le cas d'étude suivant. 
 
-**Comparaison entre les séquences du gène de la phosphoducine (PDC), son transcrit (l'ARNm) et la protéine codée par le gène**. La phosphoducine est une phosphoprotéine située dans les  bâtonnets de la rétine. Elle module la cascade de phototransduction en interagissant avec la protéine G rétinienne. Le gène est impliqué dans la rétinite pigmentaire et le syndrome d'Usher de type II. Des variants de transcription ont été identifiés, qui codent pour différentes isoformes de la protéine via un épissage alternatif.
+**Comparaison entre les séquences du gène de la phosducine (PDC), son transcrit (l'ARNm) et la protéine codée par le gène**. La phosducine est une phosphoprotéine située dans les  bâtonnets de la rétine. Elle module la cascade de phototransduction en interagissant avec la protéine G rétinienne. Le gène est impliqué dans la rétinite pigmentaire et le syndrome d'Usher de type II. Des variants de transcription ont été identifiés, qui codent pour différentes isoformes de la protéine via un épissage alternatif.
 
 
 ### Notions abordées
@@ -46,7 +46,7 @@ Nous nous baserons sur le cas d'étude suivant.
 Dans ce TP, nous mettrons en pratique plusieurs notions abordées lors des CM :
 
 - gène, exon, intron, UTR,
-- alignment par paire,
+- alignement par paire,
 - complémentarité des nucléotides, et séquences réverse complémentaires,
 - traduction,
 - cadre de lecture (traduction)
@@ -69,7 +69,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 | Ressource | Lien | Description |
 |:---------|:--------------------------|:-------------------------------------------|
 | NCBI gene | [https://www.ncbi.nlm.nih.gov/gene/](https://www.ncbi.nlm.nih.gov/gene/) | Base de données des gène hébergée par NCBI |
-| Sequence Manipulation Suite (**SMS**) | [http://www.bioinformatics.org/sms2/](http://www.bioinformatics.org/sms2/) |  Large gammes d'outils pour la manipulation des séquences biologiques (traduction, reverse complement, ORFfinder...) |
+| Sequence Manipulation Suite (**SMS**) | [http://www.bioinformatics.org/sms2/](http://www.bioinformatics.org/sms2/) |  Large gammes d'outils pour la manipulation des séquences biologiques (traduction, réverse complément, ORFfinder...) |
 | needle | [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle)  |  Algorithme d'alignement par paire (méthode de Needleman-Wunsch, exacte, produisant des alignements globaux) |
 | NCBI BLAST|  [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  |  Recherche par similarité: comparaison d'une séquence à une base de données  |
 
@@ -149,7 +149,7 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 1. Connectez-vous à l'outil needle sur EBI. **Needle** est un programme qui fait des alignements globaux entre deux séquences.
 2. Choisissez DNA dans le champ **‘Sequence type'**.
 3. Entrez la séquence du gène (correctement orientée) dans le premier encadré et la séquence de l'ARNm dans le deuxième encadré. 
-**Astuce!** Copiez-collez les séquences ensemble avec leurs lignes d'identification (lignes commençant par le sign ‘>'). Les identifiants vont apparaître dans l'alignement. Ceci vous aide de savoir quelle séquence correspond au gène et la quelle à l'ARN.
+**Astuce!** Copiez-collez les séquences ensemble avec leurs lignes d'identification (lignes commençant par le signe `>`). Les identifiants vont apparaître dans l'alignement. Ceci vous aide de savoir quelle séquence correspond au gène et la quelle à l'ARN.
 4. Cliquer sur** ‘Submit'**.
 5. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
 6. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
@@ -180,7 +180,7 @@ BLAST fait des alignements locaux, ce qui veut dire qu'il alignera que des porti
 3. Entrez la séquence de l'ARNm dans le premier cadre (**Enter Query Sequence**) et la séquence la protéine dans le deuxième (**Enter Subject Sequence**).
 4. Cochez la case ‘**Show results in a new window**' pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
 5. Cliquez sur le bouton ‘BLAST' pour lancer l'alignement.
-6. Sur la page de résultats, dans l'onglet **‘Graphique Summary**', on peut voir que la protéine (représentée par une ligne rouge) s'aligne à peu près entre les positions 50 et 800 de l'ARNm (représenté par la ligne turquoise épaisse, notée **Query**).
+6. Sur la page de résultats, dans l'onglet **‘Graphic Summary**', on peut voir que la protéine (représentée par une ligne rouge) s'aligne à peu près entre les positions 50 et 800 de l'ARNm (représenté par la ligne turquoise épaisse, notée **Query**).
 7. Dans l'onglet **‘Alignments'**, on peut trouver les positions précises de début et de fin de l'alignement (81-818 pour ARNm 1-246 pour la protéine). Il y a 100 % d'identité sur la longueur totale de la protéine. Dans l'entête de l'alignement, **Frame +3** indique que l'alignement a été fait entre la protéine et la traduction de l'ARNm sur le brin+ dans la cadre de lecture 3.
 
 
@@ -242,9 +242,9 @@ Au cours de ce TP, nous avons vu qu'un gène d'eucaryote consiste en une success
 
 **Attention**, les exons ne sont pas nécessairement codants. 
 
-- Pour les gènes qui codent pour des protéines, les ARN messagers contiennent des régions non traduties en amont (5'UTR) et en aval (3'UTR). Ces UTR sont exoniques (on les retrouve dans la fraction cytoplasmique de l'ARN), mais ils ne sont pas traduits.
+- Pour les gènes qui codent pour des protéines, les ARN messagers contiennent des régions non traduites en amont (5'UTR) et en aval (3'UTR). Ces UTR sont exoniques (on les retrouve dans la fraction cytoplasmique de l'ARN), mais ils ne sont pas traduits.
 
-- Il existe des gènes à ARN (ARNt, ARNr), qui sont intrinsèquement non-codants, mais peuvent cependant faire l'objet d'épisage. 
+- Il existe des gènes à ARN (ARNt, ARNr), qui sont intrinsèquement non-codants, mais peuvent cependant faire l'objet d’épissage. 
 
 Nous pouvons aligner des séquences pour identifier les zones similaires entre elles.  Un alignement global (par exemple celui produit par le logiciel `needle`), bien paramétré, entre gène et ARNm, permet de détecter les limites des exons et les introns. 
 
