@@ -114,20 +114,33 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     ![](images/NCBI_gene_zoom.png)
 
-    c. La <font color="#008800">ligne verte</font> représente le gène, les <font color="#880088">lignes violettes</font> deux transcrits alternatifs de l'ARNm et les <font color="red">lignes rouges</font> les régions codantes de ces deux ARNm alternatifs. Les parties épaisses des lignes violettes et rouges sont respectivement les portions de séquence présentes dans l'ARNm mature (les exons)  et celles traduites en protéine (les parties codantes des exons). **Faites une capture d'écran ou laissez cette page ouverte, car vous aurez besoin de ce graphique plus tard**.
 
-    <p></p>
-    **Questions** (hors questionnaire)
+    **Lecture du graphique ci-dessus:** 
     
-      - Quelle est la taille du gène PDC ?
-      - Quelle est la taille du variant 1 d'ARNm ? 
-      - Comment expliquez-vous cette différence de taille ?
-      - Combien d'exons trouvez-vous dans l'ARNm variant 1 et variant 2 ?
-      - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
-      - Tous les exons sont-ils traduits en acides aminés sur toute leur longueur ?
-    <p></p>
+    - la <font color="#008800">**bande verte**</font> représente le gène
+    - les deux <font color="#880088">**bandes violettes**</font> les transcrits alternatifs, et les ARNm correspondants. Les lignes fines correspondent aux introns, les rectangles plus épais aux exons. L'ARN messager est donc la concaténation des parties épaisses. 
+    - les <font color="red">**lignes rouges**</font> associées à chaque transcrit correspondent à l'étendue qui va du codon start au codon stop, autrement dit le transcrit moins les UTR 5' et 3'. Les parties épaisses correspondent donc aux régions codantes (*coding sequences, CDS*), séparées par des introns. 
+    - les flèches indiquent le sens de la transcription. **Attention : ** sur le navigateur de gènes du NCBI, les gènes sont toujours affichés de gauche à droite, indépendamment de leur brin direct ou complémentaire. Pour les gènes situés sur le brin complémentaire, les coordonnées affichées en haut du graphique vont en décroissant.  
 
-    d. Quand vous posez la souris sur les lignes (sans cliquer) une boîte apparaît avec des informations détaillées, et les liens vers les séquences. Utilisez ces liens pour télécharger les séquences nucléiques du *gène*, du *variant 1* de l'ARNm et de l'*isoforme a* de la protéine en format FASTA et enregistrez-les. Pour chacun de ces trois objets, positionnez le curseur jusqu'à faire aparaître la boîte d'information, puis cliquez sur le lien "NC_..." à côté de *FASTA record*. 
+    <font bgcolor='#FFDDDD'><font color=red>**Veillez à laisser cet onglet ouvert pendant le reste du TP, car vous aurez besoin de revenir sur ce graphique à plusieurs reprises**.</font></font>
+    
+    c. Déplacez votre souris pour positionner le curseur au-dessus du gène *sans cliquer*. Une boîte apparaît, qui affiche des informations détaillées, et des liens vers les séquences. Prenez connaissance des informations affichées, puis déplacez votre curseur au-dessus des autres annotations – les deux transcrits violets, et les régions codantes associées. 
+
+    ![](images/NCBI_PDC_gene_details.png) 
+    
+    **Questions** (hors questionnaire)
+        
+    - Quelle est l'orientation du gène PDC ?
+    - Quelle est la taille du gène PDC ?
+    - Quelle est la taille du variant 1 d'ARNm ? 
+    - Comment expliquez-vous cette différence de taille ?
+    - Combien d'exons trouvez-vous dans l'ARNm variant 1 et variant 2 ?
+    - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
+    - Tous les exons sont-ils traduits en acides aminés sur toute leur longueur ?
+
+    d. Déplacez votre souris pour positionner le curseur au-dessus du gène *sans cliquer*. Une boîte apparaît, qui affiche des informations détaillées, et des liens vers les séquences. 
+
+    Utilisez ces liens pour télécharger les séquences nucléiques du *gène*, du *variant 1* de l'ARNm et de l'*isoforme a* de la protéine en format FASTA et enregistrez-les. Pour chacun de ces trois objets, positionnez le curseur jusqu'à faire aparaître la boîte d'information, puis cliquez sur le lien "NC_..." à côté de *FASTA record*. 
 
       | Information et liens (gène PDC)                    | Sauvegarder en format fasta     |
       |----------------------------------------------------|---------------------------------|
