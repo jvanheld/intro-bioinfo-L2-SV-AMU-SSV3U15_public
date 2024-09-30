@@ -19,6 +19,11 @@
 - Bénédicte Wirth
 - Aitor Gonzalez
 
+Révisé par 
+
+- Jacques van Helden
+- Gaël Chambonnnier
+
 ----------------------------------------------------------------
 
 ## Introduction
@@ -220,7 +225,8 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 
 
 ### Questionnaire TP2 – Exercice 2
-Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice 2.
+
+Allez sur le questionnaire de TP2 sur **Ametice** et répondez aux **questions de l'Exercice 2**.
 
 
 ----------------------------------------------------------------
@@ -234,12 +240,18 @@ Une autre possibilité est d'utiliser le logiciel BLAST. Le but original de BLAS
 L'avantage est que BLAST peut comparer des séquences de différentes natures (séquences protéiques ou nucléiques) en faisant la traduction automatique des séquences nucléiques dans les 6 cadres de lecture possibles (3 sur le brin+ et 3 sur le brin-). Il alignera ensuite les traductions des séquences nucléiques avec les séquences protéiques. 
 BLAST fait des alignements locaux, ce qui veut dire qu'il alignera que des portions des séquences qui sont similaires.
 
-1. Connectez-vous à l'[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastx**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences protéiques.
-2. Cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
+1. Connectez-vous au site Web [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) ([blast.ncbi.nlm.nih.gov](https://blast.ncbi.nlm.nih.gov/)) et choisissez **blastx**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences protéiques.
+
+2. Cochez la case **'Align two or more sequences'**. Le cadre "Choose search set" est remplacé par un cadre "**Enter Subject Sequence**".
+
 3. Entrez la séquence de l'ARNm dans le premier cadre (**Enter Query Sequence**) et la séquence la protéine dans le deuxième (**Enter Subject Sequence**).
+
 4. Cochez la case **'Show results in a new window'** pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
+
 5. Cliquez sur le bouton 'BLAST' pour lancer l'alignement.
+
 6. Sur la page de résultats, dans l'onglet **'Graphic Summary'**, on peut voir que la protéine (représentée par une ligne rouge) s'aligne à peu près entre les positions 50 et 800 de l'ARNm (représenté par la ligne turquoise épaisse, notée **Query**).
+
 7. Dans l'onglet **'Alignments'**, on peut trouver les positions précises de début et de fin de l'alignement (81-818 pour ARNm 1-246 pour la protéine). Il y a 100 % d'identité sur la longueur totale de la protéine. Dans l'entête de l'alignement, **Frame +3** indique que l'alignement a été fait entre la protéine et la traduction de l'ARNm sur le brin+ dans la cadre de lecture 3.
 
 
@@ -255,11 +267,12 @@ Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utilis
 
 1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/) et trouvez l'outil **'Translate'** dans le menu à gauche.
 2. Traduisez l'ARNm sur le brin direct dans la cadre de lecture 3. Nous avons une séquence humaine, d'un gène nucléaire. Quel Code génétique allez-vous utiliser ?
-3. Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
-4. Choisissez Protein dans le champ **'Sequence type'**.
-5. Entrez la **séquence traduite de l'ARNm** et la séquence de la **protéine** dans les deux cases suivantes.
-6. Cliquer sur **Submit**.
-7. Regardez l'alignement. Est-ce cohérent de vos attentes ?
+3. Copiez la séquence peptidique (format fasta) obtenue par la traduction de l'ARNm 
+4 Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
+5. Choisissez Protein dans le champ **'Sequence type'**.
+6. Entrez la **séquence traduite de l'ARNm** et la séquence de la **protéine** dans les deux cases suivantes.
+7. Cliquer sur **Submit**.
+8. Regardez l'alignement. Est-ce cohérent de vos attentes ?
 
 
 ### Questionnaire TP2 – Exercice 4
@@ -282,7 +295,7 @@ Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche qu
 5. Cliquez sur le bouton 'BLAST' pour lancer l'alignement.
 6. Sur la page de résultats
 
-   a. Dans l'onglet **'Graphique Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
+   a. Dans l'onglet **'Graphic Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
 
    b. Dans l'onglet **'Alignements'** vous trouvez 4 alignements locaux.
 
