@@ -30,10 +30,10 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 
 ## Travaux pratiques
 
-| TP | Titre et lien |
-|:---:|:------------------------------------------------------|
-| 1 | [Séquence - structure - fonction](TP/TP1/) |
-| 2 | [Du gène à la protéine](TP/TP2/) |
+| TP | Titre et lien | Tutoriels et exercices |
+|:---:|:------------------------------------------------------|:-----------:|
+| 1 | Séquence - structure - fonction | [tuto/exo TP1](TP/TP1/) |
+| 2 | Du gène à la protéine | [tuto/exo TP2](TP/TP2/) |
 | 3 | Du gène au génome et au protéome |
 | 4 | Alignements par paires et alignements multiples |
 | 5 | Inférence phylogénétique |
