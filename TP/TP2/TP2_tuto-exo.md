@@ -142,7 +142,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     a. Connectez-vous à SMS ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
    
-    b. Générez le "reverse complément"" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
+    b. Générez le "reverse complément" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
 
 ### Questionnaire TP2 – Exercice 1
 Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice 1.
@@ -152,16 +152,16 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 ## Exercice 2 - Comparaison d'un gène et de son ARNm - alignement global avec needle
 
-Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d'ARNm afin d'identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.  
+Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d'ARNm afin d'identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.
 
 ![zoom on a gene](images/NCBI_gene_zoom.png)
 
 
-1. Connectez-vous à l'outil needle sur EBI. **Needle** est un programme qui fait des alignements globaux entre deux séquences.
-2. Choisissez DNA dans le champ **'Sequence type'**.
+1. Connectez-vous à l'outil needle sur EBI. [Needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle) est un programme qui fait des alignements globaux entre deux séquences.
+2. Choisissez DNA dans le champ **Sequence type**.
 3. Entrez la séquence du gène (correctement orientée) dans le premier encadré et la séquence de l'ARNm dans le deuxième encadré. 
 **Astuce!** Copiez-collez les séquences ensemble avec leurs lignes d'identification (lignes commençant par le signe `>`). Les identifiants vont apparaître dans l'alignement. Ceci vous aide de savoir quelle séquence correspond au gène et la quelle à l'ARN.
-4. Cliquer sur **'Submit'**.
+4. Cliquer sur **Submit**.
 5. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
 6. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
 
@@ -192,7 +192,7 @@ BLAST fait des alignements locaux, ce qui veut dire qu'il alignera que des porti
 2. Cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
 3. Entrez la séquence de l'ARNm dans le premier cadre (**Enter Query Sequence**) et la séquence la protéine dans le deuxième (**Enter Subject Sequence**).
 4. Cochez la case **'Show results in a new window'** pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
-5. Cliquez sur le bouton ‘BLAST' pour lancer l'alignement.
+5. Cliquez sur le bouton 'BLAST' pour lancer l'alignement.
 6. Sur la page de résultats, dans l'onglet **'Graphic Summary'**, on peut voir que la protéine (représentée par une ligne rouge) s'aligne à peu près entre les positions 50 et 800 de l'ARNm (représenté par la ligne turquoise épaisse, notée **Query**).
 7. Dans l'onglet **'Alignments'**, on peut trouver les positions précises de début et de fin de l'alignement (81-818 pour ARNm 1-246 pour la protéine). Il y a 100 % d'identité sur la longueur totale de la protéine. Dans l'entête de l'alignement, **Frame +3** indique que l'alignement a été fait entre la protéine et la traduction de l'ARNm sur le brin+ dans la cadre de lecture 3.
 
@@ -212,7 +212,7 @@ Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utilis
 3. Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
 4. Choisissez Protein dans le champ **'Sequence type'**.
 5. Entrez la **séquence traduite de l'ARNm** et la séquence de la **protéine** dans les deux cases suivantes.
-6. Cliquer sur 'Submit'.
+6. Cliquer sur **Submit**.
 7. Regardez l'alignement. Est-ce cohérent de vos attentes ?
 
 
