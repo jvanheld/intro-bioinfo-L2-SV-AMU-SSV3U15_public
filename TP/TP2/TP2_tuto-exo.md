@@ -118,9 +118,12 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     **Lecture du graphique ci-dessus:** 
     
     - la <font color="#008800"><b>bande verte</b></font> représente le gène
+    
     - les deux <font color="#880088"><b>bandes violettes</b></font> les transcrits alternatifs, et les ARNm correspondants. Les lignes fines correspondent aux introns, les rectangles plus épais aux exons. L'ARN messager est donc la concaténation des parties épaisses. 
+    
     - les <font color="red"><b>lignes rouges</b></font> associées à chaque transcrit correspondent à l'étendue qui va du codon start au codon stop, autrement dit le transcrit moins les UTR 5' et 3'. Les parties épaisses correspondent donc aux régions codantes (*coding sequences, CDS*), séparées par des introns. 
-    - les flèches indiquent le sens de la transcription. **Attention : ** sur le navigateur de gènes du NCBI, les gènes sont toujours affichés de gauche à droite, indépendamment de leur brin direct ou complémentaire. Pour les gènes situés sur le brin complémentaire, les coordonnées affichées en haut du graphique vont en décroissant.  
+    
+    - les flèches indiquent le sens de la transcription. **Attention :** sur le navigateur de gènes du NCBI, les gènes sont toujours affichés de gauche à droite, indépendamment de leur brin direct ou complémentaire. Pour les gènes situés sur le brin complémentaire, les coordonnées affichées en haut du graphique vont en décroissant.  
 
     <font color=red><b>Veillez à laisser cet onglet ouvert pendant le reste du TP, car vous aurez besoin de revenir sur ce graphique à plusieurs reprises.</b></font>
     
@@ -132,28 +135,32 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
         
     - Quelle est l'orientation du gène PDC ?
     - Quelle est la taille du gène PDC ?
-    - Quelle est la taille du variant 1 d'ARNm ? 
+    - Quelle est l'étendue du transcrit variant 1 ?
+    - Quelle est la longueur de l'ARNm correspondant ? 
     - Comment expliquez-vous cette différence de taille ?
     - Combien d'exons trouvez-vous dans l'ARNm variant 1 et variant 2 ?
     - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
     - Tous les exons sont-ils traduits en acides aminés sur toute leur longueur ?
 
-    d. Déplacez votre souris pour positionner le curseur au-dessus du gène *sans cliquer*. Une boîte apparaît, qui affiche des informations détaillées, et des liens vers les séquences. 
+    <p></p>
+    **Obtention des séquences**
 
-    Utilisez ces liens pour télécharger les séquences nucléiques du *gène*, du *variant 1* de l'ARNm et de l'*isoforme a* de la protéine en format FASTA et enregistrez-les. Pour chacun de ces trois objets, positionnez le curseur jusqu'à faire aparaître la boîte d'information, puis cliquez sur le lien "NC_..." à côté de *FASTA record*. 
+    d. Les boîtes d'information des gènes, transcrits ou régions codantes permettent également d'obtenir leur séquence. Déplacez à nouveau votre souris pour positionner le curseur au-dessus du gène *sans cliquer*. Dans la boîte d'informations détaillées, cliquez sur le lien qui apparaît à côté de FASTA record (astuce: les identifiants des séquences génomiques du NCBI commencent par "NC_""). Ceci ouvre un nouvel onglet avec la séquence génomique du gène PDC. 
 
-      | Information et liens (gène PDC)                    | Sauvegarder en format fasta     |
-      |----------------------------------------------------|---------------------------------|
-      | ![](images/NCBI_PDC_gene_details.png)              | ![](images/NCBI_save-fasta.png) |
+
+    e. Sélectionnez l'ensemble de la séquence, en veillant à inclure la ligne d'en-tête (caractéristique du format de séquence FASTA), et à descendre jusqu'au bas de la page. La ligne d'en-tête (figure ci-dessous) commence par un '>', suivi de l'identifiant de la séquence chromosomique et de l'étendue de la région d'intérêt (`NC_000001.11:186443566-186461114`), et de quelques informations optionnelles. 
+
+    ![](images/NCBI_PDC_gene_fasta_selection.png)
 
     **Questions**  (hors questionnaire)
     - Sur quel chromosome se trouve le gène ?
     - Quelles sont les coordonnées du gène (position de début et fin) sur le chromosome ?
-    - Le gène se trouve-t-il sur le brin + ou le brin - ?
+    - Le gène est-il situé sur le brin + ou - ?
+    - La séquence affichée correspond-elle au brin + ou - ? (basez vous sur les coordonnées)
 
 4. La séquence téléchargée du gène est un extrait du brin direct (ou brin plus) du chromosome. Il faut donc utiliser la séquence complémentaire de cette séquence pour orienter correctement la séquence du gène.
 
-    a. Connectez-vous à SMS ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
+    a. Connectez-vous au site **SMS** ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
    
     b. Générez le "reverse complément" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
 
