@@ -224,15 +224,10 @@ Utilisons maintenant le logiciel BLAST, pour comparer le gène et sa transcripti
 Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche que des régions significativement similaires. On peut aussi profiter des différents affichages graphiques des résultats.
 
 1. Connectez-vous à l'[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastn**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques.
-
 2. Cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
-
 3. Entrez la séquence de gène correctement orienté dans le premier cadre (**Enter Query Sequence**) et la séquence l'ARNm mature dans le deuxième (**Enter Subject Sequence**).
-
 4. Cochez la case **'Show results in a new window'** pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
-
 5. Cliquez sur le bouton 'BLAST' pour lancer l'alignement.
-
 6. Sur la page de résultats
 
    a. Dans l'onglet **'Graphique Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
