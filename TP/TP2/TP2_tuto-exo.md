@@ -158,8 +158,10 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 4. Cliquer sur **'Submit'**.
 5. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
 6. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
-    a. Suivez la même procédure que précédemment, mais dans le champ **'Parameters'** cliquer sur **'More options'**.
-    b. Réglez
+
+   a. Suivez la même procédure que précédemment, mais dans le champ **'Parameters'** cliquer sur **'More options'**.
+
+   b. Réglez
     - GAP OPEN : 100
     - GAP EXTEND : 0
     - Laissez les autres paramètres à leurs valeurs par défaut.
@@ -202,7 +204,7 @@ Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utilis
 1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/) et trouvez l'outil **'Translate'** dans le menu à gauche.
 2. Traduisez l'ARNm sur le brin direct dans la cadre de lecture 3. Nous avons une séquence humaine, d'un gène nucléaire. Quel Code génétique allez-vous utiliser ?
 3. Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
-4. Choisissez Protein dans le champ **'Sequence type'**
+4. Choisissez Protein dans le champ **'Sequence type'**.
 5. Entrez la **séquence traduite de l'ARNm** et la séquence de la **protéine** dans les deux cases suivantes.
 6. Cliquer sur 'Submit'.
 7. Regardez l'alignement. Est-ce cohérent de vos attentes ?
@@ -233,9 +235,11 @@ Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche qu
 
 6. Sur la page de résultats
 
-    a. Dans l'onglet **'Graphique Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
-    b. Dans l'onglet **'Alignements'** vous trouvez 4 alignements locaux.
-    c. L'onglet **'Dot Plot'** est une représentation visuelle des alignements. En abscisse vous trouvez les positions dans le gène, en ordonnée les positions de ARNm. Les lignes obliques montrent des régions où le gène et l'ARNm s'alignent.
+   a. Dans l'onglet **'Graphique Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
+
+   b. Dans l'onglet **'Alignements'** vous trouvez 4 alignements locaux.
+
+   c. L'onglet **'Dot Plot'** est une représentation visuelle des alignements. En abscisse vous trouvez les positions dans le gène, en ordonnée les positions de ARNm. Les lignes obliques montrent des régions où le gène et l'ARNm s'alignent.
 
 
 ### Questionnaire TP2 – Exercice 5
