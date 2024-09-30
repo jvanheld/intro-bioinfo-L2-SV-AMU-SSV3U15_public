@@ -106,26 +106,28 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
 3. Sur la page de résultats du gène **PDC (ID : 5132)**, Descendez descendez jusqu'à la section ‘**Genomic regions, transcripts, and products**' ou cliquez sur le lien correspondant dans le panneau de droite. Ceci vous affiche une carte avec plusieurs pistes d'annotations génomiques.  Nous allons nous intéresser plus particulièrement à la piste ‘**NCBI RefSeq Annotation**'.
 
-    a. Supprimez les champs qui ne nous intéressent pas pour le moment, en cliquant sur les croix en haut à droite de chaque piste d'annotation (voir illustration ci-dessous). La partie supérieure du navigateur affiche une série d'icônes permettant de configurer la représentation. En déplaçant votre souris sur les  icônes, une description s'affiche pour chaque outil. Identifiez l'icône  ‘**Switch ON mode "Show all" for Gene Tracks**' (entourée sur l'illustration ci-dessous). Activez cette option, qui affichera les transcrits alternatifs (violet) et régions codantes (rouge). 
+    a. Supprimez les champs qui ne nous intéressent pas pour le moment, en cliquant sur les croix en haut à droite de chaque piste d'annotation (cercles rouges sur l'illustration ci-dessous). La partie supérieure du navigateur affiche une série d'icônes permettant de configurer la représentation. En déplaçant votre souris sur les  icônes, une description s'affiche pour chaque outil. Identifiez l'icône  ‘**Switch ON mode "Show all" for Gene Tracks**' (enourée en marron sur l'illustration ci-dessous). Activez cette option, qui affichera les transcrits alternatifs et régions codantes. 
 
-    ![](images/NCBI_show_all.png)
+    ![](images/NCBI_gene_tracks.png)
     
-    b. Sur l'affichage dans le champ ‘**NCBI RefSeq Annotation**', vous pouvez utiliser les boutons **Zoom In** et **Zoom Out** pour que la totalité du gène apparaisse sur votre écran, et les flèches pour centrer l'affichage sur le gène.
+    b. Dans cette même barre d'outils, vous pouvez utiliser les boutons **Zoom In** et **Zoom Out** pour que la totalité du gène occupe une proportion plus ou moins grande sur votre écran, et les flèches pour modifier le centrage de l'image. Vous pouvez également modifier le centrage en cliquant sur l'image pour la faire glisser à gauche ou à droite. Ceci vous permet notamment d'observer le voisinage du gène (régions intergéniques, gènes voisins).
 
     ![](images/NCBI_gene_zoom.png)
 
-    c. La ligne verte représente le gène, les lignes violettes deux transcrits alternatifs de l'ARNm et les lignes rouges les protéines codées par ces deux variants d'ARNm. Les parties épaisses des lignes violettes et rouges sont respectivement les portions de séquence présentes dans l'ARNm mature  et traduites en protéine. Faites une capture d'écran ou laissez cette page ouverte, car vous aurez besoin de ce graphique plus tard.
+    c. La <font color="#008800">ligne verte</font> représente le gène, les <font color="#880088">lignes violettes</font> deux transcrits alternatifs de l'ARNm et les <font color="red">lignes rouges</font> les régions codantes de ces deux ARNm alternatifs. Les parties épaisses des lignes violettes et rouges sont respectivement les portions de séquence présentes dans l'ARNm mature (les exons)  et celles traduites en protéine (les parties codantes des exons). **Faites une capture d'écran ou laissez cette page ouverte, car vous aurez besoin de ce graphique plus tard**.
 
+    <p></p>
     **Questions** (hors questionnaire)
     
-    - Quelle est la taille du gène PDC ?
-    - Quelle est la taille du variant 1 d'ARNm ? 
-    - Comment expliquez-vous cette différence de taille ?
-    - Combien d'exons trouvez-vous dans l'ARNm variant 1 et variant 2 ?
-    - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
-    - Tous les exons sont-ils traduits en acides aminés sur toutes leurs longueurs ?
+      - Quelle est la taille du gène PDC ?
+      - Quelle est la taille du variant 1 d'ARNm ? 
+      - Comment expliquez-vous cette différence de taille ?
+      - Combien d'exons trouvez-vous dans l'ARNm variant 1 et variant 2 ?
+      - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
+      - Tous les exons sont-ils traduits en acides aminés sur toute leur longueur ?
+    <p></p>
 
-    d. Quand vous posez la souris sur les lignes (sans cliquer) une boîte apparaît avec des informations essentielles, et les liens vers les séquences. Utilisez ces liens pour télécharger les séquences du gène, du variant 1 de l'ARNm et de l'isoforme a de la protéine en format FASTA et enregistrez-les.
+    d. Quand vous posez la souris sur les lignes (sans cliquer) une boîte apparaît avec des informations détaillées, et les liens vers les séquences. Utilisez ces liens pour télécharger les séquences du gène, du *variant 1* de l'ARNm et de l'*isoforme a* de la protéine en format FASTA et enregistrez-les.
     
     **Questions**  (hors questionnaire)
     - Sur quel chromosome se trouve le gène ?
