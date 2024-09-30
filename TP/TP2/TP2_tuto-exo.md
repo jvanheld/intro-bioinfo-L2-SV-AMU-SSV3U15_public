@@ -47,7 +47,7 @@ Nous nous baserons sur le cas d'étude suivant.
 
 ### Notions abordées
 
-Dans ce TP, nous mettrons en pratique plusieurs notions abordées lors des CM :
+Dans ce TP, nous mettrons en pratique plusieurs notions abordées lors des CM :
 
 - gène, exon, intron, UTR,
 - alignement par paire,
@@ -83,7 +83,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 ## Exercice 1 - Téléchargement des séquences à partir de NCBI Gene
 
 1. Connectez-vous à la base de données [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/).
-2. Effectuez une recherche avancée pour trouver des séquences de **Phosducin** chez l'**humain**. Pour cela :
+2. Effectuez une recherche avancée pour trouver des séquences de **Phosducin** (nom de gène **PDC**) chez l'**humain**. Pour cela :
 
     a. Cliquez sur ‘**Advanced**' en dessous de la boîte de recherche sur la page d'accueil de la base de données. 
     
@@ -93,26 +93,26 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     
     c. Dans le second menu déroulant, choisissez ‘**Gene name**' et entrez ‘**PDC**' dans la boîte de recherche à côté, pour spécifier que vous cherchez le gène PDC (abréviation de Phosducin).
     
-    d. Les deux expressions de recherche **Homo sapiens[Organism]** et **PDC[Gene Name]** sont automatiquement connectées par le connecteur logique **AND**, pour spécifier que les deux conditions doivent être remplies à la fois. Ceci correspond à notre but, mais dans d'autres cas, il est possible de changer le connecteur logique en OR ou NOT selon les besoins (cf le petit menu déroulant correspondant).
+    d. Les deux expressions de recherche `Homo sapiens[Organism]` et `PDC[Gene Name]` sont automatiquement connectées par le connecteur logique `AND`, pour spécifier que les deux conditions doivent être remplies à la fois. Ceci correspond à notre but, mais dans d'autres cas, il est possible de changer le connecteur logique en `OR` ou `NOT` selon les besoins (cf le petit menu déroulant correspondant).
     
-    e. La phrase de recherche **(Homo sapiens[Organism]) AND PDC[Gene Name]** apparait dans la boite de recherche principale (en haut).
+    e. La phrase de recherche `(Homo sapiens[Organism]) AND PDC[Gene Name]` apparait dans la boite de recherche principale (en haut).
     
-    ![homo PDC](images/NCBI_homo_PDC.png)
+    ![](images/NCBI_homo_PDC.png)
     
     f. Cliquez sur **Search**.
 
     g. Parmi les résultats obtenus, cliquez sur la ligne avec le nom de gène **PDC (ID : 5132)**. L'autre résultat apparaît car PDC est un nom alternatif pour le gène PNDK. Ceci ne nous intéresse pas pour le moment.
 
 
-3. Sur la page de résultats du gène **PDC (ID : 5132)**, intéressons-nous à la section ‘**Genomic regions, transcripts, and products**' et particulièrement au champ ‘**NCBI RefSeq Annotation**'.
+3. Sur la page de résultats du gène **PDC (ID : 5132)**, Descendez descendez jusqu'à la section ‘**Genomic regions, transcripts, and products**' ou cliquez sur le lien correspondant dans le panneau de droite. Ceci vous affiche une carte avec plusieurs pistes d'annotations génomiques.  Nous allons nous intéresser plus particulièrement à la piste ‘**NCBI RefSeq Annotation**'.
 
-    a. Éliminez les champs qui ne nous intéressent pas pour le moment, en utilisant les croix en haut à droite de chaque champ. Puis, cliquez sur le bouton ‘**Switch ON mode "Show all" for Gene Tracks**'.
+    a. Supprimez les champs qui ne nous intéressent pas pour le moment, en cliquant sur les croix en haut à droite de chaque piste d'annotation (voir illustration ci-dessous). La partie supérieure du navigateur affiche une série d'icônes permettant de configurer la représentation. En déplaçant votre souris sur les  icônes, une description s'affiche pour chaque outil. Identifiez l'icône  ‘**Switch ON mode "Show all" for Gene Tracks**' (entourée sur l'illustration ci-dessous). Activez cette option, qui affichera les transcrits alternatifs (violet) et régions codantes (rouge). 
 
-    ![show all](images/NCBI_show_all.png)
+    ![](images/NCBI_show_all.png)
     
-    b. Sur l'affichage dans le champ ‘NCBI RefSeq Annotation', vous pouvez utiliser les boutons Zoom In et Zoom Out pour que la totalité du gène apparaisse sur votre écran, et les flèches pour centrer l'affichage sur le gène.
+    b. Sur l'affichage dans le champ ‘**NCBI RefSeq Annotation**', vous pouvez utiliser les boutons **Zoom In** et **Zoom Out** pour que la totalité du gène apparaisse sur votre écran, et les flèches pour centrer l'affichage sur le gène.
 
-    ![zoom on a gene](images/NCBI_gene_zoom.png)
+    ![](images/NCBI_gene_zoom.png)
 
     c. La ligne verte représente le gène, les lignes violettes deux transcrits alternatifs de l'ARNm et les lignes rouges les protéines codées par ces deux variants d'ARNm. Les parties épaisses des lignes violettes et rouges sont respectivement les portions de séquence présentes dans l'ARNm mature  et traduites en protéine. Faites une capture d'écran ou laissez cette page ouverte, car vous aurez besoin de ce graphique plus tard.
 
