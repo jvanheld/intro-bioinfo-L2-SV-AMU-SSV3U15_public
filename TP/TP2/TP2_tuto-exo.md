@@ -182,7 +182,6 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 ![](images/NCBI_PDC_variant1_CDS_detail.png){width=500}
 
 
-
 ### Questionnaire TP2 – Exercice 1
 
 Sur Ametice, ouvrez le questionnaire du TP2 et répondez aux questions de l'Exercice 1.
@@ -199,11 +198,18 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 
 1. Connectez-vous à l'outil [needle sur EBI](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle). Needle est un logiciel qui fait des **alignements globaux entre deux séquences**.
 2. Choisissez DNA dans le champ **Sequence type**.
-3. Entrez la séquence du gène (correctement orientée) dans le premier encadré et la séquence de l'ARNm dans le deuxième encadré. 
-**Astuce !** Quand vous copiez une séquence en format FASTA, veillez à inclure les en-têtes d'identification (lignes commençant par le signe `>`). Ces identifiants apparaîtront alors dans l'alignement, ce qui vous aidera à savoir quelle séquence correspond au gène ou à l'ARN.
-4. Cliquer sur **Submit**.
-5. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
-6. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
+3. Entrez la séquence du gène (correctement orientée) dans le premier encadré 
+4. Revenez à l'onglet avec l'ARNm de PDC, copiez la séquence de l'ARNm (en incluant l'en-tête fasta), et collez-la dans le deuxième encadré. 
+
+    **Astuce !** Quand vous copiez une séquence en format FASTA, veillez à inclure les en-têtes d'identification (lignes commençant par le signe `>`). Ces identifiants apparaîtront alors dans l'alignement, ce qui vous aidera à savoir quelle séquence correspond au gène ou à l'ARN.
+
+5. Ajoutez un titre pour vous souvenir de la comparaison, par exemple "PDC gene versus mRNA". 
+
+6. Cliquez **Submit**.
+
+7. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
+
+8. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
 
    a. Suivez la même procédure que précédemment, mais dans le champ **'Parameters'** cliquer sur **'More options'**.
 
