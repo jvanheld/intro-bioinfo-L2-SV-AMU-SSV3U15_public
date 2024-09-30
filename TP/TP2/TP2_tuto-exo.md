@@ -3,7 +3,7 @@
 ## Table des matières
 
 - [Introduction](#introduction)
-- [Ressources informatiques](#ressources-informatiques) 
+- [Ressources bioinformatiques](#ressources-bioinformatiques) 
 - [Exercice 1 - Téléchargement des séquences à partir de NCBI Gene](#exercice-1---téléchargement-des-séquences-à-partir-de-ncbi-gene)
 - [Exercice 2 - Comparaison d'un gène et de son ARNm - alignement global avec needle](#exercice-2---comparaison-dun-gène-et-de-son-arnm---alignement-global-avec-needle)
 - [Exercice 3 - Comparaison de l'ARNm et de la protéine - alignement local avec BLAST](#exercice-3---comparaison-de-larnm-et-de-la-protéine---alignement-local-avec-blast)
@@ -68,10 +68,10 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
 ----------------------------------------------------------------
 
-## Ressources informatiques
+## Ressources bioinformatiques
 
 | Ressource | Lien | Description |
-|:---------|:--------------------------|:-------------------------------------------|
+|:---------|:-----------------|:-------------------------------------------------------|
 | NCBI gene | [https://www.ncbi.nlm.nih.gov/gene/](https://www.ncbi.nlm.nih.gov/gene/) | Base de données de gènes hébergée par NCBI |
 | Sequence Manipulation Suite (**SMS**) | [http://www.bioinformatics.org/sms2/](http://www.bioinformatics.org/sms2/) |  Large gammes d'outils pour la manipulation des séquences biologiques (traduction, réverse complément, ORFfinder...) |
 | needle | [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle)  |  Algorithme d'alignement par paire (méthode de Needleman-Wunsch, exacte, produisant des alignements globaux) |
@@ -117,12 +117,12 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     **Lecture du graphique ci-dessus:** 
     
-    - la <font color="#008800">**bande verte**</font> représente le gène
-    - les deux <font color="#880088">**bandes violettes**</font> les transcrits alternatifs, et les ARNm correspondants. Les lignes fines correspondent aux introns, les rectangles plus épais aux exons. L'ARN messager est donc la concaténation des parties épaisses. 
-    - les <font color="red">**lignes rouges**</font> associées à chaque transcrit correspondent à l'étendue qui va du codon start au codon stop, autrement dit le transcrit moins les UTR 5' et 3'. Les parties épaisses correspondent donc aux régions codantes (*coding sequences, CDS*), séparées par des introns. 
+    - la <font color="#008800"><b>bande verte</b></font> représente le gène
+    - les deux <font color="#880088"><b>bandes violettes</b></font> les transcrits alternatifs, et les ARNm correspondants. Les lignes fines correspondent aux introns, les rectangles plus épais aux exons. L'ARN messager est donc la concaténation des parties épaisses. 
+    - les <font color="red"><b>lignes rouges</b></font> associées à chaque transcrit correspondent à l'étendue qui va du codon start au codon stop, autrement dit le transcrit moins les UTR 5' et 3'. Les parties épaisses correspondent donc aux régions codantes (*coding sequences, CDS*), séparées par des introns. 
     - les flèches indiquent le sens de la transcription. **Attention : ** sur le navigateur de gènes du NCBI, les gènes sont toujours affichés de gauche à droite, indépendamment de leur brin direct ou complémentaire. Pour les gènes situés sur le brin complémentaire, les coordonnées affichées en haut du graphique vont en décroissant.  
 
-    <font bgcolor='#FFDDDD'><font color=red>**Veillez à laisser cet onglet ouvert pendant le reste du TP, car vous aurez besoin de revenir sur ce graphique à plusieurs reprises**.</font></font>
+    <font color=red><b>Veillez à laisser cet onglet ouvert pendant le reste du TP, car vous aurez besoin de revenir sur ce graphique à plusieurs reprises.</b></font>
     
     c. Déplacez votre souris pour positionner le curseur au-dessus du gène *sans cliquer*. Une boîte apparaît, qui affiche des informations détaillées, et des liens vers les séquences. Prenez connaissance des informations affichées, puis déplacez votre curseur au-dessus des autres annotations – les deux transcrits violets, et les régions codantes associées. 
 
