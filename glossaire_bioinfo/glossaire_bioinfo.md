@@ -17,6 +17,8 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
 - [BLAST: une famille d'outils pour la recherche de séquences par similarités](#blast)
 
+   - [Modalités de BLAST](#blast_modes)
+
 
 []{#matrices_substitutions}
 
@@ -274,7 +276,7 @@ et le résultat est analysé avec l'algorithme blastp.
                     les 6 cadres)                           coder pour un
                                                             homologue d'une
                                                             protéine
-                                                            d'intéret.
+                                                            d'intérêt.
                                                             
                                                             Identifier dans
                                                             un génome les
