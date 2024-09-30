@@ -104,7 +104,9 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     g. Parmi les résultats obtenus, cliquez sur la ligne avec le nom de gène **PDC (ID : 5132)**. L'autre résultat apparaît car PDC est un nom alternatif pour le gène PNDK. Ceci ne nous intéresse pas pour le moment.
 
 
-3. Sur la page de résultats du gène **PDC (ID : 5132)**, Descendez descendez jusqu'à la section ‘**Genomic regions, transcripts, and products**' ou cliquez sur le lien correspondant dans le panneau de droite. Ceci vous affiche une carte avec plusieurs pistes d'annotations génomiques.  Nous allons nous intéresser plus particulièrement à la piste ‘**NCBI RefSeq Annotation**'.
+3. Sur la page de résultats du gène **PDC (ID : 5132)**
+
+3. Descendez jusqu'à la section ‘**Genomic regions, transcripts, and products**' ou cliquez sur le lien correspondant dans le panneau de droite. Ceci vous affiche une carte avec plusieurs pistes d'annotations génomiques.  Nous allons nous intéresser plus particulièrement à la piste ‘**NCBI RefSeq Annotation**'.
 
     a. Supprimez les champs qui ne nous intéressent pas pour le moment, en cliquant sur les croix en haut à droite de chaque piste d'annotation (cercles rouges sur l'illustration ci-dessous). La partie supérieure du navigateur affiche une série d'icônes permettant de configurer la représentation. En déplaçant votre souris sur les  icônes, une description s'affiche pour chaque outil. Identifiez l'icône  ‘**Switch ON mode "Show all" for Gene Tracks**' (enourée en marron sur l'illustration ci-dessous). Activez cette option, qui affichera les transcrits alternatifs et régions codantes. 
 
@@ -156,11 +158,11 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 ![zoom on a gene](images/NCBI_gene_zoom.png)
 
 
-1. Connectez-vous à l'outil needle sur EBI. **Needle** est un programme qui fait des alignements globaux entre deux séquences.
-2. Choisissez DNA dans le champ **‘Sequence type'**.
+1. Connectez-vous à l'outil needle sur EBI. [Needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle) est un programme qui fait des alignements globaux entre deux séquences.
+2. Choisissez DNA dans le champ **Sequence type**.
 3. Entrez la séquence du gène (correctement orientée) dans le premier encadré et la séquence de l'ARNm dans le deuxième encadré. 
 **Astuce!** Copiez-collez les séquences ensemble avec leurs lignes d'identification (lignes commençant par le signe `>`). Les identifiants vont apparaître dans l'alignement. Ceci vous aide de savoir quelle séquence correspond au gène et la quelle à l'ARN.
-4. Cliquer sur** ‘Submit'**.
+4. Cliquer sur **Submit**.
 5. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
 6. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
     a. Suivez la même procédure que précédemment, mais dans le champ **‘Parameters' **cliquer sur **‘More options'**.
@@ -239,7 +241,9 @@ Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche qu
 6. Sur la page de résultats
 
     a. Dans l'onglet **‘Graphique Summary**', la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
+    
     b. Dans l'onglet **‘Alignements'** vous trouvez 4 alignements locaux.
+    
     c. L'onglet ‘**Dot Plot**' est une représentation visuelle des alignements. En abscisse vous trouvez les positions dans le gène, en ordonnée les positions de ARNm. Les lignes obliques montrent des régions où le gène et l'ARNm s'alignent.
 
 
