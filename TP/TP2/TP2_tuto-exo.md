@@ -127,8 +127,12 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
       - Tous les exons sont-ils traduits en acides aminés sur toute leur longueur ?
     <p></p>
 
-    d. Quand vous posez la souris sur les lignes (sans cliquer) une boîte apparaît avec des informations détaillées, et les liens vers les séquences. Utilisez ces liens pour télécharger les séquences du gène, du *variant 1* de l'ARNm et de l'*isoforme a* de la protéine en format FASTA et enregistrez-les.
-    
+    d. Quand vous posez la souris sur les lignes (sans cliquer) une boîte apparaît avec des informations détaillées, et les liens vers les séquences. Utilisez ces liens pour télécharger les séquences nucléiques du *gène*, du *variant 1* de l'ARNm et de l'*isoforme a* de la protéine en format FASTA et enregistrez-les. Pour chacun de ces trois objets, positionnez le curseur jusqu'à faire aparaître la boîte d'information, puis cliquez sur le lien "NC_..." à côté de *FASTA record*. 
+
+      | Information et liens (gène PDC)                    | Sauvegarder en format fasta     |
+      |----------------------------------------------------|---------------------------------|
+      | ![](images/NCBI_PDC_gene_details.png)              | ![](images/NCBI_save-fasta.png) |
+
     **Questions**  (hors questionnaire)
     - Sur quel chromosome se trouve le gène ?
     - Quelles sont les coordonnées du gène (position de début et fin) sur le chromosome ?
