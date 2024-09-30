@@ -72,7 +72,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
 | Ressource | Lien | Description |
 |:---------|:--------------------------|:-------------------------------------------|
-| NCBI gene | [https://www.ncbi.nlm.nih.gov/gene/](https://www.ncbi.nlm.nih.gov/gene/) | Base de données des gène hébergée par NCBI |
+| NCBI gene | [https://www.ncbi.nlm.nih.gov/gene/](https://www.ncbi.nlm.nih.gov/gene/) | Base de données de gènes hébergée par NCBI |
 | Sequence Manipulation Suite (**SMS**) | [http://www.bioinformatics.org/sms2/](http://www.bioinformatics.org/sms2/) |  Large gammes d'outils pour la manipulation des séquences biologiques (traduction, réverse complément, ORFfinder...) |
 | needle | [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle)  |  Algorithme d'alignement par paire (méthode de Needleman-Wunsch, exacte, produisant des alignements globaux) |
 | NCBI BLAST|  [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  |  Recherche par similarité: comparaison d'une séquence à une base de données  |
@@ -89,9 +89,9 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     
     ![NCBI gene advanced search](images/NCBI_gene_advanced.png)
     
-    b. Choisissez le champ ‘**Organism**‘ dans le premier menu déroulant, et entrez ‘**Homo sapiens**' dans la boîte de recherche à côté, pour spécifier que vous cherchez uniquement des séquences humaines.
+    b. Choisissez le champ '**Organism**' dans le premier menu déroulant, et entrez '**Homo sapiens**' dans la boîte de recherche à côté, pour spécifier que vous cherchez uniquement des séquences humaines.
     
-    c. Dans le second menu déroulant, choisissez ‘**Gene name**' et entrez ‘**PDC**' dans la boîte de recherche à côté, pour spécifier que vous cherchez le gène PDC (abréviation de Phosducin).
+    c. Dans le second menu déroulant, choisissez '**Gene name**' et entrez '**PDC**' dans la boîte de recherche à côté, pour spécifier que vous cherchez le gène PDC (abréviation de Phosducin).
     
     d. Les deux expressions de recherche `Homo sapiens[Organism]` et `PDC[Gene Name]` sont automatiquement connectées par le connecteur logique `AND`, pour spécifier que les deux conditions doivent être remplies à la fois. Ceci correspond à notre but, mais dans d'autres cas, il est possible de changer le connecteur logique en `OR` ou `NOT` selon les besoins (cf le petit menu déroulant correspondant).
     
@@ -104,11 +104,9 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     g. Parmi les résultats obtenus, cliquez sur la ligne avec le nom de gène **PDC (ID : 5132)**. L'autre résultat apparaît car PDC est un nom alternatif pour le gène PNDK. Ceci ne nous intéresse pas pour le moment.
 
 
-3. Sur la page de résultats du gène **PDC (ID : 5132)**
+3. Sur la page de résultats du gène **PDC (ID : 5132)**, descendez jusqu'à la section '**Genomic regions, transcripts, and products**' ou cliquez sur le lien correspondant dans le panneau de droite. Ceci vous affiche une carte avec plusieurs pistes d'annotations génomiques.  Nous allons nous intéresser plus particulièrement à la piste '**NCBI RefSeq Annotation**'.
 
-3. Descendez jusqu'à la section ‘**Genomic regions, transcripts, and products**' ou cliquez sur le lien correspondant dans le panneau de droite. Ceci vous affiche une carte avec plusieurs pistes d'annotations génomiques.  Nous allons nous intéresser plus particulièrement à la piste ‘**NCBI RefSeq Annotation**'.
-
-    a. Supprimez les champs qui ne nous intéressent pas pour le moment, en cliquant sur les croix en haut à droite de chaque piste d'annotation (cercles rouges sur l'illustration ci-dessous). La partie supérieure du navigateur affiche une série d'icônes permettant de configurer la représentation. En déplaçant votre souris sur les  icônes, une description s'affiche pour chaque outil. Identifiez l'icône  ‘**Switch ON mode "Show all" for Gene Tracks**' (enourée en marron sur l'illustration ci-dessous). Activez cette option, qui affichera les transcrits alternatifs et régions codantes. 
+    a. Supprimez les champs qui ne nous intéressent pas pour le moment, en cliquant sur les croix en haut à droite de chaque piste d'annotation (cercles rouges sur l'illustration ci-dessous). La partie supérieure du navigateur affiche une série d'icônes permettant de configurer la représentation. En déplaçant votre souris sur les  icônes, une description s'affiche pour chaque outil. Identifiez l'icône  ‘**Switch ON mode "Show all" for Gene Tracks**' (entourée en marron sur l'illustration ci-dessous). Activez cette option, qui affichera les transcrits alternatifs et régions codantes. 
 
     ![](images/NCBI_gene_tracks.png)
     
@@ -143,17 +141,18 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 4. La séquence téléchargée du gène est un extrait du brin direct (ou brin plus) du chromosome. Il faut donc utiliser la séquence complémentaire de cette séquence pour orienter correctement la séquence du gène.
 
     a. Connectez-vous à SMS ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
-    b. Générez le "reverse complément"" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
+   
+    b. Générez le "reverse complément" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
 
 ### Questionnaire TP2 – Exercice 1
-Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice1.
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice 1.
 
 
 ----------------------------------------------------------------
 
 ## Exercice 2 - Comparaison d'un gène et de son ARNm - alignement global avec needle
 
-Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d'ARNm afin d'identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.  
+Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d'ARNm afin d'identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.
 
 ![zoom on a gene](images/NCBI_gene_zoom.png)
 
@@ -165,8 +164,10 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 4. Cliquer sur **Submit**.
 5. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
 6. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
-    a. Suivez la même procédure que précédemment, mais dans le champ **‘Parameters' **cliquer sur **‘More options'**.
-    b. Réglez
+
+   a. Suivez la même procédure que précédemment, mais dans le champ **'Parameters'** cliquer sur **'More options'**.
+
+   b. Réglez
     - GAP OPEN : 100
     - GAP EXTEND : 0
     - Laissez les autres paramètres à leurs valeurs par défaut.
@@ -188,12 +189,12 @@ L'avantage est que BLAST peut comparer des séquences de différentes natures (s
 BLAST fait des alignements locaux, ce qui veut dire qu'il alignera que des portions des séquences qui sont similaires.
 
 1. Connectez-vous à l'[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastx**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences protéiques.
-2. Cochez la case **‘Align two or more sequences'**. Une cadre supplémentaire apparaît.
+2. Cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
 3. Entrez la séquence de l'ARNm dans le premier cadre (**Enter Query Sequence**) et la séquence la protéine dans le deuxième (**Enter Subject Sequence**).
-4. Cochez la case ‘**Show results in a new window**' pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
-5. Cliquez sur le bouton ‘BLAST' pour lancer l'alignement.
-6. Sur la page de résultats, dans l'onglet **‘Graphic Summary**', on peut voir que la protéine (représentée par une ligne rouge) s'aligne à peu près entre les positions 50 et 800 de l'ARNm (représenté par la ligne turquoise épaisse, notée **Query**).
-7. Dans l'onglet **‘Alignments'**, on peut trouver les positions précises de début et de fin de l'alignement (81-818 pour ARNm 1-246 pour la protéine). Il y a 100 % d'identité sur la longueur totale de la protéine. Dans l'entête de l'alignement, **Frame +3** indique que l'alignement a été fait entre la protéine et la traduction de l'ARNm sur le brin+ dans la cadre de lecture 3.
+4. Cochez la case **'Show results in a new window'** pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
+5. Cliquez sur le bouton 'BLAST' pour lancer l'alignement.
+6. Sur la page de résultats, dans l'onglet **'Graphic Summary'**, on peut voir que la protéine (représentée par une ligne rouge) s'aligne à peu près entre les positions 50 et 800 de l'ARNm (représenté par la ligne turquoise épaisse, notée **Query**).
+7. Dans l'onglet **'Alignments'**, on peut trouver les positions précises de début et de fin de l'alignement (81-818 pour ARNm 1-246 pour la protéine). Il y a 100 % d'identité sur la longueur totale de la protéine. Dans l'entête de l'alignement, **Frame +3** indique que l'alignement a été fait entre la protéine et la traduction de l'ARNm sur le brin+ dans la cadre de lecture 3.
 
 
 ### Questionnaire TP2 – Exercice 3
@@ -206,50 +207,45 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utiliser needle, pour faire un alignement global.
 
-1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/) et trouvez l'outil **‘Translate'** dans le menu à gauche.
+1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/) et trouvez l'outil **'Translate'** dans le menu à gauche.
 2. Traduisez l'ARNm sur le brin direct dans la cadre de lecture 3. Nous avons une séquence humaine, d'un gène nucléaire. Quel Code génétique allez-vous utiliser ?
 3. Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
-4. Choisissez Protein dans le champ **‘Sequence type'**
+4. Choisissez Protein dans le champ **'Sequence type'**.
 5. Entrez la **séquence traduite de l'ARNm** et la séquence de la **protéine** dans les deux cases suivantes.
-6. Cliquer sur ‘Submit'.
+6. Cliquer sur **Submit**.
 7. Regardez l'alignement. Est-ce cohérent de vos attentes ?
 
 
 ### Questionnaire TP2 – Exercice 4
 
-Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice1.
+Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice 4.
 
 ----------------------------------------------------------------
 
 ## Exercice 5 - Comparaison d'un gène et de son ARNm - alignement local avec BLAST
 
 
-Utilisons maintenant le logiciel BLAST, pour comparer le gène et sa transcription mature. Vous avez vu à l'exercice 2 que l'alignement global entre ces deux séquences est pratique pour pouvoir détecter des introns et les exons, mais l'alignement est très long et difficile à voir l'ensemble.
+Utilisons maintenant le logiciel BLAST, pour comparer le gène et sa transcription mature. Vous avez vu à l'exercice 2 que l'alignement global entre ces deux séquences est pratique pour pouvoir détecter des introns et les exons, mais l'alignement est très long et difficile à voir dans son ensemble.
 
 Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche que des régions significativement similaires. On peut aussi profiter des différents affichages graphiques des résultats.
 
-1. Connectez-vous à l'[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastn.** C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques.
-
-2. Cochez la case **‘Align two or more sequences'**. Une cadre supplémentaire apparaît.
-
+1. Connectez-vous à l'[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastn**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques.
+2. Cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
 3. Entrez la séquence de gène correctement orienté dans le premier cadre (**Enter Query Sequence**) et la séquence l'ARNm mature dans le deuxième (**Enter Subject Sequence**).
-
-4. Cochez la case ‘**Show results in a new window**' pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
-
-5. Cliquez sur le bouton ‘BLAST' pour lancer l'alignement.
-
+4. Cochez la case **'Show results in a new window'** pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
+5. Cliquez sur le bouton 'BLAST' pour lancer l'alignement.
 6. Sur la page de résultats
 
-    a. Dans l'onglet **‘Graphique Summary**', la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
-    
-    b. Dans l'onglet **‘Alignements'** vous trouvez 4 alignements locaux.
-    
-    c. L'onglet ‘**Dot Plot**' est une représentation visuelle des alignements. En abscisse vous trouvez les positions dans le gène, en ordonnée les positions de ARNm. Les lignes obliques montrent des régions où le gène et l'ARNm s'alignent.
+   a. Dans l'onglet **'Graphique Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
+
+   b. Dans l'onglet **'Alignements'** vous trouvez 4 alignements locaux.
+
+   c. L'onglet **'Dot Plot'** est une représentation visuelle des alignements. En abscisse vous trouvez les positions dans le gène, en ordonnée les positions de ARNm. Les lignes obliques montrent des régions où le gène et l'ARNm s'alignent.
 
 
 ### Questionnaire TP2 – Exercice 5
 
-Sur Ametice, ouvrez le questionnaire de TP2 et répondez aux questions de l'Exercice 1.
+Sur Ametice, ouvrez le questionnaire de TP2 et répondez aux questions de l'Exercice 5.
 
 ## Que retenir de ce TP
 Au cours de ce TP, nous avons vu qu'un gène d'eucaryote consiste en une succession d'exons et d'introns. Les gènes sont transcrits en ARN primaire, qui font l'objet de différentes étapes de maturation. Les ARN matures sont exportés dans le cytoplasme, et ils ne retiennent que les exons. 
