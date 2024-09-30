@@ -148,7 +148,9 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     d. Les boîtes d'information des gènes, transcrits ou régions codantes permettent également d'obtenir leur séquence. Déplacez à nouveau votre souris pour positionner le curseur au-dessus du gène *sans cliquer*. Dans la boîte d'informations détaillées, cliquez sur le lien qui apparaît à côté de FASTA record (astuce: les identifiants des séquences génomiques du NCBI commencent par "NC_""). Ceci ouvre un nouvel onglet avec la séquence génomique du gène PDC. 
 
 
-    e. Sélectionnez l'ensemble de la séquence, en veillant à inclure la ligne d'en-tête (caractéristique du format de séquence FASTA), et à descendre jusqu'au bas de la page. La ligne d'en-tête (figure ci-dessous) commence par un '>', suivi de l'identifiant de la séquence chromosomique et de l'étendue de la région d'intérêt (`NC_000001.11:186443566-186461114`), et de quelques informations optionnelles. 
+    e. Sélectionnez l'ensemble de la séquence, en veillant à inclure la ligne d'en-tête (caractéristique du format de séquence FASTA), et à descendre jusqu'au bas de la page. Copiez la séquence ainsi sélectionnée. 
+
+    La ligne d'en-tête (figure ci-dessous) commence par un '>', suivi de l'identifiant de la séquence chromosomique et de l'étendue de la région d'intérêt (`NC_000001.11:186443566-186461114`), et de quelques informations optionnelles. 
 
     ![](images/NCBI_PDC_gene_fasta_selection.png)
 
@@ -158,7 +160,8 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     - Le gène est-il situé sur le brin + ou - ?
     - La séquence affichée correspond-elle au brin + ou - ? (basez vous sur les coordonnées)
 
-4. La séquence téléchargée du gène est un extrait du brin direct (ou brin plus) du chromosome. Il faut donc utiliser la séquence complémentaire de cette séquence pour orienter correctement la séquence du gène.
+
+4. La séquence téléchargée du gène est un extrait du brin direct (ou brin plus) du chromosome. Il faut donc obtenir la séquence complémentaire de cette séquence pour orienter correctement la séquence du gène.
 
     a. Connectez-vous au site **SMS** ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
    
