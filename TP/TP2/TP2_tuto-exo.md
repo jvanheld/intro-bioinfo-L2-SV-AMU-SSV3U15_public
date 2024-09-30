@@ -236,7 +236,9 @@ Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche qu
 6. Sur la page de résultats
 
    a. Dans l'onglet **'Graphique Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
+
    b. Dans l'onglet **'Alignements'** vous trouvez 4 alignements locaux.
+
    c. L'onglet **'Dot Plot'** est une représentation visuelle des alignements. En abscisse vous trouvez les positions dans le gène, en ordonnée les positions de ARNm. Les lignes obliques montrent des régions où le gène et l'ARNm s'alignent.
 
 
