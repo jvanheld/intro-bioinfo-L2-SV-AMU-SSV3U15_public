@@ -97,7 +97,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     
     e. La phrase de recherche `(Homo sapiens[Organism]) AND PDC[Gene Name]` apparait dans la boite de recherche principale (en haut).
     
-    ![](images/NCBI_homo_PDC.png)
+    ![](images/NCBI_homo_PDC.png){width=700}
     
     f. Cliquez sur **Search**.
 
@@ -108,7 +108,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     a. Supprimez les champs qui ne nous intéressent pas pour le moment, en cliquant sur les croix en haut à droite de chaque piste d'annotation (cercles rouges sur l'illustration ci-dessous). La partie supérieure du navigateur affiche une série d'icônes permettant de configurer la représentation. En déplaçant votre souris sur les  icônes, une description s'affiche pour chaque outil. Identifiez l'icône  ‘**Switch ON mode "Show all" for Gene Tracks**' (entouré en marron sur l'illustration ci-dessous). Activez cette option, qui affichera les transcrits alternatifs et régions codantes. 
 
-    ![](images/NCBI_gene_tracks.png)
+    ![](images/NCBI_gene_tracks.png){width=500}
     
     b. Dans cette même barre d'outils, vous pouvez utiliser les boutons **Zoom In** et **Zoom Out** pour que la totalité du gène occupe une proportion plus ou moins grande sur votre écran, et les flèches pour modifier le centrage de l'image. Vous pouvez également modifier le centrage en cliquant sur l'image pour la faire glisser à gauche ou à droite. Ceci vous permet notamment d'observer le voisinage du gène (régions intergéniques, gènes voisins).
 
@@ -129,7 +129,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     
     c. Déplacez votre souris pour positionner le curseur au-dessus du gène *sans cliquer*. Une boîte apparaît, qui affiche des informations détaillées, et des liens vers les séquences. Prenez connaissance des informations affichées, puis déplacez votre curseur au-dessus des autres annotations – les deux transcrits violets, et les régions codantes associées. 
 
-    ![](images/NCBI_PDC_gene_details.png) 
+    ![](images/NCBI_PDC_gene_details.png){width=500}
     
     **Questions** (hors questionnaire)
         
@@ -152,7 +152,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
     La ligne d'en-tête (figure ci-dessous) commence par un '>', suivi de l'identifiant de la séquence chromosomique et de l'étendue de la région d'intérêt (`NC_000001.11:186443566-186461114`), et de quelques informations optionnelles. 
 
-    ![](images/NCBI_PDC_gene_fasta_selection.png)
+    ![](images/NCBI_PDC_gene_fasta_selection.png){width=500}
 
     **Questions**  (hors questionnaire)
     - Sur quel chromosome se trouve le gène ?
@@ -166,9 +166,26 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     a. Connectez-vous au site **SMS** ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
    
     b. Générez le "reverse complément" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
+    
+    c. Veillez à maintenir cet onglet ouvert, nous utiliserons cette séquence du gène dans l'exercice suivant. 
+
+**Extraction de la séquence d'ARN messager**
+
+5. Revenez à l'onglet du gène PDC dans NCBI Gene. Positionnez le curseur sur le transcrit 1 afin de faire apparaître la boîte d'informations détaillées. Cliquez sur l'identifiant **NM_...** à côté de "Download FASTA". Ceci ouvre un nouvel onglet avec la séquence de l'ARN (**Astuce: ** dans la base de données NCBI Gene, les identifiants d'ARN **m**essagers sont préfixés **NM_**). Conservez cet onglet ouvert, nous reviendrons dessus pour les exercices suivants. 
+
+![](images/NCBI_PDC_variant1_mRNA_detail.png){width=500}
+
+**Extraction de la séquence codante**
+
+6. Revenez une fois de plus à l'onglet du gène PDC dans NCBI Gene. Cliquez sur l'identifiant **NP_...** à côté de "Download FASTA". Ceci ouvre un nouvel onglet avec la séquence d'acides aminés de la protéine codée par PDC (**Astuce: ** dans la base de données NCBI Gene, les identifiants de séquences **p**rotéiques sont préfixés **NP_**). Conservez cet onglet ouvert, nous reviendrons dessus pour les exercices suivants. 
+
+![](images/NCBI_PDC_variant1_CDS_detail.png){width=500}
+
+
 
 ### Questionnaire TP2 – Exercice 1
-Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Exercice 1.
+
+Sur Ametice, ouvrez le questionnaire du TP2 et répondez aux questions de l'Exercice 1.
 
 
 ----------------------------------------------------------------
@@ -177,13 +194,13 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du variant 1 d'ARNm afin d'identifier les exons et introns dans le gène. Le schéma ci-dessous est un rappel de l'exercice 1. Il vous aidera à interpréter des alignements.
 
-![zoom on a gene](images/NCBI_gene_zoom.png)
+![](images/NCBI_gene_zoom.png)
 
 
-1. Connectez-vous à l'outil needle sur EBI. [Needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle) est un programme qui fait des alignements globaux entre deux séquences.
+1. Connectez-vous à l'outil [needle sur EBI](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle). Needle est un logiciel qui fait des **alignements globaux entre deux séquences**.
 2. Choisissez DNA dans le champ **Sequence type**.
 3. Entrez la séquence du gène (correctement orientée) dans le premier encadré et la séquence de l'ARNm dans le deuxième encadré. 
-**Astuce!** Copiez-collez les séquences ensemble avec leurs lignes d'identification (lignes commençant par le signe `>`). Les identifiants vont apparaître dans l'alignement. Ceci vous aide de savoir quelle séquence correspond au gène et la quelle à l'ARN.
+**Astuce !** Quand vous copiez une séquence en format FASTA, veillez à inclure les en-têtes d'identification (lignes commençant par le signe `>`). Ces identifiants apparaîtront alors dans l'alignement, ce qui vous aidera à savoir quelle séquence correspond au gène ou à l'ARN.
 4. Cliquer sur **Submit**.
 5. Regardez l'alignement, et comparez le avec le schéma vu précédemment sur **NCBI Gene**. Cet alignement est-il cohérent avec vos attentes ? Pourquoi ?
 6. Refaisons l'alignement en modifiant les paramètres de logiciel needle.
