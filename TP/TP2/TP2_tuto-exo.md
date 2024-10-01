@@ -168,7 +168,7 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     - La séquence affichée correspond-elle au brin + ou - ? (basez vous sur les coordonnées)
 
 
-4. La séquence téléchargée du gène est un extrait du brin direct (ou brin plus) du chromosome. Il faut donc obtenir la séquence complémentaire de cette séquence pour orienter correctement la séquence du gène.
+4. Sur le site du NCBI les séquences téléchargées à partir de génomes complets sont toujours exportées selon la **perspective chromosomique** : elles correspondent au brin chromosomique direct (abrévié  `D`, ou `+`), indépendamment de l'orientation du gène par rapport au chromosome. Le gène PDC humain est situé sur le brin complémnetaire du chromosome 1. Avant de l'aligner avec d'autres séquences, il est donc nécessaire d'obtenir la séquence complémentaire à partir de la séquence exportée du NCBI.
 
     a. Connectez-vous au site **SMS** ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
    
