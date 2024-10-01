@@ -120,15 +120,17 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     ![](images/NCBI_gene_zoom.png)
 
 
-    **Lecture du graphique ci-dessus:** 
+    **Lecture du graphique ci-dessus** 
     
-    - la <font color="#008800"><b>bande verte</b></font> représente le gène
+    - La <font color="#008800"><b>bande verte</b></font> représente le gène. 
     
-    - les deux <font color="#880088"><b>bandes violettes</b></font> les transcrits alternatifs, et les ARNm correspondants. Les lignes fines correspondent aux introns, les rectangles plus épais aux exons. L'ARN messager est donc la concaténation des parties épaisses. 
+    - Les deux <font color="#880088"><b>bandes violettes</b></font> les transcrits alternatifs, et les ARNm correspondants. Les lignes fines correspondent aux introns, les rectangles plus épais aux exons. L'ARN messager est donc la concaténation des parties épaisses. 
     
-    - les <font color="red"><b>lignes rouges</b></font> associées à chaque transcrit correspondent à l'étendue qui va du codon start au codon stop, autrement dit le transcrit moins les UTR 5' et 3'. Les parties épaisses correspondent donc aux régions codantes (*coding sequences, CDS*), séparées par des introns. 
+    - Les <font color="red"><b>lignes rouges</b></font> associées à chaque transcrit correspondent à l'étendue qui va du codon start au codon stop, autrement dit le transcrit moins les UTR 5' et 3'. Les parties épaisses correspondent donc aux régions codantes (*coding sequences, CDS*), séparées par des introns. 
     
-    - les flèches indiquent le sens de la transcription. **Attention :** sur le navigateur de gènes du NCBI, les gènes sont toujours affichés de gauche à droite, indépendamment de leur brin direct ou complémentaire. Pour les gènes situés sur le brin complémentaire, les coordonnées affichées en haut du graphique vont en décroissant.  
+    - Les flèches indiquent le sens de la transcription. **Attention :** dans la fiche d'annotation d'un gène du NCBI, le navigateur affiche les pistes d'annotation selon la **perspective du gène** : indépendamment de leur brin chromosomique (direct ou complémentaire) où il se situe, le gène est affiché de gauche (site d'initiation de la transcription, codon start) à droite (codon stop, site de terminaison de la transcription). 
+    
+    Pour détecter le brin chromosomique de votre gène, observez les coordonnées génomiques affichées en haut du graphique : elles augmentent de gauche à droite si le gène est sur le brin chromosomique direct, elles diminuent de gauche à droite si le gène est sur le brin complémentaire.   
 
     <font color=red><b>Veillez à laisser cet onglet ouvert pendant le reste du TP, car vous aurez besoin de revenir sur ce graphique à plusieurs reprises.</b></font>
     
@@ -140,12 +142,12 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
         
     - Quelle est l'orientation du gène PDC ?
     - Quelle est la taille du gène PDC ?
-    - Quelle est l'étendue du transcrit variant 1 ?
-    - Quelle est la longueur de l'ARNm correspondant ? 
-    - Comment expliquez-vous cette différence de taille ?
-    - Combien d'exons trouvez-vous dans l'ARNm variant 1 et variant 2 ?
-    - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
-    - Tous les exons sont-ils traduits en acides aminés sur toute leur longueur ?
+    - Quelle est l'étendue qu'occupe le transcrit primaire du variant 1 sur le chromosome ? **Astuce : ** en anglais, étendue se dit *span*.
+    - Quelle est la longueur de l'ARNm correspondant ?
+    - Comment expliquez-vous cette différence de taille ?
+    - Combien d'exons trouvez-vous dans l'ARNm variant 1 et variant 2 ?
+    - Comparez les longueurs des exons et introns. Lesquels sont les plus longs ?
+    - Tous les exons sont-ils traduits en acides aminés sur toute leur longueur ?
 
     <p></p>
     **Obtention des séquences**
