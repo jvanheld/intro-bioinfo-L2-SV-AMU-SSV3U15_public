@@ -47,7 +47,7 @@ Pour les gènes codants, l'**ARN messager** (ARNm) comporte une région codante,
 
 Nous nous baserons sur le cas d'étude suivant. 
 
-**Comparaison entre les séquences du gène de la phosducine (PDC), son transcrit (l'ARNm) et la protéine codée par le gène**. La phosducine est une phosphoprotéine située dans les  bâtonnets de la rétine. Elle module la cascade de phototransduction en interagissant avec la protéine G rétinienne. Le gène est impliqué dans la rétinite pigmentaire et le syndrome d'Usher de type II. Des variants de transcription ont été identifiés, qui codent pour différentes isoformes de la protéine via un épissage alternatif.
+**Comparaison entre les séquences du gène de la phosducine (PDC), son transcrit (l'ARNm) et la protéine codée par le gène**. La phosducine est une phosphoprotéine localisée dans les  bâtonnets de la rétine. Elle module la cascade de phototransduction en interagissant avec la protéine G rétinienne. Des déficiences du gène sont impliquées dans différentes pathologies, notamment la rétinite pigmentaire et le syndrome d'Usher de type II. Des variants de transcription ont été identifiés, qui codent pour différentes isoformes de la protéine via un épissage alternatif.
 
 
 ### Notions abordées
@@ -77,17 +77,17 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
 
 | Ressource | Lien | Description |
 |:---------|:-----------------|:-------------------------------------------------------|
-| NCBI gene | [https://www.ncbi.nlm.nih.gov/gene/](https://www.ncbi.nlm.nih.gov/gene/) | Base de données de gènes hébergée par NCBI |
-| Sequence Manipulation Suite (**SMS**) | [http://www.bioinformatics.org/sms2/](http://www.bioinformatics.org/sms2/) |  Large gammes d'outils pour la manipulation des séquences biologiques (traduction, réverse complément, ORFfinder...) |
-| needle | [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle)  |  Algorithme d'alignement par paire (méthode de Needleman-Wunsch, exacte, produisant des alignements globaux) |
-| NCBI BLAST|  [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  |  Recherche par similarité: comparaison d'une séquence à une base de données  |
+| NCBI gene | [https://www.ncbi.nlm.nih.gov/gene/](https://www.ncbi.nlm.nih.gov/gene/){target="_blank"} | Base de données de gènes hébergée par NCBI |
+| Sequence Manipulation Suite (**SMS**) | [http://www.bioinformatics.org/sms2/](http://www.bioinformatics.org/sms2/){target="_blank"} |  Large gammes d'outils pour la manipulation des séquences biologiques (traduction, réverse complément, ORFfinder...) |
+| needle | [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle){target="_blank"}  |  Algorithme d'alignement par paire (méthode de Needleman-Wunsch, exacte, produisant des alignements globaux) |
+| NCBI BLAST|  [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi){target="_blank"}  |  Recherche par similarité: comparaison d'une séquence à une base de données  |
 
 
 ----------------------------------------------------------------
 
 ## Exercice 1 - Téléchargement des séquences à partir de NCBI Gene
 
-1. Connectez-vous à la base de données [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/).
+1. Connectez-vous à la base de données [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/){target="_blank"}.
 2. Effectuez une recherche avancée pour trouver des séquences de **Phosducin** (nom de gène **PDC**) chez l'**humain**. Pour cela :
 
     a. Cliquez sur ‘**Advanced**' en dessous de la boîte de recherche sur la page d'accueil de la base de données. 
@@ -177,7 +177,7 @@ Sur le site du NCBI les séquences téléchargées à partir de génomes complet
 
 4. Le gène PDC humain est situé sur le brin complémnetaire du chromosome 1. Avant de l'aligner avec d'autres séquences, il est donc nécessaire d'obtenir la séquence complémentaire à partir de la séquence exportée du NCBI.
 
-    a. Connectez-vous au site **SMS** ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
+    a. Connectez-vous au site **SMS** ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/){target="_blank"}) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
    
     b. Générez le "reverse complément" de la séquence du gène PDC. Pour la suite du TP, vous devrez toujours utiliser cette séquence complémentaire comme séquence du gène PDC.
     
@@ -210,7 +210,7 @@ Dans cet exercice, vous allez aligner la séquence du gène PDC avec celle du va
 ![](images/NCBI_gene_zoom.png)
 
 
-1. Connectez-vous à l'outil [needle sur EBI](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle). Needle est un logiciel qui fait des **alignements globaux entre deux séquences**.
+1. Connectez-vous à l'outil [needle sur EBI](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle){target="_blank"}. Needle est un logiciel qui fait des **alignements globaux entre deux séquences**.
 2. Choisissez DNA dans le champ **Sequence type**.
 3. Entrez la séquence du gène (correctement orientée) dans le premier encadré 
 4. Revenez à l'onglet avec l'ARNm de PDC, copiez la séquence de l'ARNm (en incluant l'en-tête fasta), et collez-la dans le deuxième encadré. 
@@ -242,14 +242,14 @@ Allez sur le questionnaire de TP2 sur **Ametice** et répondez aux **questions d
 
 ## Exercice 3 - Comparaison de l'ARNm et de la protéine - alignement local avec BLAST
 
-On ne peut pas aligner directement une séquence protéique avec une séquence nucléique. Une possibilité serait de traduire la séquence d'ARNm en acides aminés à l'aide d'un programme de traduction comme celui de [Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/). Dans ce cas, il est difficile de savoir dans quel cadre de lecture il faut faire cette traduction.
+On ne peut pas aligner directement une séquence protéique avec une séquence nucléique. Une possibilité serait de traduire la séquence d'ARNm en acides aminés à l'aide d'un programme de traduction comme celui de [Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/){target="_blank"}. Dans ce cas, il est difficile de savoir dans quel cadre de lecture il faut faire cette traduction.
 
 Une autre possibilité est d'utiliser le logiciel BLAST. Le but original de BLAST est de comparer une séquence (séquence requête) avec l'ensemble des séquences contenues dans une base de données, afin de de trouver des séquences similaires à la séquence requête. Il est possible de détourner cette fonction originale en alignant une séquence donnée avec une ou plusieurs autres séquences, fournies par l'utilisateur.
 
 L'avantage est que BLAST peut comparer des séquences de différentes natures (séquences protéiques ou nucléiques) en faisant la traduction automatique des séquences nucléiques dans les 6 cadres de lecture possibles (3 sur le brin+ et 3 sur le brin-). Il alignera ensuite les traductions des séquences nucléiques avec les séquences protéiques. 
 BLAST fait des alignements locaux, ce qui veut dire qu'il alignera que des portions des séquences qui sont similaires.
 
-1. Connectez-vous au site Web [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) ([blast.ncbi.nlm.nih.gov](https://blast.ncbi.nlm.nih.gov/)) et choisissez **blastx**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences protéiques.
+1. Connectez-vous au site Web [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/){target="_blank"} ([blast.ncbi.nlm.nih.gov](https://blast.ncbi.nlm.nih.gov/){target="_blank"}) et choisissez **blastx**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences protéiques.
 
 2. Cochez la case **'Align two or more sequences'**. Le cadre "Choose search set" est remplacé par un cadre "**Enter Subject Sequence**".
 
@@ -274,13 +274,13 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utiliser successivement un outil de pour obtenir la séquence protéique à partir de l'ARNm, et needle pour faire un alignement global entre cette traduction et la séquence protéique annotée.
 
-1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/) et trouvez l'outil **'Translate'** dans le menu à gauche.
+1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/){target="_blank"} et trouvez l'outil **'Translate'** dans le menu à gauche.
 
 2. Traduisez l'ARNm sur le brin direct dans la cadre de lecture 3. Nous avons une séquence humaine, d'un gène nucléaire. Quel Code génétique allez-vous utiliser ?
 
 3. Copiez la séquence peptidique (format fasta) obtenue par la traduction de l'ARNm 
 
-4 Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
+4 Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/){target="_blank"} sur EBI.
 
 5. Choisissez Protein dans le champ **'Sequence type'**.
 
@@ -304,7 +304,7 @@ Utilisons maintenant le logiciel BLAST, pour comparer le gène et sa transcripti
 
 Utilisons maintenant BLAST qui produit les alignements locaux et donc n'affiche que les régions significativement similaires. On peut aussi bénéficier de différentes modalités d'affichage graphique des résultats.
 
-1. Connectez-vous  au site Web [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez  **nucleotide BLAST**. Cette option va utiliser le logiciel **blastn** c'ets-à-dire la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques (attention, **ne confondez pas** avec tblastn). 
+1. Connectez-vous  au site Web [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/){target="_blank"} et choisissez  **nucleotide BLAST**. Cette option va utiliser le logiciel **blastn** c'ets-à-dire la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques (attention, **ne confondez pas** avec tblastn). 
 
 2. Par défaut, BLAST compare la séquence requête avec une base de données, mais nous allons l'utiliser pour comparer deux séquences de notre choix (l'ADN du gène PDC et son ARN messager). Pour cela, cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
 
