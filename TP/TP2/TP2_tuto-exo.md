@@ -263,15 +263,22 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 ## Exercice 4 - Comparaison de l'ARNm et protéine - alignement global avec needle
 
-Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utiliser needle, pour faire un alignement global.
+Maintenant qu'on sait qu'il faut traduire l'ARNm dans le cadre 3, on peut utiliser successivement un outil de pour obtenir la séquence protéique à partir de l'ARNm, et needle pour faire un alignement global entre cette traduction et la séquence protéique annotée.
 
 1. Connectez-vous à [SMS (Sequence Manipulation Suite)](http://www.bioinformatics.org/sms2/) et trouvez l'outil **'Translate'** dans le menu à gauche.
+
 2. Traduisez l'ARNm sur le brin direct dans la cadre de lecture 3. Nous avons une séquence humaine, d'un gène nucléaire. Quel Code génétique allez-vous utiliser ?
+
 3. Copiez la séquence peptidique (format fasta) obtenue par la traduction de l'ARNm 
+
 4 Connectez-vous à l'outil [needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/) sur EBI.
+
 5. Choisissez Protein dans le champ **'Sequence type'**.
+
 6. Entrez la **séquence traduite de l'ARNm** et la séquence de la **protéine** dans les deux cases suivantes.
+
 7. Cliquer sur **Submit**.
+
 8. Regardez l'alignement. Est-ce cohérent de vos attentes ?
 
 
