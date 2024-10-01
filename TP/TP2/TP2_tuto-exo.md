@@ -168,7 +168,14 @@ A l'issue de ce TP, vous devriez avoir acquis les compétences suivantes.
     - La séquence affichée correspond-elle au brin + ou - ? (basez vous sur les coordonnées)
 
 
-4. Sur le site du NCBI les séquences téléchargées à partir de génomes complets sont toujours exportées selon la **perspective chromosomique** : elles correspondent au brin chromosomique direct (abrévié  `D`, ou `+`), indépendamment de l'orientation du gène par rapport au chromosome. Le gène PDC humain est situé sur le brin complémnetaire du chromosome 1. Avant de l'aligner avec d'autres séquences, il est donc nécessaire d'obtenir la séquence complémentaire à partir de la séquence exportée du NCBI.
+**Orientation des séquences pour les génomes complets**
+
+Sur le site du NCBI les séquences téléchargées à partir de génomes complets sont toujours exportées selon la **perspective chromosomique** : elles correspondent au brin chromosomique direct (abrévié  `D`, ou `+`), indépendamment de l'orientation du gène par rapport au chromosome. Notons que le fait de qualifier un brin de chromosome "direct" (`D`, `+`) et l'autre "complémentaire" (`C`, `-`) est parfaitement arbitraire. Dans tous les projets de séquençage génomique, on choisit arbitrairement, pour chaque chromosome, de désigner un brin direct et l'autre complémentaire. Les bases de données contiennent uniquement les séquences de ce brin, mais de nombreux outils permettent de calculer les séquences réverses complémentaires. 
+
+
+**Calcul de la séquence réverse complémentaire pour le gène PDC**
+
+4. Le gène PDC humain est situé sur le brin complémnetaire du chromosome 1. Avant de l'aligner avec d'autres séquences, il est donc nécessaire d'obtenir la séquence complémentaire à partir de la séquence exportée du NCBI.
 
     a. Connectez-vous au site **SMS** ([Sequence Manipulation Suite](http://www.bioinformatics.org/sms2/)) et trouvez l'outil **Reverse Complement** dans le menu à gauche.
    
