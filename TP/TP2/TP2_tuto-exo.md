@@ -185,7 +185,7 @@ Sur le site du NCBI les séquences téléchargées à partir de génomes complet
 
 **Extraction de la séquence d'ARN messager**
 
-5. Revenez à l'onglet du gène PDC dans NCBI Gene. Positionnez le curseur sur le transcrit 1 afin de faire apparaître la boîte d'informations détaillées. Cliquez sur l'identifiant **NM_...** à côté de "Download FASTA". Ceci ouvre un nouvel onglet avec la séquence de l'ARN (**Astuce: ** dans la base de données NCBI Gene, les identifiants d'ARN **m**essagers sont préfixés **NM_**). Conservez cet onglet ouvert, nous reviendrons dessus pour les exercices suivants. 
+5. Revenez à l'onglet du gène PDC dans NCBI Gene. Positionnez le curseur sur le transcrit 1 afin de faire apparaître la boîte d'informations détaillées. Cliquez sur l'identifiant **NM_...** à côté de "**FASTA record**". Ceci ouvre un nouvel onglet avec la séquence de l'ARN (**Astuce: ** dans la base de données NCBI Gene, les identifiants d'ARN **m**essagers sont préfixés **NM_**). Conservez cet onglet ouvert, nous reviendrons dessus pour les exercices suivants. 
 
 ![](images/NCBI_PDC_variant1_mRNA_detail.png){width=500}
 
