@@ -30,10 +30,10 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 
 ## Travaux pratiques
 
-| TP | Titre et lien | Tutoriels et exercices |
-|:---:|:------------------------------------------------------|:-----------:|
+| TP | Titre et lien | Enoncés | Diapo |
+|:---:|:------------------------------------------------------|:----------:|:--------:|
 | 1 | Séquence - structure - fonction | [tuto/exo TP1](TP/TP1/) |
-| 2 | Du gène à la protéine | [tuto/exo TP2](TP/TP2/) |
+| 2 | Du gène à la protéine | [tuto/exo TP2](TP/TP2/) | [diapo TP2](TP/TP2/TP2_SSV3U15_diapo.pdf) |
 | 3 | Du gène au génome et au protéome |
 | 4 | Alignements par paires et alignements multiples |
 | 5 | Inférence phylogénétique |
