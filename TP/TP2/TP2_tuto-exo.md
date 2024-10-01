@@ -302,13 +302,18 @@ Allez sur le questionnaire de TP2 sur Ametice et répondez aux questions de l'Ex
 
 Utilisons maintenant le logiciel BLAST, pour comparer le gène et sa transcription mature. Vous avez vu à l'exercice 2 que l'alignement global entre ces deux séquences est pratique pour pouvoir détecter des introns et les exons, mais l'alignement est très long et difficile à voir dans son ensemble.
 
-Utilisons maintenant BLAST qui produit les alignements locaux et donc affiche que des régions significativement similaires. On peut aussi profiter des différents affichages graphiques des résultats.
+Utilisons maintenant BLAST qui produit les alignements locaux et donc n'affiche que les régions significativement similaires. On peut aussi bénéficier de différentes modalités d'affichage graphique des résultats.
 
-1. Connectez-vous à l'[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez **blastn**. C'est la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques.
-2. Cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
+1. Connectez-vous  au site Web [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) et choisissez  **nucleotide BLAST**. Cette option va utiliser le logiciel **blastn** c'ets-à-dire la version de BLAST qui compare une séquence requête nucléique avec des séquences nucléiques (attention, **ne confondez pas** avec tblastn). 
+
+2. Par défaut, BLAST compare la séquence requête avec une base de données, mais nous allons l'utiliser pour comparer deux séquences de notre choix (l'ADN du gène PDC et son ARN messager). Pour cela, cochez la case **'Align two or more sequences'**. Un cadre supplémentaire apparaît.
+
 3. Entrez la séquence de gène correctement orienté dans le premier cadre (**Enter Query Sequence**) et la séquence l'ARNm mature dans le deuxième (**Enter Subject Sequence**).
+
 4. Cochez la case **'Show results in a new window'** pour que les résultats apparaissent dans une nouvelle fenêtre sans fermer le formulaire de BLAST.
+
 5. Cliquez sur le bouton 'BLAST' pour lancer l'alignement.
+
 6. Sur la page de résultats
 
    a. Dans l'onglet **'Graphic Summary'**, la séquence du gène est représentée par la ligne turquoise épaisse, (notée **Query**) et les lignes courtes roses et rouges représentent l'ARNm.
