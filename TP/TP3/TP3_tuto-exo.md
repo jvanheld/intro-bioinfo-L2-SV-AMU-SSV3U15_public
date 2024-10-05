@@ -1,4 +1,4 @@
-# TP 3 : Du gène au génme
+# TP 3 : Du gène au génome
 
 ## Table des matières
 
@@ -82,11 +82,40 @@ Vous pouvez à tout moment reconfigurer le mode d’affichage d’une piste d’
 
 ### Questionnaire TP3 – Exercice 1
 
-Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1.
+Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1 "Annotations génomiques dans la région du gène humain PAX6".
 
 
 
-## Conservation du gène PAX6 chez les animaux
+## Conservation du gène PAX6 dans les génomes de vertébrés
+
+- Dans la catégorie **Comparative genomics**, activez l’affichage pack de la piste **Conservation**. 
+
+- A priori, cette piste s’affiche entre les annotations GENCODE_V46 et les régions répétitives. **Faites remonter la piste RepeatMasker** pour la placer entre les pistes GENCODE_V46 et Conservation. 
+
+- Cliquez droit (**contrôle-clic**) sur l’image de conservation à la hauteur où s’affichent les espèces et sélectionnez **Configure MultiZ Align**. 
+
+- Dans la fenêtre d’options qui apparaît, **cochez quelques espèces de votre choix**. 
+
+    - **Veillez à panacher** (essayez d’avoir une ou deux espèces de chaque groupe plutôt qu’un tas d’espèces du même groupe).
+    
+    - Pour une raison technique, le génome du chien présente des lacunes à cet endroit du génome. **Désactivez l’affichage du chien** (dog) et activez celui d’un ou deux autres mammifères du même groupe.  
+    
+    - Dans la catéogrie **Mammal, cochez toutes les espèces**. Notez que les catégories précédentes contiennent également des mammifères (Primates, Euarchontoglires, Laurasiatheria). La catégorie Mammal présente des espèces plus éloignées (marsupiaux, monotrèmes), qui sont utiles pour visualiser les régions les plus conservées entre mammifères. 
+
+- Cliquez **Apply**. 
+
+- **Dézoomez d’un facteur 3** pour observer le contexte aux alentours du gène. 
+
+Dans la figure qui apparaît, la carte de conservation génomique comporte deux parties. 
+
+1. La partie supérieure affiche un **profil de conservation** calculé à partir de l’alignement de 100 génomes de vertébrés. La hauteur du profil indique le pourcentage de positions identiques (PPI) à chaque position du génome. 
+
+2. La partie inférieure indique, sous forme d’une échelle de gris, le pourcentage de conservation par position chez chacune des espèces que vous avez sélectionnées. 
+
+
+### Questionnaire TP3 – Exercice 2
+
+Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 2 "Conservation de la région génomique PAX6 chez les vertébrés".
 
 
 
