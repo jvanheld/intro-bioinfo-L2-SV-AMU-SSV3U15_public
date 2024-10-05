@@ -71,7 +71,7 @@ Nous allons restreindre la visualisation aux pistes d’annotations utilisées p
 
 - Cliquez "**Resize**" sous la carte pour ajuster la largeur à celle de votre écran. 
 
-Vous pouvez à tout moment reconfigurer le mode d’affichage d’une piste d’annotation, en cliquant droit (contrôle-click) sur la barre grise à sa gauche. Ceci vous affichera un menu avec des modes d’affichages de plus en plus détaillés : hide, dense, squish, pack, full.
+Vous pouvez à tout moment reconfigurer le mode d’affichage d’une piste d’annotation, en cliquant droit (**contrôle-clic**) sur la figure. Ceci vous affichera un menu avec des modes d’affichages de plus en plus détaillés : hide, dense, squish, pack, full.
 
 
 - Testez les différents niveaux de détail avec la piste GENCODE_V46, puis sélectionnez le mode **squish**, qui vous permet généralement de visualiser les transcrits alternatifs en occupant une place raisonnable. 
