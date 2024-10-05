@@ -22,9 +22,11 @@ Utiliser  des ressources bioinformatiques pour explorer les génomes d’organis
 ### Concepts
 
 
-### Exemples traités
+## Exemples traités
 
+### Détermination de la formation de l'oeil des métazoaires (PAX6, aniridia, eyeless)
 
+Le gène PAX6 humain (également appelé aniridia) code pour un facteur trnascriptionnel qui s'exprime dans certains tissus pendant l'embryogenèse, et contrôle la formation de l'oeil. Des mutations de PAX6 suscitent des malformations de l'oeil. On trouve des homologues du gène PAX6 dans les génomes des métazoaires (animaux pluricellulaires). 
 
 ### Notions mises en pratique dans ce TP
 
@@ -46,14 +48,10 @@ Utiliser  des ressources bioinformatiques pour explorer les génomes d’organis
 
 ## Annotations génomiques dans la région du gène humain PAX6
 
-Le gène PAX6 humain (également appelé aniridia) code pour un facteur trnascriptionnel qui s'exprime dans certains tissus pendant l'embryogenèse, et contrôle la formation de l'oeil. Des mutations de PAX6 suscitent des malformations de l'oeil. 
-
-
 Nous allons utiliser le navigateur de génomes [**UCSC genome browser**](https://genome.ucsc.edu/) pour consulter différents types d'annotations génomiques dans la région du gène humain PAX6. 
 
 ## Conservation du gène PAX6 chez les animaux
 
-On trouve des homologues du gène PAX6 dans les génomes des métazoaires (animaux pluricellulaires). 
 
 
 
