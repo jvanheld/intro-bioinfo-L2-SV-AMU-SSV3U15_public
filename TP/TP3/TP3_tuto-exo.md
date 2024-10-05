@@ -12,7 +12,7 @@
 1. Jacques van Helden
 2. Bénédicte Wirth
 
-## Introduciton
+## Introduction
 
 
 ### But du TP
