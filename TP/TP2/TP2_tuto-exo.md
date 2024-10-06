@@ -50,7 +50,7 @@ Nous nous baserons sur le cas d'étude suivant.
 **Comparaison entre les séquences du gène de la phosducine (PDC), son transcrit (l'ARNm) et la protéine codée par le gène**. La phosducine est une phosphoprotéine localisée dans les  bâtonnets de la rétine. Elle module la cascade de phototransduction en interagissant avec la protéine G rétinienne. Des déficiences du gène sont impliquées dans différentes pathologies, notamment la rétinite pigmentaire et le syndrome d'Usher de type II. Des variants de transcription ont été identifiés, qui codent pour différentes isoformes de la protéine via un épissage alternatif.
 
 
-### Notions abordées
+### Notions mises en pratique dans ce TP
 
 Dans ce TP, nous mettrons en pratique plusieurs notions abordées lors des CM :
 

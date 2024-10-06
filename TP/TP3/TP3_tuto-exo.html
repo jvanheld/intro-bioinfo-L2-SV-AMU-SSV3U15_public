@@ -358,9 +358,17 @@ display: none;
 <h2>Table des matières</h2>
 <ul>
 <li><a href="#introduction">Introduction</a></li>
+<li><a href="#exemples-traites">Exemples traités</a></li>
 <li><a href="#ressources-bioinformatiques">Ressources
 bioinformatiques</a></li>
-<li><a href="#">Exercice 1 -</a></li>
+<li><a href="#exercice-1---annotations-génomiques-dans-la-région-du-gène-humain-pax6">Exercice
+1 - Annotations génomiques dans la région du gène humain PAX6</a></li>
+<li><a href="#exercice-2---conservation-du-gène-pax6-dans-les-génomes-de-vertébrés">Exercice
+2 - Conservation du gène PAX6 dans les génomes de vertébrés</a></li>
+<li><a href="#exercice-3---profil-tissulaire-de-transcription-de-pax6">Exercice
+3 - Profil tissulaire de transcription de PAX6</a></li>
+<li><a href="#exercice-4---annotation-dun-fragment-chromosomique-bactérien">Exercice
+4 - Annotation d’un fragment chromosomique bactérien</a></li>
 <li><a href="#que-retenir-de-ce-tp">Que retenir de ce TP ?</a></li>
 </ul>
 </div>
@@ -444,8 +452,9 @@ conservées entre quelques espèces animales</td>
 </tbody>
 </table>
 </div>
-<div id="annotations-génomiques-dans-la-région-du-gène-humain-pax6" class="section level2">
-<h2>Annotations génomiques dans la région du gène humain PAX6</h2>
+<div id="exercice-1---annotations-génomiques-dans-la-région-du-gène-humain-pax6" class="section level2">
+<h2>Exercice 1 - Annotations génomiques dans la région du gène humain
+PAX6</h2>
 <p>Nous allons utiliser le navigateur de génomes <a href="https://genome.ucsc.edu/"><strong>UCSC genome browser</strong></a>
 pour consulter différents types d’annotations génomiques dans la région
 du gène humain PAX6.</p>
@@ -515,8 +524,9 @@ de l’Exercice 1 Annotations génomiques dans la région du gène humain
 PAX6.</p>
 </div>
 </div>
-<div id="conservation-du-gène-pax6-dans-les-génomes-de-vertébrés" class="section level2">
-<h2>Conservation du gène PAX6 dans les génomes de vertébrés</h2>
+<div id="exercice-2---conservation-du-gène-pax6-dans-les-génomes-de-vertébrés" class="section level2">
+<h2>Exercice 2 - Conservation du gène PAX6 dans les génomes de
+vertébrés</h2>
 <ul>
 <li><p>Dans la catégorie <strong>Comparative genomics</strong>, activez
 l’affichage pack de la piste <strong>Conservation</strong>.</p></li>
@@ -568,8 +578,8 @@ de l’Exercice 2 “<em>Conservation de la région génomique PAX6 chez les
 vertébrés</em>”.</p>
 </div>
 </div>
-<div id="profil-tissulaire-de-transcription-de-pax6" class="section level2">
-<h2>Profil tissulaire de transcription de PAX6</h2>
+<div id="exercice-3---profil-tissulaire-de-transcription-de-pax6" class="section level2">
+<h2>Exercice 3 - Profil tissulaire de transcription de PAX6</h2>
 <p>Nous allons maintenant ajouter à notre carte génomique une piste
 d’annotation de la base de données GTEx (Genotype-Tissue Expression).
 GTEx contient des données de transcriptome (mesure quantitative de tous
@@ -599,6 +609,36 @@ représentatives de l’ensemble des échantillons).</p>
 <p>Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions
 de l’Exercice 3 “<em>Profil d’expression tissulaire de PAX6</em>”.</p>
 </div>
+</div>
+<div id="exercice-4---annotation-dun-fragment-chromosomique-bactérien" class="section level2">
+<h2>Exercice 4 - Annotation d’un fragment chromosomique bactérien</h2>
+<p>Vous disposez d’un fragment chromosomique bactérien, que vous pouvez
+récupérer en cliquant ici.</p>
+<ul>
+<li><a href="sequences/seq_bact_a-annoter.fasta.txt">seq_bact_a-annoter.fasta.txt</a></li>
+</ul>
+<p>Vous allez utiliser quelques outils bioinformatiques pour annoter ce
+fragment d’ADN chromosomique. La première étape d’annotation consiste à
+localiser les gènes sur ce fragment d’ADN, puis il faudra essayer de
+trouver la fonction assurée par ces gènes.</p>
+<p>Afin de localiser les gènes sur ce fragment d’ADN chromosomique, vous
+allez réaliser une recherche de cadres ouverts de lecture (<em>open
+reading frames</em>, <em>ORFs</em>). Pour cela, vous allez utiliser
+l’outil ORFinder du NCBI.</p>
+<ol style="list-style-type: decimal">
+<li><p>Connectez-vous à ORFinder du NCBI.</p></li>
+<li><p>Collez la séquence du fragment chromosomique bactérien dans
+l’encadré “<strong>Enter Query Sequence</strong>”.</p></li>
+<li><p>Dans la section, “<strong>Choose Search Parameters</strong>”
+:</p>
+<ul>
+<li>Fixez la longueur minimale des ORFs recherchés à 300 pb ;</li>
+<li>Choisissez le code génétique le plus approprié</li>
+<li>Pour le codon start à utiliser pour la recherche, choisissez
+“<strong>ATG only</strong>”</li>
+</ul></li>
+<li><p>Cliquez <strong>Submit</strong>.</p></li>
+</ol>
 </div>
 <div id="que-retenir-de-ce-tp" class="section level2">
 <h2>Que retenir de ce TP ?</h2>

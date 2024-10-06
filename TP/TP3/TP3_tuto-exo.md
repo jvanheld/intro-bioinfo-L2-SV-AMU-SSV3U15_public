@@ -3,8 +3,12 @@
 ## Table des matières
 
 - [Introduction](#introduction)
+- [Exemples traités](#exemples-traites)
 - [Ressources bioinformatiques](#ressources-bioinformatiques) 
-- [Exercice 1 - ](#)
+- [Exercice 1 - Annotations génomiques dans la région du gène humain PAX6](#exercice-1---annotations-génomiques-dans-la-région-du-gène-humain-pax6)
+- [Exercice 2 - Conservation du gène PAX6 dans les génomes de vertébrés](#exercice-2---conservation-du-gène-pax6-dans-les-génomes-de-vertébrés)
+- [Exercice 3 - Profil tissulaire de transcription de PAX6](#exercice-3---profil-tissulaire-de-transcription-de-pax6)
+- [Exercice 4 - Annotation d’un fragment chromosomique bactérien](#exercice-4---annotation-dun-fragment-chromosomique-bactérien)
 - [Que retenir de ce TP ?](#que-retenir-de-ce-tp)
 
 ## Auteurs
@@ -46,7 +50,7 @@ Le gène PAX6 humain (également appelé aniridia) code pour un facteur trnascri
 | UCSC genome browser | [genome.ucsc.edu](https://genome.ucsc.edu/) | Navigateur génomique présentant un vaste choix de types d'annotations  |
 | ECR Browser | [ecrbrowser.dcode.org](https://ecrbrowser.dcode.org/) | Outil de visualisation des régions génomiques conservées entre quelques espèces animales |
 
-## Annotations génomiques dans la région du gène humain PAX6
+## Exercice 1 - Annotations génomiques dans la région du gène humain PAX6
 
 Nous allons utiliser le navigateur de génomes [**UCSC genome browser**](https://genome.ucsc.edu/) pour consulter différents types d'annotations génomiques dans la région du gène humain PAX6. 
 
@@ -93,7 +97,7 @@ Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exer
 
 
 
-## Conservation du gène PAX6 dans les génomes de vertébrés
+## Exercice 2 - Conservation du gène PAX6 dans les génomes de vertébrés
 
 - Dans la catégorie **Comparative genomics**, activez l’affichage pack de la piste **Conservation**. 
 
@@ -124,7 +128,7 @@ Dans la figure qui apparaît, la carte de conservation génomique comporte deux 
 
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 2 "*Conservation de la région génomique PAX6 chez les vertébrés*".
 
-## Profil tissulaire de transcription de PAX6
+## Exercice 3 - Profil tissulaire de transcription de PAX6
 
 Nous allons maintenant ajouter à notre carte génomique une piste d’annotation de la base de données GTEx (Genotype-Tissue Expression). GTEx contient des données de transcriptome (mesure quantitative de tous les transcrits produits par un génome) dans des échantillons de 54 tissus prélevés chez 948 personnes adultes. 
 
@@ -149,6 +153,29 @@ Les profils sont affichés sous forme de "boîte à moustaches" (box plot en ang
 ### Questionnaire TP3 – Exercice 3
 
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 3 "*Profil d’expression tissulaire de PAX6*".
+
+## Exercice 4 - Annotation d’un fragment chromosomique bactérien
+
+Vous disposez d’un fragment chromosomique bactérien, que vous pouvez récupérer en cliquant ici. 
+
+- [seq_bact_a-annoter.fasta.txt](sequences/seq_bact_a-annoter.fasta.txt)
+
+Vous allez utiliser quelques outils bioinformatiques pour annoter ce fragment d’ADN chromosomique.
+La première étape d’annotation consiste à localiser les gènes sur ce fragment d’ADN, puis il faudra essayer de trouver la fonction assurée par ces gènes.
+
+
+Afin de localiser les gènes sur ce fragment d’ADN chromosomique, vous allez réaliser une recherche de cadres ouverts de lecture (*open reading frames*, *ORFs*). Pour cela, vous allez utiliser l’outil ORFinder du NCBI.
+
+1.	Connectez-vous à ORFinder du NCBI.
+2.	Collez la séquence du fragment chromosomique bactérien dans l’encadré "**Enter Query Sequence**".
+3.	Dans la section, "**Choose Search Parameters**" :
+
+
+    - Fixez la longueur minimale des ORFs recherchés à 300 pb ;
+    - Choisissez le code génétique le plus approprié
+    - Pour le codon start à utiliser pour la recherche, choisissez "**ATG only**"
+
+4.	Cliquez **Submit**.
 
 
 ## Que retenir de ce TP ?
