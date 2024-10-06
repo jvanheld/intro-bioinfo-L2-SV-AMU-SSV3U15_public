@@ -67,7 +67,7 @@ Nous allons restreindre la visualisation aux pistes d’annotations utilisées p
 
 - Dans la catégorie **Mapping and Sequencing**, sélectionnez le mode d’affichage **dense** pour la piste d’annotation **Base position**. 
 
-- Dans la catégorie **Genes and Gene Prediction**, sélectionnez le mode **pack** pour les pistes **HGNC** et **GENCODE_V46**. HGNC indique les limites des gènes, tandis que GENCODE_V6 fournit des informations plus détaillées sur la structure des gènes (introns, exons, transcrits alternatifs, ...). 
+- Dans la catégorie **Genes and Gene Prediction**, sélectionnez le mode **pack** pour les pistes **HGNC** et **GENCODE_V46**. HGNC indique les limites des gènes, tandis que GENCODE_V46 fournit des informations plus détaillées sur la structure des gènes (introns, exons, transcrits alternatifs, ...). 
 
 - Cliquez **Refresh** à droite d’une des catégories. 
 
@@ -80,7 +80,12 @@ Vous pouvez à tout moment reconfigurer le mode d’affichage d’une piste d’
 
 - Dans la catégorie **Repeats**, activez l’affichage de **Repeatmasker**” en format **dense** et cliquez **Refresh**. 
 
-- Modifiez l’affichage de la piste **GENCODE_V46** pour l’afficher en **dense**. 
+- Dézoomez (**Zoom out**) d’un facteur **x1.5** pour voir les environs du gène
+
+- **Déplacez la piste HGCN** au-dessus de la piste GENCODE_V46 (en  positionnant la souris vers le coin supérieur gauche d’une piste, une flèche apparaît qui permet de la déplacer)
+
+Observez la disposition du gène PAX6. Notez qu’il chevauche ses voisins de gauche (ELP4) et de droite (PAX6-AS1, où AS indique qu’il s’agit d’un gène antisens). 
+
 
 ### Questionnaire TP3 – Exercice 1
 
@@ -119,7 +124,31 @@ Dans la figure qui apparaît, la carte de conservation génomique comporte deux 
 
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 2 "*Conservation de la région génomique PAX6 chez les vertébrés*".
 
+## Profil tissulaire de transcription de PAX6
 
+Nous allons maintenant ajouter à notre carte génomique une piste d’annotation de la base de données GTEx (Genotype-Tissue Expression). GTEx contient des données de transcriptome (mesure quantitative de tous les transcrits produits par un génome) dans des échantillons de 54 tissus prélevés chez 948 personnes adultes. 
+
+
+
+- Dans la catégorie **Expression**, activez l’affichage **pack** de **GTEX_Gene_V8**. 
+
+- **Cliquez sur l’icône** du gène PAX6 sur la piste GTEX_Gene_V8, et examinez le profil d’expression tissulaire. 
+
+
+**Interprétation du graphique**
+
+Les profils sont affichés sous forme de "boîte à moustaches" (box plot en anglais) pour chaque tissu.
+- L’axe horizontal indique les tissus échantillonnés dans GTEx. 
+- L’axe vertical indique le taux de transcription. 
+- La barre horizontale épaisse indique le niveau médian (50% des échantillons ont un niveau inférieur, et 50% un niveau supérieur)
+- Le bas du rectangle indique le 1er quartile  (25% des échantillons ont un niveau inférieur)
+- Le haut du rectangle indique le 3ème quartile (75% des échantillons ont un niveau supérieur)
+- La barre verticale indique un intervalle de confiance
+- Les points isolés sont des "outliers" (valeurs exceptionnellement hautes ou basses, non représentatives de l’ensemble des échantillons). 
+
+### Questionnaire TP3 – Exercice 3
+
+Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 3 "*Profil d’expression tissulaire de PAX6*".
 
 
 ## Que retenir de ce TP ?
