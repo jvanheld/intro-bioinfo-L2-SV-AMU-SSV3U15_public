@@ -378,6 +378,7 @@ bioinformatiques</a></li>
 <li>Jacques van Helden</li>
 <li>Bénédicte Wirth</li>
 </ol>
+<p>================================================================</p>
 </div>
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
@@ -419,6 +420,7 @@ différents tissus</li>
 <li>Protéomique : analyse de l’ensemble des protéines codées par un
 génome</li>
 </ul>
+<p>================================================================</p>
 </div>
 </div>
 <div id="ressources-bioinformatiques" class="section level2">
@@ -444,10 +446,17 @@ génome</li>
 d’annotations</td>
 </tr>
 <tr class="even">
-<td align="left">ECR Browser</td>
-<td align="left"><a href="https://ecrbrowser.dcode.org/">ecrbrowser.dcode.org</a></td>
-<td align="left">Outil de visualisation des régions génomiques
-conservées entre quelques espèces animales</td>
+<td align="left">NCBI ORFfinder</td>
+<td align="left"></td>
+<td align="left">Détection de cadre ouverts de lecture (ORFs) dans des
+séquences nucléiques</td>
+</tr>
+<tr class="odd">
+<td align="left">RegulonDB</td>
+<td align="left"></td>
+<td align="left">base de connaissance sur la régulation
+transcriptionnelle chez la bactérie <em>Escherichia coli</em>: facteurs
+transcriptionnels, sites de liaison, régulons, opérons</td>
 </tr>
 </tbody>
 </table>
@@ -522,6 +531,7 @@ s’agit d’un gène antisens).</p>
 <p>Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions
 de l’Exercice 1 Annotations génomiques dans la région du gène humain
 PAX6.</p>
+<p>================================================================</p>
 </div>
 </div>
 <div id="exercice-2---conservation-du-gène-pax6-dans-les-génomes-de-vertébrés" class="section level2">
@@ -576,6 +586,7 @@ vous avez sélectionnées.</p></li>
 <p>Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions
 de l’Exercice 2 “<em>Conservation de la région génomique PAX6 chez les
 vertébrés</em>”.</p>
+<p>================================================================</p>
 </div>
 </div>
 <div id="exercice-3---profil-tissulaire-de-transcription-de-pax6" class="section level2">
@@ -608,37 +619,73 @@ représentatives de l’ensemble des échantillons).</p>
 <h3>Questionnaire TP3 – Exercice 3</h3>
 <p>Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions
 de l’Exercice 3 “<em>Profil d’expression tissulaire de PAX6</em>”.</p>
+<p>================================================================</p>
 </div>
 </div>
 <div id="exercice-4---annotation-dun-fragment-chromosomique-bactérien" class="section level2">
 <h2>Exercice 4 - Annotation d’un fragment chromosomique bactérien</h2>
-<p>Vous disposez d’un fragment chromosomique bactérien, que vous pouvez
+<hr />
+<p>Nous disposons d’un fragment chromosomique bactérien, qu’on peut
 récupérer en cliquant ici.</p>
 <ul>
 <li><a href="sequences/seq_bact_a-annoter.fasta.txt">seq_bact_a-annoter.fasta.txt</a></li>
 </ul>
-<p>Vous allez utiliser quelques outils bioinformatiques pour annoter ce
-fragment d’ADN chromosomique. La première étape d’annotation consiste à
-localiser les gènes sur ce fragment d’ADN, puis il faudra essayer de
-trouver la fonction assurée par ces gènes.</p>
-<p>Afin de localiser les gènes sur ce fragment d’ADN chromosomique, vous
-allez réaliser une recherche de cadres ouverts de lecture (<em>open
-reading frames</em>, <em>ORFs</em>). Pour cela, vous allez utiliser
-l’outil ORFinder du NCBI.</p>
+<p>Ouvrez ce fichier dans un onglet séparé. Pour l’étape suivante, vous
+pourrez soit le copier à partir de cet onglet, soit le sauvegarder sur
+votre ordinateur et l’ouvrir avec un éditeur de texte de votre
+choix.</p>
+<p>Nous allons utiliser quelques outils bioinformatiques pour annoter ce
+fragment d’ADN chromosomique. La première étape consiste à localiser les
+gènes sur ce fragment d’ADN. Il faudra ensuite essayer de trouver la
+fonction assurée par ces gènes.</p>
+<div id="recherche-des-cadres-ouverts-de-lecture" class="section level3">
+<h3>Recherche des cadres ouverts de lecture</h3>
+<p>Afin de localiser les gènes sur ce fragment d’ADN chromosomique, nous
+allons effectuer une recherche de cadres ouverts de lecture (<em>open
+reading frames</em>, <em>ORFs</em>), en utilisant l’outil ORFinder du
+NCBI.</p>
 <ol style="list-style-type: decimal">
-<li><p>Connectez-vous à ORFinder du NCBI.</p></li>
+<li><p>Connectez-vous à l’outil <strong><a href="https://www.ncbi.nlm.nih.gov/orffinder/">ORFinder du
+NCBI</a></strong>.</p></li>
 <li><p>Collez la séquence du fragment chromosomique bactérien dans
 l’encadré “<strong>Enter Query Sequence</strong>”.</p></li>
 <li><p>Dans la section, “<strong>Choose Search Parameters</strong>”
 :</p>
 <ul>
-<li>Fixez la longueur minimale des ORFs recherchés à 300 pb ;</li>
-<li>Choisissez le code génétique le plus approprié</li>
+<li>Fixez la longueur minimale des ORFs recherchés à 300 pb.</li>
+<li>Choisissez le code génétique le plus approprié.</li>
 <li>Pour le codon start à utiliser pour la recherche, choisissez
-“<strong>ATG only</strong>”</li>
+“<strong>ATG only</strong>”.</li>
+<li>Cliquez <strong>Submit</strong>.</li>
 </ul></li>
-<li><p>Cliquez <strong>Submit</strong>.</p></li>
+<li><p>Sur la fenêtre de résultats de la recherche d’ORFs, Cliquez sur
+Six-frame translation, puis sur Display six-frame translation.</p></li>
 </ol>
+<p><em>Question (hors questionnaire)</em></p>
+<p>Qu’observez-vous dans la fenêtre qui s’affiche ? En particulier - à
+quoi correspondent les lettres rouges? - à quoi correspondent les
+astérisques ? - pourquoi y a-t-il 3 lignes de lettres décalées au dessus
+de la séquence d’ADN, et 3 en-dessous ? - à quoi correspondent les
+lettres bleues (descendez dans la fenêtre pour les voir)</p>
+<p>Fermez la fenêtre “Six frame translation”, puis relancez la
+traduction sur 6 phases avec une option alternative, en cliquant sur
+<strong>Six-frame translation</strong> puis sur <strong>Add six-frame
+translation track</strong>. Qu’observez-vous dans la fenêtre qui
+s’affiche ?</p>
+<p><strong>Astuce :</strong> pour répondre aux questions 2 et 3, zoomez
+sur la carte jusqu’à faire apparaître l’enchaînement des résidus (acides
+aminés et nucléotides).</p>
+<p><strong>Questions (hors questionnaire)</strong></p>
+<ul>
+<li>à quoi correspondent les pistes marquées +1, +2, +3, -1, -2, -3
+?</li>
+<li>à quoi correspondent les traits verticaux verts ?</li>
+<li>à quoi correspondent les traits verticaux rouges ?</li>
+<li>à quoi correspondent les plages grises ?</li>
+<li>y a-t-il le même nombre de plages grises que d’ORFs détectés en
+rouge dans la piste ORFinder ? D’où vient la différence ?</li>
+</ul>
+</div>
 </div>
 <div id="que-retenir-de-ce-tp" class="section level2">
 <h2>Que retenir de ce TP ?</h2>

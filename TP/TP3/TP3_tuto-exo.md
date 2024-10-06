@@ -16,6 +16,8 @@
 1. Jacques van Helden
 2. Bénédicte Wirth
 
+================================================================
+
 ## Introduction
 
 
@@ -42,13 +44,16 @@ Le gène PAX6 humain (également appelé aniridia) code pour un facteur trnascri
 - Transcriptomique : expression différentielle des gènes dans différents tissus
 - Protéomique : analyse de l’ensemble des protéines codées par un génome
 
+================================================================
+
 
 ## Ressources bioinformatiques
 
 | Ressource | Lien | Description |
 |:--------------------|:-----------------|:-------------------------------------------------------|
 | UCSC genome browser | [genome.ucsc.edu](https://genome.ucsc.edu/) | Navigateur génomique présentant un vaste choix de types d'annotations  |
-| ECR Browser | [ecrbrowser.dcode.org](https://ecrbrowser.dcode.org/) | Outil de visualisation des régions génomiques conservées entre quelques espèces animales |
+| NCBI ORFfinder |  | Détection de cadre ouverts de lecture (ORFs)  dans des séquences nucléiques |
+| RegulonDB | | base de connaissance sur la régulation transcriptionnelle chez la bactérie *Escherichia coli*: facteurs transcriptionnels, sites de liaison, régulons, opérons |
 
 ## Exercice 1 - Annotations génomiques dans la région du gène humain PAX6
 
@@ -96,6 +101,7 @@ Observez la disposition du gène PAX6. Notez qu’il chevauche ses voisins de ga
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1 Annotations génomiques dans la région du gène humain PAX6.
 
 
+================================================================
 
 ## Exercice 2 - Conservation du gène PAX6 dans les génomes de vertébrés
 
@@ -128,6 +134,9 @@ Dans la figure qui apparaît, la carte de conservation génomique comporte deux 
 
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 2 "*Conservation de la région génomique PAX6 chez les vertébrés*".
 
+
+================================================================
+
 ## Exercice 3 - Profil tissulaire de transcription de PAX6
 
 Nous allons maintenant ajouter à notre carte génomique une piste d’annotation de la base de données GTEx (Genotype-Tissue Expression). GTEx contient des données de transcriptome (mesure quantitative de tous les transcrits produits par un génome) dans des échantillons de 54 tissus prélevés chez 948 personnes adultes. 
@@ -154,28 +163,54 @@ Les profils sont affichés sous forme de "boîte à moustaches" (box plot en ang
 
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 3 "*Profil d’expression tissulaire de PAX6*".
 
+================================================================
+
 ## Exercice 4 - Annotation d’un fragment chromosomique bactérien
 
-Vous disposez d’un fragment chromosomique bactérien, que vous pouvez récupérer en cliquant ici. 
+----------------------------------------------------------------
+Nous disposons d’un fragment chromosomique bactérien, qu'on peut récupérer en cliquant ici. 
 
 - [seq_bact_a-annoter.fasta.txt](sequences/seq_bact_a-annoter.fasta.txt)
 
-Vous allez utiliser quelques outils bioinformatiques pour annoter ce fragment d’ADN chromosomique.
-La première étape d’annotation consiste à localiser les gènes sur ce fragment d’ADN, puis il faudra essayer de trouver la fonction assurée par ces gènes.
+Ouvrez ce fichier dans un onglet séparé. Pour l’étape suivante, vous pourrez soit le copier à partir de cet onglet, soit le sauvegarder sur votre ordinateur et l’ouvrir avec un éditeur de texte de votre choix. 
 
+Nous allons utiliser quelques outils bioinformatiques pour annoter ce fragment d’ADN chromosomique. La première étape  consiste à localiser les gènes sur ce fragment d’ADN. Il faudra ensuite essayer de trouver la fonction assurée par ces gènes.
 
-Afin de localiser les gènes sur ce fragment d’ADN chromosomique, vous allez réaliser une recherche de cadres ouverts de lecture (*open reading frames*, *ORFs*). Pour cela, vous allez utiliser l’outil ORFinder du NCBI.
+### Recherche des cadres ouverts de lecture
 
-1.	Connectez-vous à ORFinder du NCBI.
+Afin de localiser les gènes sur ce fragment d’ADN chromosomique, nous allons effectuer une recherche de cadres ouverts de lecture (*open reading frames*, *ORFs*), en utilisant l’outil ORFinder du NCBI.
+
+1.	Connectez-vous à l'outil **[ORFinder du NCBI](https://www.ncbi.nlm.nih.gov/orffinder/)**.
 2.	Collez la séquence du fragment chromosomique bactérien dans l’encadré "**Enter Query Sequence**".
 3.	Dans la section, "**Choose Search Parameters**" :
 
+    - Fixez la longueur minimale des ORFs recherchés à 300 pb.
+    - Choisissez le code génétique le plus approprié. 
+    - Pour le codon start à utiliser pour la recherche, choisissez "**ATG only**".
+    -	Cliquez **Submit**.
 
-    - Fixez la longueur minimale des ORFs recherchés à 300 pb ;
-    - Choisissez le code génétique le plus approprié
-    - Pour le codon start à utiliser pour la recherche, choisissez "**ATG only**"
+4. Sur la fenêtre de résultats de la recherche d’ORFs, Cliquez sur Six-frame translation, puis sur Display six-frame translation.
 
-4.	Cliquez **Submit**.
+*Question (hors questionnaire)* 
+
+Qu’observez-vous dans la fenêtre qui s’affiche ?  En particulier
+- à quoi correspondent les lettres rouges?
+- à quoi correspondent les astérisques ?
+- pourquoi y a-t-il 3 lignes de lettres décalées au dessus de la séquence d'ADN, et 3 en-dessous ?
+- à quoi correspondent les lettres bleues (descendez dans la fenêtre pour les voir)
+
+Fermez la fenêtre "Six frame translation", puis relancez la traduction sur 6 phases  avec une option alternative, en cliquant sur **Six-frame translation** puis sur **Add six-frame translation track**. Qu’observez-vous dans la fenêtre qui s’affiche ?
+
+**Astuce :** pour répondre aux questions 2 et 3, zoomez sur la carte jusqu’à faire apparaître l’enchaînement des résidus (acides aminés et nucléotides).
+
+**Questions (hors questionnaire)** 
+
+- à quoi correspondent les pistes marquées +1, +2, +3, -1, -2, -3 ? 
+- à  quoi correspondent les traits verticaux verts ? 
+- à quoi correspondent les traits verticaux rouges ? 
+- à quoi correspondent les plages grises ?
+- y a-t-il le même nombre de plages grises que d’ORFs détectés en rouge dans la piste ORFinder ? D’où vient la différence ? 
+
 
 
 ## Que retenir de ce TP ?
