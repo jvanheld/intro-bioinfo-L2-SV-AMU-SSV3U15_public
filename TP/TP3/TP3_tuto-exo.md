@@ -51,7 +51,7 @@ Le gène PAX6 humain (également appelé aniridia) code pour un facteur trnascri
 Nous allons utiliser le navigateur de génomes [**UCSC genome browser**](https://genome.ucsc.edu/) pour consulter différents types d'annotations génomiques dans la région du gène humain PAX6. 
 
 - Connectez-vous au [**UCSC genome browser**](https://genome.ucsc.edu/)
-- Dans le menu **Genomes**, sélectionnez la version **hg38** du génome humain
+- Dans le menu **Genomes**, sélectionnez la version **hg38** du génome humain.
 - Entrez le nom du gène d’intérêt (**PAX6**) dans la boîte de recherche et cliquez sur **Search**. 
 
 La page de résultat affiche une série d’annotations de PAX6 dans différentes bases de données de référence pour le génome humain. Comment choisir ? En première instance, le mieux est de se fier aux annotations du consortium international HUGO, responsable de la nomenclature des gènes humains. 
@@ -63,26 +63,28 @@ Nous allons restreindre la visualisation aux pistes d’annotations utilisées p
 
 - Descendez sous la carte génomique pour afficher les choix de pistes d’annotations. 
 
-- Dans la catégorie "**Mapping and Sequencing**", sélectionnez le mode d’affichage "**dense**" pour la piste d’annotation "**Base position**". 
+- Entre la carte et les options, cliquez **Hide all** pour masquer les pistes génomiques par défaut.
 
-- Dans la catégorie "**Genes and Gene Prediction**", sélectionnez le mode "**pack**" pour la piste "**GENCODE_V46**". 
+- Dans la catégorie **Mapping and Sequencing**, sélectionnez le mode d’affichage **dense** pour la piste d’annotation **Base position**. 
 
-- Cliquez "**Refresh**" à droite d’une des catégories. 
+- Dans la catégorie **Genes and Gene Prediction**, sélectionnez le mode **pack** pour les pistes **HGNC** et **GENCODE_V46**. HGNC indique les limites des gènes, tandis que GENCODE_V6 fournit des informations plus détaillées sur la structure des gènes (introns, exons, transcrits alternatifs, ...). 
 
-- Cliquez "**Resize**" sous la carte pour ajuster la largeur à celle de votre écran. 
+- Cliquez **Refresh** à droite d’une des catégories. 
+
+- Cliquez **Resize** sous la carte pour ajuster la largeur à celle de votre écran. 
 
 Vous pouvez à tout moment reconfigurer le mode d’affichage d’une piste d’annotation, en cliquant droit (**contrôle-clic**) sur la figure. Ceci vous affichera un menu avec des modes d’affichages de plus en plus détaillés : hide, dense, squish, pack, full.
 
 
 - Testez les différents niveaux de détail avec la piste GENCODE_V46, puis sélectionnez le mode **squish**, qui vous permet généralement de visualiser les transcrits alternatifs en occupant une place raisonnable. 
 
-- Dans la catégorie "**Repeats**", activez l’affichage de "**Repeatmasker**” en format "**dense**" et cliquez "**Refresh**". 
+- Dans la catégorie **Repeats**, activez l’affichage de **Repeatmasker**” en format **dense** et cliquez **Refresh**. 
 
-- Modifiez l’affichage de la piste **GENCODE_V46** pour l’afficher en "**dense**". 
+- Modifiez l’affichage de la piste **GENCODE_V46** pour l’afficher en **dense**. 
 
 ### Questionnaire TP3 – Exercice 1
 
-Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1 "Annotations génomiques dans la région du gène humain PAX6".
+Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1 Annotations génomiques dans la région du gène humain PAX6.
 
 
 
@@ -104,18 +106,18 @@ Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exer
 
 - Cliquez **Apply**. 
 
-- **Dézoomez d’un facteur 3** pour observer le contexte aux alentours du gène. 
+- **Dézoomez d’un facteur 1.5** pour observer le contexte aux alentours du gène. 
 
 Dans la figure qui apparaît, la carte de conservation génomique comporte deux parties. 
 
-1. La partie supérieure affiche un **profil de conservation** calculé à partir de l’alignement de 100 génomes de vertébrés. La hauteur du profil indique le pourcentage de positions identiques (PPI) à chaque position du génome. 
+1. La partie supérieure affiche un **profil de conservation** calculé à partir de l’alignement de 100 génomes de vertébrés. La hauteur du profil indique le *pourcentage de positions identiques* (*PPI*) à chaque position du génome.  Notez que l'échelle verticale va de  50% à 100%, pour mieux faire ressortir les régions conservées. 
 
 2. La partie inférieure indique, sous forme d’une échelle de gris, le pourcentage de conservation par position chez chacune des espèces que vous avez sélectionnées. 
 
 
 ### Questionnaire TP3 – Exercice 2
 
-Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 2 "Conservation de la région génomique PAX6 chez les vertébrés".
+Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 2 "*Conservation de la région génomique PAX6 chez les vertébrés*".
 
 
 
