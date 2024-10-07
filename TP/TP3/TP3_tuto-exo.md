@@ -9,14 +9,14 @@
 - [Exercice 2 - Conservation du gène PAX6 dans les génomes de vertébrés](#exercice-2---conservation-du-gène-pax6-dans-les-génomes-de-vertébrés)
 - [Exercice 3 - Profil tissulaire de transcription de PAX6](#exercice-3---profil-tissulaire-de-transcription-de-pax6)
 - [Exercice 4 - Annotation d’un fragment chromosomique bactérien](#exercice-4---annotation-dun-fragment-chromosomique-bactérien)
-- [Que retenir de ce TP ?](#que-retenir-de-ce-tp)
+- [Qu'avez-vous acquis au terme de ce TP ?](#quavez-vous-acquis-au-terme-de-ce-tp)
 
 ## Auteurs
 
 1. Jacques van Helden
 2. Bénédicte Wirth
 
-================================================================
+----------------------------------------------------------------
 
 ## Introduction
 
@@ -44,7 +44,7 @@ Le gène PAX6 humain (également appelé aniridia) code pour un facteur trnascri
 - Transcriptomique : expression différentielle des gènes dans différents tissus
 - Protéomique : analyse de l’ensemble des protéines codées par un génome
 
-================================================================
+----------------------------------------------------------------
 
 
 ## Ressources bioinformatiques
@@ -101,7 +101,7 @@ Observez la disposition du gène PAX6. Notez qu’il chevauche ses voisins de ga
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1 Annotations génomiques dans la région du gène humain PAX6.
 
 
-================================================================
+----------------------------------------------------------------
 
 ## Exercice 2 - Conservation du gène PAX6 dans les génomes de vertébrés
 
@@ -135,7 +135,7 @@ Dans la figure qui apparaît, la carte de conservation génomique comporte deux 
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 2 "*Conservation de la région génomique PAX6 chez les vertébrés*".
 
 
-================================================================
+----------------------------------------------------------------
 
 ## Exercice 3 - Profil tissulaire de transcription de PAX6
 
@@ -163,7 +163,7 @@ Les profils sont affichés sous forme de "boîte à moustaches" (box plot en ang
 
 Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 3 "*Profil d’expression tissulaire de PAX6*".
 
-================================================================
+----------------------------------------------------------------
 
 ## Exercice 4 - Annotation d’un fragment chromosomique bactérien
 
@@ -211,7 +211,215 @@ Fermez la fenêtre "Six frame translation", puis relancez la traduction sur 6 ph
 - à quoi correspondent les plages grises ?
 - y a-t-il le même nombre de plages grises que d’ORFs détectés en rouge dans la piste ORFinder ? D’où vient la différence ? 
 
+### Tailles des régions intergéniques
+
+Vous allez maintenant déterminer la taille des régions intergéniques (RI) entre ces ORFs.
+
+***Astuce:**  sous la carte des ORF, ORFfinder affiche un tableau indiquant les coordonnées génomiques et la taille des ORFs détectés. Vous pouvez récupérer les valeurs de ce tableau pour calculer la taille des régions intergéniques. *
 
 
-## Que retenir de ce TP ?
+- Dézoomez complètement.
+- Refermez la piste six-frame translation en cliquant sur la petite croix rouge en haut à droite (attention, ne fermez pas la piste des ORFs produits par ORFfinder).
+- Sur le tableau de coordonnées des ORFs, cliquez sur l’en-tête de colonne Start pour trier les ORFs par position. 
+- Notez les positions de fin de l’ORF1 et de début de l’ORF6. 
+- Calculez la taille de la RI entre ORF1 et ORF6. 
+- Faites de même pour les autres ORFs, pour déterminer la taille des RI qui les séparent.
+
+
+Questions à réponses numériques
+
+- Quelle est la taille de la RI entre ORF1 et ORF6 ?
+- Quelle est la taille de la RI entre ORF6 et ORF4 ? 
+- Quelle est la taille de la RI entre ORF4 et ORF2 ? 
+- Quelle est la taille de la RI entre ORF2 et ORF7 ? 
+- Quelle est la taille de la RI entre ORF7 et ORF5 ? 
+- Quelle est la taille de la RI entre ORF5 et ORF3 ? 
+- Quelle est la taille de la RI entre ORF3 et ORF8 ? 
+- Quelle est la taille de la RI entre ORF8 et ORF9 ? 
+
+Quelles  conclusions  peut-on tirer à partir des tailles de ces RI ?
+
+- Quelle structure serait présente sur ce fragment d’ADN chromosomique ? 
+- Une seule réponse: UTR, intron, exon, opéron, site d’épissage
+- Quels ORFs seraient inclus dans cette structure ? 
+- Une ou plusieurs réponses:  ORF1, ORF6, ORF4, ORF5, ORF8, ORF10 
+- Quels éléments vous permettent de conclure sur le nombre d’ORFs inclus dans cette structure ? (une ou plusieurs réponses)
+    - Distances intergéniques courtes ou nulles
+    - Chevauchements entre ORFs
+    - Orientation des ORFs
+    - Longueur des ORFs
+
+
+
+### Assignation de fonction par recherche de similarité
+
+Vous allez maintenant vous intéresser à l’annotation fonctionnelle de ces ORFs détectés dans le fragment d’ADN chromosomique étudié.  Pour cela, le plus simple est de faire une recherche par similarité dans une base de données (outil BLAST), afin de comparer les ORFs identifiés aux séquences déjà connues et répertoriées dans les bases de données.
+
+Vous allez ainsi vérifier à quel gène pourraient correspondre les ORF1 et 10. 
+
+- Cliquez sur l’ORF1. La traduction de l’ORF en protéine s’affiche dans l’encadré du dessous.
+- Cliquez sur le bouton BLAST. Vous lancez ainsi une recherche de similarité en comparant la séquence protéique traduite de l’ORF1 avec chacune des séquences d’une base de données.
+- A partir de la page de résultats du BLAST, répondez aux questions suivantes
+
+**Questions**
+
+- Quelle est la modalité de BLAST utilisée ?  (une seule réponse): blastn, blastp, blastx, tblastn
+- En quoi consiste une recherche par BLASTP ?
+
+    - Requête protéine versus base de données de protéines
+    - Requête nucléique versus base de données de protéines
+    - Requête protéine versus base de données nucléique
+
+- Quelle est la base de données interrogée lors de cette requête ? (une seule réponse) UniprotKB TREMBL, UniprotKB complet, Swiss-prot
+
+- Combien de résultats obtenez-vous ? (Réponse numérique)
+
+- Pour la séquence cible la plus similaire à la requête soumise, quel est le pourcentage d’identité obtenu ? (Réponse numérique)
+
+- Quel est son pourcentage de couverture par rapport à la séquence requête ? (Réponse numérique)
+
+- Quelle est la E-value obtenue ? (réponse numérique)
+
+- Que signifie une e-value de 0.0 ? (plusieurs choix possibles)
+
+    - Similarité non significative
+    - Ressemblance nulle
+    - Similarité extrêmement significative
+
+- Est-ce que ces deux séquences alignées sont vraisemblablement homologues ? (Oui / Non)
+
+- Quelle est la fonction que l’on peut ainsi associer à l’ORF1 ?
+
+    - ATP phosphoribosyltaransferase
+    - Aspartate kinase
+    - ATP-PRT
+    - Homoserine dehydrogenase
+
+### Identification du gène correspondant à ORF1
+
+Vous allez maintenant rechercher le nom du gène correspondant à l’ORF1.
+
+- Dans la dernière colonne du tableau de résultats de BLAST, cliquez sur le "numéro d’accession" de la séquence la plus similaire à l’ORF1.  Ceci ouvre dans un nouvel onglet la fiche de la séquence protéique correspondante.
+- Dans la section "FEATURES" (annotations de la séquence), trouvez le premier objet de type gène, et consultez son nom (attribut “/gene” de ‘l’objet "gene".
+
+**Question**
+
+- Quel est le nom du gène correspondant à l’ORF1 ? (une seule réponse)
+
+    - HIS1_ECOK1
+    - A1ACN1
+    - Glycosyltransferase,
+    - hisG
+    - HisG
+    - ATP-PRT
+    - ATP-PRTase
+    - ATP phosphoribosyltransferase
+
+### Fonction et identification de l’ORF10
+
+L’ORF10 chevauche étonnamment l’ORF8 de manière importante, sur une grande partie de sa longueur. Afin de tenter de déterminer à quel gène pourrait correspondre cet ORF10, vous allez donc faire, pour l’ORF10, la même manipulation que celle faite pour l’ORF1.
+
+- Sur la page de résultat de la recherche d’ORF, commencez par trouver la taille en nt de l’ORF10, ainsi que la taille en aa de la protéine potentielle codée par cet ORF10. Pour cela, vous avez deux possibilités :
+- Trouver ces informations dans l’encadré qui récapitule les ORFs trouvés sur le fragment d’ADN. 
+- Placer le curseur sur l’ORF10 (sans cliquer) : la fenêtre qui s’ouvre contient les caractéristiques de l’ORF10.
+- Cliquez ensuite sur l’ORF10, afin de le sélectionner. La traduction de l’ORF en protéine s’affiche dans l’encadré du dessous.
+- Cliquez sur le bouton BLAST pour lancer la recherche par similarité de séquences avec cette séquence protéique.
+
+**Questions**
+
+- Combien de résultats obtenez-vous ?
+- Quelle fonction pouvez-vous assigner à l’ORF10 sur base du résultat ? (une ou plusieurs réponses possibles)
+
+    - 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)
+    - Dynein axonemal heavy chain 1
+    - Splicing factor U2af large subunit A
+    - Uncharacterized protein YuaQ
+    - Aucune: les 6 résultats obtenus ne sont pas significatifs, car les e-values obtenues sont trop élevées (toutes > 1)
+    - Aucune : ces 6 séquences cibles ne sont vraisemblablement pas homologues de l’ORF10
+    - Aucune: l’ORF10 est probablement un faux positif, une fausse prédiction d’ORFfinder. 
+
+
+## Recherche d’information sur RegulonDB
+
+
+- Connectez-vous à la base de connaissances [RegulonDB](https://regulondb.ccg.unam.mx/).
+- Sur ce site, effectuez une recherche avec le nom de gène que vous avez trouvé précédemment pour l’ORF1. Pour cela, entrez simplement le nom de gène dans la barre de recherche.
+- Cliquez sur l’unique résultat qui apparaît dans la section Gene. 
+- Dézoomez et recadrez la carte avec les flèches.
+
+**Questions**
+
+- D’après cette carte, le gène étudié se trouve-t-il bien dans la structure supposée précédemment ? (oui / non)
+- Dans les informations qui apparaissent sous la carte, trouvez le nom de l’opéron. Cliquez sur le nom de l’opéron, puis répondez aux questions suivantes.
+- Sur quel brin ce trouve cet opéron ? (forward / reverse)
+- Combien y-a-t’il de gènes dans cet opéron ? 0, 1, 2, 3, 4, 5, 6, 7? 8, 9, 10, 11, 12
+- Combien y-a-t’il de promoteurs dans cet opéron ? 0, 1, 2, 3
+- Quel est le type de terminateur de la transcription présent dans cette unité de transcription ?
+- Quelle est la fonction de cet opéron ? 
+
+
+Comparez votre prédiction d’ORFs avec ORFinder à la carte de l’opéron sur RegulonDB. 
+
+**Questions**
+
+- Avez-vous détecté l’ensemble des gènes de l’opéron avec ORFinder ? (oui / non)
+- Quel est le gène manquant dans votre résultat d’ORFinder ? (une seule réponse) 
+
+    - yeM
+    - hisLp
+    - hisL
+    - wzzB
+    - hisA
+    
+- Cliquez sur ce gène, puis trouvez sa taille. (Réponse numérique)
+
+- Pourquoi ce gène n’est-il pas détecté lors de la recherche avec ORFinder ?  (une ou plusieurs réponses)
+
+    - Ce gène n’est pas codant
+    - La taille minimale d’ORFfinder était de 75bp
+    - La taille minimale d’ORFfinder était de 300bp
+    - Ce gène est situé sur le brin complémentaire
+
+- D’après la carte de l’opéron, à quel gène correspondrait l’ORF 9 détecté avec ORFinder ? (une seule réponse)
+
+    - yeeZ
+    - hisI
+    - wzzB
+    - ugd
+    
+- Comment s’appelle le gène directement en amont de l’opéron ?  (une seule réponse)
+
+    - wzzB
+    - ugd
+    - hisL
+    - hisLp
+    - yefM
+
+- Pourquoi ce gène n’est-il pas détecté lors de la recherche avec ORFinder ?
+
+    - Il n’est pas codant
+    - Il est situé sur le brin complémentaire
+    - Il est en amont de la séquence fournie en début d’exercice. 
+    - La taille minimale d’ORFfinder était de 300bp
+
+
+## Qu'avez-vous acquis au terme de ce TP ?
+
+Au cours de ce TP, vous avez utilisé des outils de navigation génmoique et d'analyse de séquences pour explorer les régions génomiques humaine (autour du gène humain PAX6) et bactériennes (opéron his chez *Escherichia coli*). 
+
+Ceci vous a amenés à mettre en pratique une série de concepts biologiques en manipulant des séquences et annotations génomiques avec deux des navigateurs génomiques les plus utilisés en biologie : UCSC Genome Browser et NCBI (que vous aviez commencé à utiliser au TP2). 
+
+L'exploration des annotations génomiques de PAX6 vous a permis d'acquérir les compétences suivantes
+
+- maîtrise de l'affichage des pistes d'annotation : sélection de pistes, niveau de détail
+- affichage progressif de pistes d'annotations apportant un éclairage complémentaire sur une région génomique : structure des gènes annotés, éléments répétitifs, conservation génomique, profils transcriptomiques
+- interprétation de la carte génomique en intégrant ces différentes informations
+
+L'analyse de la séquence génomique vous a placés dans la situation des biologistes qui disposent de nouvelles séquences génomiques batériennes. Vous avez appris à manipuler une série d'outils en ligne qui permettent de réaliser facilement les premières étapes de cette démarche d'annotation :
+
+- localisation des gènes codants en détectant les phases ouverts de lecture (par traduction de l'ADN génomique sur les 6 phases de lecture)
+- recherche de similarités entre les séquences protéiques potentiellement produites par ces ORFs et la  base de connaissance Swiss-prot
+- analyse de l'organisation des ORFs : positions, distances intergéniques
+- prédiction d'un opéron sur base de l'orientation des gènes et du calcul des distances intergéniques
+
 
