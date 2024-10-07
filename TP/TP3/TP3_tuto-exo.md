@@ -36,13 +36,13 @@ Le gène PAX6 humain (également appelé aniridia) code pour un facteur transcri
 
 ### Notions mises en pratique dans ce TP
 
-- Structuration des gènes (transcrits, introns, exons, régions codantes, régions non traduites)
+- Structuration des gènes (transcrits, introns, exons, régions codantes, régions non traduites).
 - Organisation des génomes (éléments structurels des chromosomes, régions géniques et intergéniques, opérons bactériens). 
-- Quelques éléments de génomique comparative (conservation / divergence, réarrangements chromosomiques, synténie)
-- Les principaux types d'homologie : orthologie, paralogie
-- Annotation fonctionnelle des gènes. 
-- Transcriptomique : expression différentielle des gènes dans différents tissus
-- Protéomique : analyse de l'ensemble des protéines codées par un génome
+- Quelques éléments de génomique comparative (conservation / divergence, réarrangements chromosomiques, synténie).
+- Les principaux types d'homologie : orthologie, paralogie.
+- Annotation fonctionnelle des gènes.
+- Transcriptomique : expression différentielle des gènes dans différents tissus.
+- Protéomique : analyse de l'ensemble des protéines codées par un génome.
 
 ----------------------------------------------------------------
 
@@ -52,14 +52,14 @@ Le gène PAX6 humain (également appelé aniridia) code pour un facteur transcri
 | Ressource | Lien | Description |
 |:--------------------|:-----------------|:-------------------------------------------------------|
 | UCSC genome browser | [genome.ucsc.edu](https://genome.ucsc.edu/) | Navigateur génomique présentant un vaste choix de types d'annotations  |
-| NCBI ORFfinder |  | Détection de cadre ouverts de lecture (ORFs)  dans des séquences nucléiques |
-| RegulonDB | | base de connaissance sur la régulation transcriptionnelle chez la bactérie *Escherichia coli*: facteurs transcriptionnels, sites de liaison, régulons, opérons |
+| NCBI ORFfinder | [orffinder](https://www.ncbi.nlm.nih.gov/orffinder/) | Détection de cadre ouverts de lecture (ORFs)  dans des séquences nucléiques |
+| RegulonDB | [regulondb](https://regulondb.ccg.unam.mx/) | base de connaissance sur la régulation transcriptionnelle chez la bactérie *Escherichia coli*: facteurs transcriptionnels, sites de liaison, régulons, opérons |
 
 ## Exercice 1 - Annotations génomiques dans la région du gène humain PAX6
 
 Nous allons utiliser le navigateur de génomes [**UCSC genome browser**](https://genome.ucsc.edu/) pour consulter différents types d'annotations génomiques dans la région du gène humain PAX6. 
 
-- Connectez-vous au [**UCSC genome browser**](https://genome.ucsc.edu/)
+- Connectez-vous au [**UCSC genome browser**](https://genome.ucsc.edu/).
 - Dans le menu **Genomes**, sélectionnez la version **hg38** du génome humain.
 - Entrez le nom du gène d'intérêt (**PAX6**) dans la boîte de recherche et cliquez sur **Search**. 
 
@@ -87,7 +87,7 @@ Vous pouvez à tout moment reconfigurer le mode d'affichage d'une piste d'annota
 
 - Testez les différents niveaux de détail avec la piste GENCODE_V46, puis sélectionnez le mode **squish**, qui vous permet généralement de visualiser les transcrits alternatifs en occupant une place raisonnable. 
 
-- Dans la catégorie **Repeats**, activez l'affichage de **Repeatmasker**” en format **dense** et cliquez **Refresh**. 
+- Dans la catégorie **Repeats**, activez l'affichage de **Repeatmasker** en format **dense** et cliquez **Refresh**. 
 
 - Dézoomez (**Zoom out**) d'un facteur **x1.5** pour voir les environs du gène
 
@@ -98,14 +98,14 @@ Observez la disposition du gène PAX6. Notez qu'il chevauche ses voisins de gauc
 
 ### Questionnaire TP3 – Exercice 1
 
-Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1 Annotations génomiques dans la région du gène humain PAX6.
+Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exercice 1 "*Annotations génomiques dans la région du gène humain PAX6*".
 
 
 ----------------------------------------------------------------
 
 ## Exercice 2 - Conservation du gène PAX6 dans les génomes de vertébrés
 
-- Dans la catégorie **Comparative genomics**, activez l'affichage pack de la piste **Conservation**. 
+- Dans la catégorie **Comparative genomics**, activez l'affichage **pack** de la piste **Conservation**. 
 
 - A priori, cette piste s'affiche entre les annotations GENCODE_V46 et les régions répétitives. **Faites remonter la piste RepeatMasker** pour la placer entre les pistes GENCODE_V46 et Conservation. 
 
@@ -189,7 +189,7 @@ Afin de localiser les gènes sur ce fragment d'ADN chromosomique, nous allons ef
     - Pour le codon start à utiliser pour la recherche, choisissez "**ATG only**".
     -	Cliquez **Submit**.
 
-4. Sur la fenêtre de résultats de la recherche d'ORFs, Cliquez sur Six-frame translation, puis sur Display six-frame translation.
+4. Sur la fenêtre de résultats de la recherche d'ORFs, cliquez sur "**Six-frame translation**", puis sur "**Display six-frame translation**".
 
 *Question (hors questionnaire)* 
 
@@ -260,7 +260,7 @@ Vous allez ainsi vérifier à quel gène pourraient correspondre les ORF1 et 10.
 
 - Cliquez sur l'ORF1. La traduction de l'ORF en protéine s'affiche dans l'encadré du dessous.
 - Cliquez sur le bouton BLAST. Vous lancez ainsi une recherche de similarité en comparant la séquence protéique traduite de l'ORF1 avec chacune des séquences d'une base de données.
-- A partir de la page de résultats du BLAST, répondez aux questions suivantes
+- A partir de la page de résultats du BLAST, répondez aux questions suivantes.
 
 **Questions**
 
@@ -301,7 +301,7 @@ Vous allez ainsi vérifier à quel gène pourraient correspondre les ORF1 et 10.
 Vous allez maintenant rechercher le nom du gène correspondant à l'ORF1.
 
 - Dans la dernière colonne du tableau de résultats de BLAST, cliquez sur le "numéro d'accession" de la séquence la plus similaire à l'ORF1.  Ceci ouvre dans un nouvel onglet la fiche de la séquence protéique correspondante.
-- Dans la section "FEATURES" (annotations de la séquence), trouvez le premier objet de type gène, et consultez son nom (attribut “/gene” de ‘l'objet "gene".
+- Dans la section "FEATURES" (annotations de la séquence), trouvez le premier objet de type gène, et consultez son nom (attribut “/gene” de l'objet "gene".
 
 **Question**
 
@@ -335,8 +335,8 @@ L'ORF10 chevauche étonnamment l'ORF8 de manière importante, sur une grande par
     - Dynein axonemal heavy chain 1
     - Splicing factor U2af large subunit A
     - Uncharacterized protein YuaQ
-    - Aucune: les 6 résultats obtenus ne sont pas significatifs, car les e-values obtenues sont trop élevées (toutes > 1)
-    - Aucune : ces 6 séquences cibles ne sont vraisemblablement pas homologues de l'ORF10
+    - Aucune: les 6 résultats obtenus ne sont pas significatifs, car les e-values obtenues sont trop élevées (toutes > 1).
+    - Aucune : ces 6 séquences cibles ne sont vraisemblablement pas homologues de l'ORF10.
     - Aucune: l'ORF10 est probablement un faux positif, une fausse prédiction d'ORFfinder. 
 
 
@@ -345,7 +345,7 @@ L'ORF10 chevauche étonnamment l'ORF8 de manière importante, sur une grande par
 
 - Connectez-vous à la base de connaissances [RegulonDB](https://regulondb.ccg.unam.mx/).
 - Sur ce site, effectuez une recherche avec le nom de gène que vous avez trouvé précédemment pour l'ORF1. Pour cela, entrez simplement le nom de gène dans la barre de recherche.
-- Cliquez sur l'unique résultat qui apparaît dans la section Gene. 
+- Cliquez sur l'unique résultat qui apparaît dans la section **Gene**. 
 - Dézoomez et recadrez la carte avec les flèches.
 
 **Questions**
@@ -353,7 +353,7 @@ L'ORF10 chevauche étonnamment l'ORF8 de manière importante, sur une grande par
 - D'après cette carte, le gène étudié se trouve-t-il bien dans la structure supposée précédemment ? (oui / non)
 - Dans les informations qui apparaissent sous la carte, trouvez le nom de l'opéron. Cliquez sur le nom de l'opéron, puis répondez aux questions suivantes.
 - Sur quel brin ce trouve cet opéron ? (forward / reverse)
-- Combien y-a-t'il de gènes dans cet opéron ? 0, 1, 2, 3, 4, 5, 6, 7? 8, 9, 10, 11, 12
+- Combien y-a-t'il de gènes dans cet opéron ? 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
 - Combien y-a-t'il de promoteurs dans cet opéron ? 0, 1, 2, 3
 - Quel est le type de terminateur de la transcription présent dans cette unité de transcription ?
 - Quelle est la fonction de cet opéron ? 
@@ -406,7 +406,7 @@ Comparez votre prédiction d'ORFs avec ORFinder à la carte de l'opéron sur Reg
 
 ## Qu'avez-vous acquis au terme de ce TP ?
 
-Au cours de ce TP, vous avez utilisé des outils de navigation génomique et d'analyse de séquences pour explorer les régions génomiques humaine (autour du gène humain PAX6) et bactériennes (opéron his chez *Escherichia coli*). 
+Au cours de ce TP, vous avez utilisé des outils de navigation génomique et d'analyse de séquences pour explorer les régions génomiques humaines (autour du gène humain PAX6) et bactériennes (opéron his chez *Escherichia coli*). 
 
 Ceci vous a amenés à mettre en pratique une série de concepts biologiques en manipulant des séquences et annotations génomiques avec deux des navigateurs génomiques les plus utilisés en biologie : UCSC Genome Browser et NCBI (que vous aviez commencé à utiliser au TP2). 
 
