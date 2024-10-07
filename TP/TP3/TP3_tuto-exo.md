@@ -218,11 +218,12 @@ Vous allez maintenant déterminer la taille des régions intergéniques (RI) ent
 ***Astuce:**  sous la carte des ORF, ORFfinder affiche un tableau indiquant les coordonnées génomiques et la taille des ORFs détectés. Vous pouvez récupérer les valeurs de ce tableau pour calculer la taille des régions intergéniques. *
 
 
-- Dézoomez complètement.
-- Refermez la piste six-frame translation en cliquant sur la petite croix rouge en haut à droite (attention, ne fermez pas la piste des ORFs produits par ORFfinder).
-- Sur le tableau de coordonnées des ORFs, cliquez sur l’en-tête de colonne Start pour trier les ORFs par position. 
-- Notez les positions de fin de l’ORF1 et de début de l’ORF6. 
-- Calculez la taille de la RI entre ORF1 et ORF6. 
+- **Dézoomez** complètement.
+- **Refermez la piste six-frame translation** en cliquant sur la petite croix rouge en haut à droite (attention, ne fermez pas la piste des ORFs produits par ORFfinder).
+- Sur le tableau de coordonnées des ORFs, cliquez sur l’en-tête de colonne **Start** pour **trier les ORFs par position**. 
+- **Notez les positions** de fin de l’ORF1 et de début de l’ORF6. 
+- **Calculez la taille de la RI** entre ORF1 et ORF6. 
+- **Zoomez** sur la région intergénique entre ORF1 et ORF6 et **vérifiez** si la taille calculée correspond à ce que vous voyez, au nucléotide près.
 - Faites de même pour les autres ORFs, pour déterminer la taille des RI qui les séparent.
 
 
