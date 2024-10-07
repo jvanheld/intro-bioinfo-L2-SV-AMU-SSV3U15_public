@@ -17,7 +17,7 @@ Le site principal se trouve sur la [plateforme Ametice](https://ametice.univ-amu
 Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapitres thématiques plutôt que par séances de CM. 
 
 | Chap | Titre | Vidéo | Diapo |
-|:---:|:-------------------------------------|:------------:|:---------:|
+|:---:|:-----------------------------------------|:------------:|:------:|
 | 0 | Organisation du cours et modalités de contrôle des connaissances | [SSV3U15-00](https://amupod.univ-amu.fr/video/32344-ssv3u15-00-organisation-du-cours-introduciton-a-la-bioinformatique-jacques-van-helden/)
 | 1 | Présentation du cours | [SSV3U15-01](https://amupod.univ-amu.fr/video/32228-ssv3u15-01-presentation-du-cours-jacques-van-helden/) | [pdf](diapo_pdf_SSV3U15/01_presentation-du-cours_SSV3U15_2024.pdf) |
 | 2 | Séquence - structure - fonction | [SSV3U15-02](https://amupod.univ-amu.fr/video/32306-ssv3u15-02-sequence-structure-fonction-jacques-van-helden/) | [pdf](diapo_pdf_SSV3U15/02_sequence-structure-fonction_SSV3U15_2024.pdf) |
@@ -31,10 +31,10 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 ## Travaux pratiques
 
 | TP | Titre et lien | Enoncés | Diapo |
-|:---:|:------------------------------------------------------|:----------:|:--------:|
+|:---:|:------------------------------|:----------:|:--------:|
 | 1 | Séquence - structure - fonction | [tuto/exo TP1](TP/TP1/) |
 | 2 | Du gène à la protéine | [tuto/exo TP2](TP/TP2/) | [diapo TP2](TP/TP2/TP2_SSV3U15_diapo.pdf) |
-| 3 | Du gène au génome et au protéome | [tuto/exo TP3](TP/TP3/) | [diapo TP3](TP/TP3/TP3_SSV3U15_diapo.pdf) |
+| 3 | Du gène au génome et au protéome | [tuto/exo TP3](TP/TP3/) | [tuto illustré TP3](TP/TP3/TP3_SSV3U15_diapo.pdf) *Nouvelle formule !* |
 | 4 | Alignements par paires et alignements multiples |
 | 5 | Inférence phylogénétique |
 | 6 | Variants génétiques |
@@ -44,7 +44,7 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 ## Autres supports de cours
 
 | Titre | Description | Lien |
-|:------------|:-------------------|:-------------------------:|
+|:------------|:-----------------------------------|:-----------:|
 | Glossaire | Explication des termes de bioinformatique et concepts biologiques sous-jacents au cours | [html](glossaire_bioinfo/glossaire_bioinfo.html) |
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
