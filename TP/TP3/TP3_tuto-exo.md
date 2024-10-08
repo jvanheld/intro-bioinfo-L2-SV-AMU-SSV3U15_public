@@ -85,7 +85,7 @@ Nous allons restreindre la visualisation aux pistes d'annotations utilisées pou
 Vous pouvez à tout moment reconfigurer le mode d'affichage d'une piste d'annotation, en cliquant droit (**contrôle-clic**) sur la figure. Ceci vous affichera un menu avec des modes d'affichages de plus en plus détaillés : hide, dense, squish, pack, full.
 
 
-- Testez les différents niveaux de détail avec la piste GENCODE_V46, puis sélectionnez le mode **squish**, qui vous permet généralement de visualiser les transcrits alternatifs en occupant une place raisonnable. 
+- Testez les différents niveaux de détail avec la piste GENCODE_V46, puis sélectionnez le mode **pack**, qui vous permet généralement de visualiser les transcrits alternatifs en occupant une place raisonnable. 
 
 - Dans la catégorie **Repeats**, activez l'affichage de **Repeatmasker**” en format **dense** et cliquez **Refresh**. 
 
@@ -155,7 +155,7 @@ Les profils sont affichés sous forme de "boîte à moustaches" (box plot en ang
 - L'axe vertical indique le taux de transcription. 
 - La barre horizontale épaisse indique le niveau médian (50% des échantillons ont un niveau inférieur, et 50% un niveau supérieur)
 - Le bas du rectangle indique le 1er quartile  (25% des échantillons ont un niveau inférieur)
-- Le haut du rectangle indique le 3ème quartile (75% des échantillons ont un niveau supérieur)
+- Le haut du rectangle indique le 3ème quartile (75% des échantillons ont un niveau inférieur)
 - La barre verticale indique un intervalle de confiance
 - Les points isolés sont des "outliers" (valeurs exceptionnellement hautes ou basses, non représentatives de l'ensemble des échantillons). 
 
