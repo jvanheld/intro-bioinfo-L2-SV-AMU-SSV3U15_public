@@ -165,7 +165,7 @@ Sur Ametice, ouvrez le questionnaire du TP3 et répondez aux questions de l'Exer
 
 ----------------------------------------------------------------
 
-## Exercice 4 - Annotation d'un fragment chromosomique bactérien
+## Annotation d'un fragment chromosomique bactérien
 
 ----------------------------------------------------------------
 Nous disposons d'un fragment chromosomique bactérien, qu'on peut récupérer en cliquant ici. 
@@ -176,7 +176,7 @@ Ouvrez ce fichier dans un onglet séparé. Pour l'étape suivante, vous pourrez 
 
 Nous allons utiliser quelques outils bioinformatiques pour annoter ce fragment d'ADN chromosomique. La première étape  consiste à localiser les gènes sur ce fragment d'ADN. Il faudra ensuite essayer de trouver la fonction assurée par ces gènes.
 
-### Recherche des cadres ouverts de lecture
+### Exercice 4-5 - Recherche des cadres ouverts de lecture
 
 Afin de localiser les gènes sur ce fragment d'ADN chromosomique, nous allons effectuer une recherche de cadres ouverts de lecture (*open reading frames*, *ORFs*), en utilisant l'outil ORFinder du NCBI.
 
@@ -191,19 +191,24 @@ Afin de localiser les gènes sur ce fragment d'ADN chromosomique, nous allons ef
 
 4. Sur la fenêtre de résultats de la recherche d'ORFs, Cliquez sur Six-frame translation, puis sur Display six-frame translation.
 
-*Question (hors questionnaire)* 
+#### Questionnaire TP3 – Exercice 4: Annotation d'une séquence bactérienne  - traduction sur 6 phases
 
 Qu'observez-vous dans la fenêtre qui s'affiche ?  En particulier
 - à quoi correspondent les lettres rouges?
+
 - à quoi correspondent les astérisques ?
+
 - pourquoi y a-t-il 3 lignes de lettres décalées au dessus de la séquence d'ADN, et 3 en-dessous ?
+
 - à quoi correspondent les lettres bleues (descendez dans la fenêtre pour les voir)
+
+  
 
 Fermez la fenêtre "Six frame translation", puis relancez la traduction sur 6 phases  avec une option alternative, en cliquant sur **Six-frame translation** puis sur **Add six-frame translation track**. Qu'observez-vous dans la fenêtre qui s'affiche ?
 
 **Astuce :** pour répondre aux questions 2 et 3, zoomez sur la carte jusqu'à faire apparaître l'enchaînement des résidus (acides aminés et nucléotides).
 
-**Questions (hors questionnaire)** 
+#### Questionnaire TP3 – Exercice 5: Pistes de traduction sur les 6 phases de lecture
 
 - à quoi correspondent les pistes marquées +1, +2, +3, -1, -2, -3 ? 
 - à  quoi correspondent les traits verticaux verts ? 
@@ -211,7 +216,7 @@ Fermez la fenêtre "Six frame translation", puis relancez la traduction sur 6 ph
 - à quoi correspondent les plages grises ?
 - y a-t-il le même nombre de plages grises que d'ORFs détectés en rouge dans la piste ORFinder ? D'où vient la différence ? 
 
-### Tailles des régions intergéniques
+### Exercice 6 - Tailles des régions intergéniques
 
 Vous allez maintenant déterminer la taille des régions intergéniques (RI) entre ces ORFs.
 
@@ -227,7 +232,8 @@ Vous allez maintenant déterminer la taille des régions intergéniques (RI) ent
 - Faites de même pour les autres ORFs, pour déterminer la taille des RI qui les séparent.
 
 
-Questions à réponses numériques
+
+#### Questionnaire TP3 – Exercice 6: Tailles des régions intergéniques
 
 - Quelle est la taille de la RI entre ORF1 et ORF6 ?
 - Quelle est la taille de la RI entre ORF6 et ORF4 ? 
@@ -241,9 +247,13 @@ Questions à réponses numériques
 Quelles  conclusions  peut-on tirer à partir des tailles de ces RI ?
 
 - Quelle structure serait présente sur ce fragment d'ADN chromosomique ? 
-- Une seule réponse: UTR, intron, exon, opéron, site d'épissage
+
+    Une seule réponse: UTR, intron, exon, opéron, site d'épissage
+
 - Quels ORFs seraient inclus dans cette structure ? 
-- Une ou plusieurs réponses:  ORF1, ORF6, ORF4, ORF5, ORF8, ORF10 
+
+    Une ou plusieurs réponses:  ORF1, ORF6, ORF4, ORF5, ORF8, ORF10 
+
 - Quels éléments vous permettent de conclure sur le nombre d'ORFs inclus dans cette structure ? (une ou plusieurs réponses)
     - Distances intergéniques courtes ou nulles
     - Chevauchements entre ORFs
@@ -252,7 +262,7 @@ Quelles  conclusions  peut-on tirer à partir des tailles de ces RI ?
 
 
 
-### Assignation de fonction par recherche de similarité
+### Exercice 7 - Assignation de fonction par recherche de similarité
 
 Vous allez maintenant vous intéresser à l'annotation fonctionnelle de ces ORFs détectés dans le fragment d'ADN chromosomique étudié.  Pour cela, le plus simple est de faire une recherche par similarité dans une base de données (outil BLAST), afin de comparer les ORFs identifiés aux séquences déjà connues et répertoriées dans les bases de données.
 
@@ -262,7 +272,7 @@ Vous allez ainsi vérifier à quel gène pourraient correspondre les ORF1 et 10.
 - Cliquez sur le bouton BLAST. Vous lancez ainsi une recherche de similarité en comparant la séquence protéique traduite de l'ORF1 avec chacune des séquences d'une base de données.
 - A partir de la page de résultats du BLAST, répondez aux questions suivantes
 
-**Questions**
+#### Questionnaire TP3 – Exercice 7: Assignation de fonction par recherche de similarité
 
 - Quelle est la modalité de BLAST utilisée ?  (une seule réponse): blastn, blastp, blastx, tblastn
 - En quoi consiste une recherche par BLASTP ?
@@ -303,7 +313,7 @@ Vous allez maintenant rechercher le nom du gène correspondant à l'ORF1.
 - Dans la dernière colonne du tableau de résultats de BLAST, cliquez sur le "numéro d'accession" de la séquence la plus similaire à l'ORF1.  Ceci ouvre dans un nouvel onglet la fiche de la séquence protéique correspondante.
 - Dans la section "FEATURES" (annotations de la séquence), trouvez le premier objet de type gène, et consultez son nom (attribut “/gene” de ‘l'objet "gene".
 
-**Question**
+**Question** (Hors questionnaire)
 
 - Quel est le nom du gène correspondant à l'ORF1 ? (une seule réponse)
 
@@ -326,7 +336,7 @@ L'ORF10 chevauche étonnamment l'ORF8 de manière importante, sur une grande par
 - Cliquez ensuite sur l'ORF10, afin de le sélectionner. La traduction de l'ORF en protéine s'affiche dans l'encadré du dessous.
 - Cliquez sur le bouton BLAST pour lancer la recherche par similarité de séquences avec cette séquence protéique.
 
-**Questions**
+**Questions** (Hors questionnaire)
 
 - Combien de résultats obtenez-vous ?
 - Quelle fonction pouvez-vous assigner à l'ORF10 sur base du résultat ? (une ou plusieurs réponses possibles)
@@ -340,7 +350,7 @@ L'ORF10 chevauche étonnamment l'ORF8 de manière importante, sur une grande par
     - Aucune: l'ORF10 est probablement un faux positif, une fausse prédiction d'ORFfinder. 
 
 
-## Recherche d'information sur RegulonDB
+### Exercice 8 - Recherche d'information sur RegulonDB
 
 
 - Connectez-vous à la base de connaissances [RegulonDB](https://regulondb.ccg.unam.mx/).
@@ -348,20 +358,19 @@ L'ORF10 chevauche étonnamment l'ORF8 de manière importante, sur une grande par
 - Cliquez sur l'unique résultat qui apparaît dans la section Gene. 
 - Dézoomez et recadrez la carte avec les flèches.
 
-**Questions**
+#### Questionnaire TP3 – Exercice 8: Consultation de RegulonDB
 
 - D'après cette carte, le gène étudié se trouve-t-il bien dans la structure supposée précédemment ? (oui / non)
 - Dans les informations qui apparaissent sous la carte, trouvez le nom de l'opéron. Cliquez sur le nom de l'opéron, puis répondez aux questions suivantes.
 - Sur quel brin ce trouve cet opéron ? (forward / reverse)
-- Combien y-a-t'il de gènes dans cet opéron ? 0, 1, 2, 3, 4, 5, 6, 7? 8, 9, 10, 11, 12
+- Combien y-a-t'il de gènes dans cet opéron ? 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
 - Combien y-a-t'il de promoteurs dans cet opéron ? 0, 1, 2, 3
 - Quel est le type de terminateur de la transcription présent dans cette unité de transcription ?
 - Quelle est la fonction de cet opéron ? 
 
 
-Comparez votre prédiction d'ORFs avec ORFinder à la carte de l'opéron sur RegulonDB. 
 
-**Questions**
+Comparez votre prédiction d'ORFs avec ORFinder à la carte de l'opéron sur RegulonDB. 
 
 - Avez-vous détecté l'ensemble des gènes de l'opéron avec ORFinder ? (oui / non)
 - Quel est le gène manquant dans votre résultat d'ORFinder ? (une seule réponse) 
@@ -422,5 +431,4 @@ L'analyse de la séquence génomique vous a placés dans la situation des biolog
 - recherche de similarités entre les séquences protéiques potentiellement produites par ces ORFs et la  base de connaissance Swiss-prot
 - analyse de l'organisation des ORFs : positions, distances intergéniques
 - prédiction d'un opéron sur base de l'orientation des gènes et du calcul des distances intergéniques
-
 
