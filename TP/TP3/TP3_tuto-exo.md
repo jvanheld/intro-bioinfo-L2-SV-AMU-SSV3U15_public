@@ -52,8 +52,8 @@ Le gène PAX6 humain (également appelé aniridia) code pour un facteur transcri
 | Ressource | Lien | Description |
 |:--------------------|:-----------------|:-------------------------------------------------------|
 | UCSC genome browser | [genome.ucsc.edu](https://genome.ucsc.edu/) | Navigateur génomique présentant un vaste choix de types d'annotations  |
-| NCBI ORFfinder |  | Détection de cadre ouverts de lecture (ORFs)  dans des séquences nucléiques |
-| RegulonDB | | base de connaissance sur la régulation transcriptionnelle chez la bactérie *Escherichia coli*: facteurs transcriptionnels, sites de liaison, régulons, opérons |
+| NCBI ORFfinder | [www.ncbi.nlm.nih.gov/orffinder](https://www.ncbi.nlm.nih.gov/orffinder/) | Détection de cadre ouverts de lecture (ORFs)  dans des séquences nucléiques |
+| RegulonDB | [regulondb.ccg.unam.mx/](https://regulondb.ccg.unam.mx/) | base de connaissance sur la régulation transcriptionnelle chez la bactérie *Escherichia coli*: facteurs transcriptionnels, sites de liaison, régulons, opérons |
 
 ## Exercice 1 - Annotations génomiques dans la région du gène humain PAX6
 
