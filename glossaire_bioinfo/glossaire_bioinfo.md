@@ -143,13 +143,13 @@ l'alignement.
 | Pourcentage d'identités   | Nombre d'identités divisé par la          |
 |                           |         longueur totale de l'alignement.  |
 +---------------------------+-------------------------------------------+
-| Nombre de similarités     | Nombre de positions de                    |
-| (\"positives\")           |         l'alignement caractérisées par    |
+| Nombre de positifs        | Nombre de positions de                    |
+|                           |         l'alignement caractérisées par    |
 |                           |         un score positif dans la matrice  |
 |                           |         de substitution (identités et     |
 |                           |         substitutions \"conservatives\"). |
 +---------------------------+-------------------------------------------+
-| Pourcentage de similarités| Nombre de similarités divisé par          |
+| Pourcentage de positifs   | Nombre de positifs divisé par             |
 |                           |         la longueur totale de             |
 |                           |         l'alignement, fois $100$          |
 +---------------------------+-------------------------------------------+
