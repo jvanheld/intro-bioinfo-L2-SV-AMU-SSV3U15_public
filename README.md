@@ -23,7 +23,7 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | 2 | Séquence - structure - fonction | [SSV3U15-02](https://amupod.univ-amu.fr/video/32306-ssv3u15-02-sequence-structure-fonction-jacques-van-helden/) | [pdf](diapo_pdf_SSV3U15/02_sequence-structure-fonction_SSV3U15_2024.pdf) |
 | 3 | Du gène au génome | en cours de montage | [pdf](diapo_pdf_SSV3U15/03_Du-gene-au-genome_SSV3U15_2024.pdf) |
 | 4 | Inférence phylogénétique : retracer l'évolution à partir des séquences |  [SSVU315-04](https://amupod.univ-amu.fr/video/32522-ssv3u15-04-inference-phylogenetique-jacques-van-helden/)|
-| 5 | Génomique personnalisée | à venir | 
+| 5 | Génomique personnalisée | en cours | 
 | 6 | Exploration de la biodiversité | à venir |
 | 7 | Réseaux et systèmes biologiques | à venir |
 | 8 | L'information au cœur du vivant | à venir |
@@ -35,7 +35,7 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | 1 | Séquence - structure - fonction | [tuto/exo TP1](TP/TP1/) |
 | 2 | Du gène à la protéine | [tuto/exo TP2](TP/TP2/) | [diapo TP2](TP/TP2/TP2_SSV3U15_diapo.pdf) |
 | 3 | Du gène au génome et au protéome | [tuto/exo TP3](TP/TP3/) | [tuto illustré TP3](TP/TP3/TP3_SSV3U15_diapo.pdf) *Nouvelle formule !* |
-| 4 | Alignements par paires et alignements multiples |
+| 4 | Alignements par paires et alignements multiples | | [tuto illustré TP4](TP/TP4/TP4_SSV3U15_diapo.pdf) |
 | 5 | Inférence phylogénétique |
 | 6 | Variants génétiques |
 | 7 | Systèmes et réseaux biologiques |
