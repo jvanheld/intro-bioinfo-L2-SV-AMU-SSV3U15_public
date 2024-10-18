@@ -24,7 +24,7 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | 3 | Du gène au génome | en cours de montage | [diapo 03](diapo_pdf_SSV3U15/03_Du-gene-au-genome_SSV3U15_2024.pdf) |
 | 4 | Inférence phylogénétique : retracer l'évolution à partir des séquences |  [SSVU315-04](https://amupod.univ-amu.fr/video/32522-ssv3u15-04-inference-phylogenetique-jacques-van-helden/)| [diapo 04](diapo_pdf_SSV3U15/04_inference-phylogenetique_SSV3U15_2024.pdf) |
 | 5 | Génomique personnalisée | en cours | [diapo 05](diapo_pdf_SSV3U15/05_genomique-des-populations_2024.pdf) |
-| 6 | Exploration de la biodiversité | à venir | [diaop 06](diapo_pdf_SSV3U15/06_medecine-genomique_2024.pdf)  |
+| 6 | Exploration de la biodiversité | à venir | [diapo 06](diapo_pdf_SSV3U15/06_medecine-genomique_SSV3U15_2024.pdf)  |
 | 7 | Réseaux et systèmes biologiques | à venir |
 | 8 | L'information au cœur du vivant | à venir |
 
