@@ -21,9 +21,19 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
 - [Phylogénie moléculaire](#phylogénie-moléculaire)
 
+   - [Taxinomie (ou taxonomie)](#taxinomie-ou-taxonomie)
    - [Arbre vrai ou inféré](#arbre-vrai-ou-inféré)
    - [Arbre des espèces](#arbre-des-espèces)
    - [Arbre des molécules](#arbre-des-molécules)
+   - [Groupe monophylétique / Clade](#groupe-monophylétiqueclade)
+   - [Groupe paraphylétique](#groupe-paraphylétique)
+   - [Groupe polyphylétique](#groupe-polyphylétique)
+   - [Cénancêtre](#cénancêtre)
+   - [Groupe basal (ou lignée basale)](#groupe-basal-ou-lignée-basale)
+   - [Groupes frères](#groupes-frères)
+   - [Robustesse](#robustesse)
+   - [Bootstrap](#bootstrap)
+   - [Phylogénomique](#phylogénomique)
 
 []{#matrices_substitutions}
 
@@ -307,14 +317,59 @@ et le résultat est analysé avec l'algorithme blastp.
 
 ## Phylogénie moléculaire 
 
-### Arbre vrai ou inféré
+
+### Taxinomie (ou taxonomie)
+
+1. Science de la classification
+2. Classification des éléments d’un domaine, en particulier les espèces biologiques
+
+
+### Arbre vrai ou inféré 
 
 Un arbre phylogénétique qui reflète exactement les relations de parenté entre groupes d'êtres vivants est qualifié d’arbre vrai. En réalité, l’arbre vrai n’est jamais connu. L’idée de l’inférence phylogénétique est de construire des arbres à partir des données à disposition (arbre inféré) qui s’approchent le plus possible de l’arbre vrai.
 
 ### Arbre des espèces
 
-Arbre des espèces : Arbre qui montre les relations de parenté entre des groupes taxonomiques d'êtres vivants.
+Arbre qui indique les relations de parenté entre des espèces d’êtres vivants – ou par extension d’autres niveaux taxonomiques.
 
 ### Arbre des molécules
 
 Arbre phylogénétique inféré à partir des séquences biologiques, et qui reflète l’évolution vraisemblable des séquences.
+
+### Groupe monophylétique / Clade 
+
+Groupe comportant un organisme ancestral et tous les organismes en descendant, et uniquement eux. Exemple : les Hominidae incluent gibon, orang-outang, gorille, chimpanzé, bonobo (absent du dessins) et humain. 
+
+### Groupe paraphylétique
+
+Groupe qui inclut un organisme ancestral et ses descendant, mais en excluant certains d’entre eux. Exemples : les singes incluent les primates sauf l’humain: les poissons incluent les gnathostomes sauf les tétrapodes
+
+### Groupe polyphylétique
+
+Assemblage d’organismes n’incluant pas leur ancêtre commun le plus récent. Exemples : mammifères marins, animaux cavernicoles.
+
+### Cénancêtre
+
+Dernier ancêtre commun entre deux ou plusieurs groupes taxonomiques ; espèce la plus récente que ces taxons ont pour ancêtre commun. 
+
+
+### Groupe basal (ou lignée basale)
+
+Groupe taxonomique qui se détache des autres à proximité de la racine d’un arbre phylogénétique. Le concept de groupe basal est questionnable car il dépend du choix des échantillons ayant servi à établir l’arbre phylogénétique.
+
+### Groupes frères
+
+Groupes taxinomiques qui descendent immédiatement d'un ancêtre commun sur un arbre phylogénétique  (les branches sont directement rattachées au même nœud).
+
+### Robustesse
+
+Estimation de la mesure dont chaque nœud d’un arbre inféré est soutenu par le jeu de données.  La méthode la plus connue est le bootstrap.
+
+### Bootstrap
+
+Méthode d’estimation de la robustesse de chaque nœud d’un arbre. Cette méthode consiste à échantillonner les positions de l'alignement pour relancer la construction phylogénétique de façon itérative puis de comparer les arbres obtenus après de nombreuses répétitions. La valeur de bootstrap d’un nœud représente la proportion des arbres dans lequel le nœud a été retrouvé.
+
+### Phylogénomique 
+
+Reconstruction phylogénétique sur base de génomes ou protéomes complets ou, à défaut, d'un grand nombre de séquences de gènes ou de protéines.
+
