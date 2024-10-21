@@ -22,8 +22,9 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
 - [Phylogénie moléculaire](#phylogénie-moléculaire)
 
    - [Homologie](#homologie)
-   - [Orthologues (séquences)](#orthologues-séquences)
-   - [Paralogues (séquences)](#paralogues-séquences)
+   - [Orthologie](#orthologie)
+   - [Paralogie](#paralogie)
+   - [Xénologie](#xénologie)
    - [Analogie](#analogie)
    - [Taxonomie (ou taxinomie)](#taxonomie-ou-taxinomie)
    - [Arbre vrai ou inféré](#arbre-vrai-ou-inféré)
@@ -331,13 +332,18 @@ et le résultat est analysé avec l'algorithme blastp.
 
 Ressemblance de caractères phénotypiques ou génétiques qui s'explique par le fait que ces caractères résultent d'une origine ancestrale commune. Les différences entre les deux caractères homologues résultent de l’accumulation de mutations à partir de l’ancêtre commun. Il s’agit donc d’une évolution par *divergence évolutive*. 
 
-### Orthologues (séquences)
+### Orthologie
 
-Séquences dont le dernier ancêtre commun précède immédiatement un événement de spéciation.
+Relation entre deux séquences dont le dernier ancêtre commun précède immédiatement un événement de spéciation.
 
-### Paralogues (séquences)
+### Paralogie
 
-Séquences dont le dernier ancêtre commun précède immédiatement un événement de duplication. 
+Relation entre deux séquences dont le dernier ancêtre commun précède immédiatement un événement de duplication. 
+
+### Xénologie
+
+Relation entre deux caractères dont l’histoire, depuis leur dernier ancêtre commun, inclut un transfert entre espèces (horizontal) du matériel génétique pour au moins l’un de ces caractères.
+
 
 ### Analogie
 
