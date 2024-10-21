@@ -27,8 +27,11 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
    - [Arbre des molécules](#arbre-des-molécules)
    - [Unité taxinomique opérationnelle (operational taxonomic unit, OTU)](#unité-taxinomique-opérationnelle-operational-taxonomic-unit-otu)
    - [Unité taxinomique hypothétique (hypothetic taxonomic unit, OTU)](#unité-taxinomique-hypothétique-hypothetic-taxonomic-unit-otu)
+<<<<<<< HEAD
    - [Spéciation](#spéciation)
    - [Duplication](#duplication)
+=======
+>>>>>>> db5f3e479991a60f2b8a76541bd6d5abcbec3eff
    - [Phylogramme](#phylogramme)
    - [Groupe monophylétique / Clade](#groupe-monophylétiqueclade)
    - [Groupe paraphylétique](#groupe-paraphylétique)
@@ -356,7 +359,6 @@ Formation de deux espèces à partir d’une espèce ancestrale. Suite à une sp
 ### Duplication
 
 Mutation qui génère deux copies d’une séquence. Suite à une duplication, on retrouve au sein du même génome deux copies de la séquence ancestrale.
-
 
 ### Phylogramme
 
