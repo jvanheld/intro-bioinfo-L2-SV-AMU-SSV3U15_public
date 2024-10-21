@@ -21,12 +21,12 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
 - [Phylogénie moléculaire](#phylogénie-moléculaire)
 
-   - [Taxinomie (ou taxonomie)](#taxinomie-ou-taxonomie)
+   - [Taxonomie (ou taxinomie)](#taxonomie-ou-taxinomie)
    - [Arbre vrai ou inféré](#arbre-vrai-ou-inféré)
    - [Arbre des espèces](#arbre-des-espèces)
    - [Arbre des molécules](#arbre-des-molécules)
-   - [Unité taxinomique opérationnelle (operational taxonomic unit, OTU)](#unité-taxinomique-opérationnelle-operational-taxonomic-unit-otu)
-   - [Unité taxinomique hypothétique (hypothetic taxonomic unit, OTU)](#unité-taxinomique-hypothétique-hypothetic-taxonomic-unit-otu)
+   - [Unité taxonomique opérationnelle (operational taxonomic unit, OTU)](#unité-taxonomique-opérationnelle-operational-taxonomic-unit-otu)
+   - [Unité taxonomique hypothétique (hypothetical taxonomic unit, HTU)](#unité-taxonomique-hypothétique-hypothetical-taxonomic-unit-htu)
    - [Spéciation](#spéciation)
    - [Duplication](#duplication)
    - [Phylogramme](#phylogramme)
@@ -324,7 +324,7 @@ et le résultat est analysé avec l'algorithme blastp.
 ## Phylogénie moléculaire 
 
 
-### Taxionomie (ou taxinomie)
+### Taxonomie (ou taxinomie)
 
 1. Science de la classification
 2. Classification des éléments d’un domaine, en particulier les espèces biologiques
@@ -342,13 +342,13 @@ Arbre qui indique les relations de parenté entre des espèces d’êtres vivant
 
 Arbre phylogénétique inféré à partir des séquences biologiques, et qui reflète l’évolution vraisemblable des séquences.
 
-### Unité taxinomique opérationnelle (operational taxonomic unit, OTU)
+### Unité taxonomique opérationnelle (operational taxonomic unit, OTU)
 
-Unité taxinomique d'un arbre phylogénétique pour laquelle on dispose de données. Les OTU correspondent aux noeuds externes (feuilles) de l'arbre phylogénétique. Note : les OTU peuvent correspondre à des organismes existants ou éteints (dont les données proviennent d'études paléontologiques ou paléogénomiques). 
+Unité taxonomique d'un arbre phylogénétique pour laquelle on dispose de données. Les OTU correspondent aux noeuds externes (feuilles) de l'arbre phylogénétique. Note : les OTU peuvent correspondre à des organismes existants ou éteints (dont les données proviennent d'études paléontologiques ou paléogénomiques). 
 
-### Unité taxinomique hypothétique (hyppothetical taxonomic unit, HTU)
+### Unité taxonomique hypothétique (hypothetical taxonomic unit, HTU)
 
-Unité taxinomique inférée, pour laquelle on ne dispose pas de données. Les HTU constitue les noeuds internes des arbres phylogénétiques.
+Unité taxonomique inférée, pour laquelle on ne dispose pas de données. Les HTU constitue les noeuds internes des arbres phylogénétiques.
 
 ### Spéciation
 
@@ -394,7 +394,7 @@ Groupe taxonomique qui se détache des autres à proximité de la racine d’un 
 
 ### Groupes frères
 
-Groupes taxinomiques qui descendent immédiatement d'un ancêtre commun sur un arbre phylogénétique  (les branches sont directement rattachées au même nœud).
+Groupes taxonomiques qui descendent immédiatement d'un ancêtre commun sur un arbre phylogénétique  (les branches sont directement rattachées au même nœud).
 
 ### Robustesse
 
