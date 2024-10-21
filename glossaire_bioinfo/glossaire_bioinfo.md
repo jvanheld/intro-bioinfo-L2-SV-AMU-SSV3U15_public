@@ -19,6 +19,11 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
    - [Modalités de BLAST](#blast_modes)
 
+- [Phylogénie moléculaire](#phylogénie-moléculaire)
+
+   - [Arbre vrai ou inféré](#arbre-vrai-ou-inféré)
+   - [Arbre des espèces](#arbre-des-espèces)
+   - [Arbre des molécules](#arbre-des-molécules)
 
 []{#matrices_substitutions}
 
@@ -300,3 +305,16 @@ et le résultat est analysé avec l'algorithme blastp.
 [Retour à la table des matières](#contenu)
 
 
+## Phylogénie moléculaire 
+
+### Arbre vrai ou inféré
+
+Un arbre phylogénétique qui reflète exactement les relations de parenté entre groupes d'êtres vivants est qualifié d’arbre vrai. En réalité, l’arbre vrai n’est jamais connu. L’idée de l’inférence phylogénétique est de construire des arbres à partir des données à disposition (arbre inféré) qui s’approchent le plus possible de l’arbre vrai.
+
+### Arbre des espèces
+
+Arbre des espèces : Arbre qui montre les relations de parenté entre des groupes taxonomiques d'êtres vivants.
+
+### Arbre des molécules
+
+Arbre phylogénétique inféré à partir des séquences biologiques, et qui reflète l’évolution vraisemblable des séquences.
