@@ -21,6 +21,10 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
 - [Phylogénie moléculaire](#phylogénie-moléculaire)
 
+   - [Homologie](#homologie)
+   - [Orthologues (séquences)](#orthologues-séquences)
+   - [Paralogues (séquences)](#paralogues-séquences)
+   - [Analogie](#analogie)
    - [Taxonomie (ou taxinomie)](#taxonomie-ou-taxinomie)
    - [Arbre vrai ou inféré](#arbre-vrai-ou-inféré)
    - [Arbre des espèces](#arbre-des-espèces)
@@ -323,6 +327,22 @@ et le résultat est analysé avec l'algorithme blastp.
 
 ## Phylogénie moléculaire 
 
+### Homologie
+
+Ressemblance de caractères phénotypiques ou génétiques qui s'explique par le fait que ces caractères résultent d'une origine ancestrale commune. Les différences entre les deux caractères homologues résultent de l’accumulation de mutations à partir de l’ancêtre commun. Il s’agit donc d’une évolution par *divergence évolutive*. 
+
+### Orthologues (séquences)
+
+Séquences dont le dernier ancêtre commun précède immédiatement un événement de spéciation.
+
+### Paralogues (séquences)
+
+Séquences dont le dernier ancêtre commun précède immédiatement un événement de duplication. 
+
+### Analogie
+
+Ressemblance entre deux traits (organes, séquence) qui ne résulte pas d'une origine ancestrale commune. Les traits similaires sont apparus de façon indépendante. Leur ressemblance peut éventuellement manifester l’effet d’une pression évolutive qui a sélectionné les mêmes propriétés. Dans ce cas, on parle de *convergence évolutive*.
+
 
 ### Taxonomie (ou taxinomie)
 
@@ -352,11 +372,14 @@ Unité taxonomique inférée, pour laquelle on ne dispose pas de données. Les H
 
 ### Spéciation
 
-Formation de deux espèces à partir d’une espèce ancestrale. Suite à une spéciation, chaque molécule ancestrale se retrouve dans chacune des espèces dérivées.
+Processus évolutif qui résulte en la formation d’espèces distinctes à partir d’une espèce unique. Suite à une spéciation, chaque molécule ancestrale se retrouve dans chacune des espèces dérivées.
 
 ### Duplication
 
-Mutation qui génère deux copies d’une séquence. Suite à une duplication, on retrouve au sein du même génome deux copies de la séquence ancestrale.
+Mutation qui génère un dédoublement d'une partie de l'ADN génomique. La duplication peut recouvrir l'ensemble du génome (formation d'organismes polyploïdes), un chromosome entier, ou un fragment de chromosome de taille plus ou moins grande. 
+
+Les duplications peuvent éventuellement entraîner l’apparition de copies multiples d'un ou plusieurs gènes, provoquant ainsi une certaine redondance de l'information génétique.  Dans certains cas, l'une des copies dupliquées du gène acquiert, par accumulation de mutations, de nouvelles caractéristiques qui lui permettent d'assumer une nouvelle fonction. Ce mécanisme, appelé *duplication-divergence*, est en grande partie à l'origine de la diversification des fonctions biologiques. 
+
 
 ### Phylogramme
 
