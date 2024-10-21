@@ -30,7 +30,7 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
    - [Spéciation](#spéciation)
    - [Duplication](#duplication)
    - [Phylogramme](#phylogramme)
-   - [Groupe monophylétique / Clade](#groupe-monophylétiqueclade)
+   - [Groupe monophylétique / Clade](#groupe-monophylétique-clade)
    - [Groupe paraphylétique](#groupe-paraphylétique)
    - [Groupe polyphylétique](#groupe-polyphylétique)
    - [Cénancêtre](#cénancêtre)
@@ -319,11 +319,12 @@ et le résultat est analysé avec l'algorithme blastp.
 
 [Retour à la table des matières](#contenu)
 
+----------------------------------------------------------------
 
 ## Phylogénie moléculaire 
 
 
-### Taxinomie (ou taxonomie)
+### Taxionomie (ou taxinomie)
 
 1. Science de la classification
 2. Classification des éléments d’un domaine, en particulier les espèces biologiques
@@ -349,7 +350,7 @@ Unité taxinomique d'un arbre phylogénétique pour laquelle on dispose de donn�
 
 Unité taxinomique inférée, pour laquelle on ne dispose pas de données. Les HTU constitue les noeuds internes des arbres phylogénétiques.
 
-### Sspéciation
+### Spéciation
 
 Formation de deux espèces à partir d’une espèce ancestrale. Suite à une spéciation, chaque molécule ancestrale se retrouve dans chacune des espèces dérivées.
 
@@ -407,3 +408,6 @@ Méthode d’estimation de la robustesse de chaque nœud d’un arbre. Cette mé
 
 Reconstruction phylogénétique sur base de génomes ou protéomes complets ou, à défaut, d'un grand nombre de séquences de gènes ou de protéines.
 
+----------------------------------------------------------------
+
+[]{#pairwise_align} [Retour à la table des matières](#contenu)
