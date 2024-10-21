@@ -25,6 +25,9 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
    - [Arbre vrai ou inféré](#arbre-vrai-ou-inféré)
    - [Arbre des espèces](#arbre-des-espèces)
    - [Arbre des molécules](#arbre-des-molécules)
+   - [Unité taxinomique opérationnelle (operational taxonomic unit, OTU)](#unité-taxinomique-opérationnelle-operational-taxonomic-unit-otu)
+   - [Unité taxinomique hypothétique (hypothetic taxonomic unit, OTU)](#unité-taxinomique-hypothétique-hypothetic-taxonomic-unit-otu)
+   - [Phylogramme](#phylogramme)
    - [Groupe monophylétique / Clade](#groupe-monophylétiqueclade)
    - [Groupe paraphylétique](#groupe-paraphylétique)
    - [Groupe polyphylétique](#groupe-polyphylétique)
@@ -335,6 +338,27 @@ Arbre qui indique les relations de parenté entre des espèces d’êtres vivant
 ### Arbre des molécules
 
 Arbre phylogénétique inféré à partir des séquences biologiques, et qui reflète l’évolution vraisemblable des séquences.
+
+### Unité taxinomique opérationnelle (operational taxonomic unit, OTU)
+
+Unité taxinomique d'un arbre phylogénétique pour laquelle on dispose de données. Les OTU correspondent aux noeuds externes (feuilles) de l'arbre phylogénétique. Note : les OTU peuvent correspondre à des organismes existants ou éteints (dont les données proviennent d'études paléontologiques ou paléogénomiques). 
+
+### Unité taxinomique hypothétique (hyppothetical taxonomic unit, HTU)
+
+Unité taxinomique inférée, pour laquelle on ne dispose pas de données. Les HTU constitue les noeuds internes des arbres phylogénétiques.
+
+### Phylogramme
+
+Arbre phylogénétique dont la longueur des branches représente les distances évolutives. Les branches ont donc des longueurs variables, et les feuilles ne sont pas forcément alignées)
+
+### Chronogramme
+
+Arbre phylogénétique dont la longueur des branches représente le temps de divergence entre unités taxonomiques mère et fille. Les branches ont donc des longueurs variables. Les feuilles sont alignées si les OTU sont des organismes actuels, mais elles peuvent éventuellement être décalées si les OTU incluent des espèces éteintes (données paléontologiques ou paléogénomiques). 
+
+### Cladogramme
+
+Arbre phylogénétique dont les branchements représentent les événements de divergence (spéciations, duplications) sans tenir compte de la distance évolutive (nombre de caractères morphologiques ou moléculaires distincts) ni du temps de divergence. 
+
 
 ### Groupe monophylétique / Clade 
 
