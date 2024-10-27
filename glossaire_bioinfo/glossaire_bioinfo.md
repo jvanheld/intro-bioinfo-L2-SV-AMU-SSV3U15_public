@@ -435,7 +435,7 @@ Méthode d’estimation de la robustesse de chaque nœud d’un arbre. Cette mé
 
 ### Phylogénomique 
 
-Reconstruction phylogénétique sur base de génomes ou protéomes complets ou, à défaut, d'un grand nombre de séquences de gènes ou de protéines.
+Reconstruction phylogénétique sur base de génomes ou de protéomes complets ou, à défaut, d'un grand nombre de séquences de gènes ou de protéines.
 
 ----------------------------------------------------------------
 
