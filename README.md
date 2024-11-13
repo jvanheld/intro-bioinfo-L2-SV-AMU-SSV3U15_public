@@ -36,8 +36,8 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | 3 | Du gène au génome et au protéome | [tuto/exo TP3](TP/TP3/) | [tuto illustré TP3](TP/TP3/TP3_SSV3U15_diapo.pdf) *Nouvelle formule !* |
 | 4 | Alignements par paires et alignements multiples | | [tuto illustré TP4](TP/TP4/TP4_SSV3U15_diapo.pdf) |
 | 5 | Inférence phylogénétique | | [tuto illustré TP5](TP/TP5/TP5_SSV3U15_diapo.pdf) |
-| 6 | Variants génétiques |
-| 7 | Systèmes et réseaux biologiques |
+| 6 | Variations génétiques | | [tuto illustré TP6](TP/TP6/TP6_SSV3U15_diapo.pdf) |
+| 7 | Systèmes et réseaux biologiques | | [tuto illustré TP7](TP/TP7/TP7_SSV3U15_diapo.pdf) |
 | 8 | Récapitulation, questions/réponses |
 
 ## Autres supports de cours
