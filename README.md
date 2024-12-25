@@ -44,6 +44,7 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 
 | Titre | Description | Lien |
 |:------------|:-----------------------------------|:-----------:|
+| Préparation à l'examen | Document de préparation à l'examen : matériel à apporter, informations sur les types de questions, pondération, ... | [pdf](documents/instructions_examen_SSV3U15_2025-01.pdf) |
 | Glossaire | Explication des termes de bioinformatique et concepts biologiques sous-jacents au cours | [html](glossaire_bioinfo/glossaire_bioinfo.html) |
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
