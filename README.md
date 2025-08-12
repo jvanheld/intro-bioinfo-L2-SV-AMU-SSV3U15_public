@@ -16,16 +16,18 @@ Le site principal se trouve sur la [plateforme Ametice](https://ametice.univ-amu
 
 Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapitres thématiques plutôt que par séances de CM. 
 
+[Liste de lecture](https://amupod.univ-amu.fr/playlist/90447-introduction-a-la-bioinformatique-cours-l2-sv-ssv3u15-2024/)
+
 | Chap | Titre | Vidéo | Diapo |
 |:---:|:-----------------------------------------|:------------:|:------:|
 | 0 | Organisation du cours et modalités de contrôle des connaissances | [SSV3U15-00](https://amupod.univ-amu.fr/video/32344-ssv3u15-00-organisation-du-cours-introduciton-a-la-bioinformatique-jacques-van-helden/) | [diapo 00](CM/00_organisation-du-cours-et-MCC_2024.pdf) |
 | 1 | Présentation du cours | [SSV3U15-01](https://amupod.univ-amu.fr/video/32228-ssv3u15-01-presentation-du-cours-jacques-van-helden/) | [diapo 01](CM/01_presentation-du-cours_SSV3U15_2024.pdf) |
 | 2 | Séquence - structure - fonction | [SSV3U15-02](https://amupod.univ-amu.fr/video/32306-ssv3u15-02-sequence-structure-fonction-jacques-van-helden/) | [diapo 02](CM/02_sequence-structure-fonction_SSV3U15_2024.pdf) |
 | 3 | Du gène au génome | [SSV3U15-03](https://amupod.univ-amu.fr/video/32976-ssv3u15-03_du-gene-au-genome_2024-09-20cmp4/) | [diapo 03](CM/03_Du-gene-au-genome_SSV3U15_2024.pdf) |
-| 4 | Inférence phylogénétique : retracer l'évolution à partir des séquences |  [SSVU315-04](https://amupod.univ-amu.fr/video/32522-ssv3u15-04-inference-phylogenetique-jacques-van-helden/)| [diapo 04](CM/04_inference-phylogenetique_SSV3U15_2024.pdf) |
-| 5 | Du génome aux génomes : génomique des populations | en cours | [diapo 05](CM/05_genomique-des-populations_2024.pdf) |
-| 6 | Médecine génomique personnalisée | à venir | [diapo 06](CM/06_medecine-genomique_SSV3U15_2024.pdf)  |
-| 7 | Réseaux et systèmes biologiques | à venir | [diapo 07](CM/07_reseaux-systemes-biologiques_2024.pdf)  |
+| 4 | Inférence phylogénétique : retracer l'évolution à partir des séquences |  [SSV3U15-04](https://amupod.univ-amu.fr/video/32522-ssv3u15-04-inference-phylogenetique-jacques-van-helden/)| [diapo 04](CM/04_inference-phylogenetique_SSV3U15_2024.pdf) |
+| 5 | Du génome aux génomes : génomique des populations | [SSV3U15-05](https://amupod.univ-amu.fr/video/33836-ssv3u15-05-genomique-des-populations-jacques-van-helden/) | [diapo 05](CM/05_genomique-des-populations_2024.pdf) |
+| 6 | Médecine génomique personnalisée | [SSV3U15-06](https://amupod.univ-amu.fr/video/33843-ssv3u15-06-medecine-genomique-personnalisee-jacques-van-helden/) | [diapo 06](CM/06_medecine-genomique_SSV3U15_2024.pdf)  |
+| 7 | Réseaux et systèmes biologiques | [SSV3U15-07](https://amupod.univ-amu.fr/video/33084-ssv3u15-07-reseaux-et-systemes-biologiques-jacques-van-helden/) | [diapo 07](CM/07_reseaux-systemes-biologiques_2024.pdf)  |
 
 ## Travaux pratiques
 
