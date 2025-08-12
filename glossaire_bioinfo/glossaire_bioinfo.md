@@ -9,6 +9,10 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
 
 ## Table des matières
 
+- [Séquence, structure, fonction](#sequence_structure_fonction)
+
+  - [Base de données versus base de connaissance](#db_vs_kb)
+
 - [Matrices de substitution](#matrices_substitutions)
 
 - [Alignements par paires](#pairwise_align)
@@ -44,6 +48,21 @@ Cours d'**Introduction à la bioinformatique** (SSV3U15)
    - [Robustesse](#robustesse)
    - [Bootstrap](#bootstrap)
    - [Phylogénomique](#phylogénomique)
+
+[]{#sequence_structure_fonction}
+
+## Séquence, structure, fonction
+
+[]{#db_vs_kb}
+
+### Base de données versus base de connaissance
+
+**Base de données** : ressource logicielle permettant de stocker et d’interroger des ensembles de données structurées, généralement homogènes par leur nature. Elle peut être alimentée automatiquement, sans intervention humaine directe. C’est le cas de TrEMBL, qui regroupe toutes les séquences protéiques obtenues par traduction de séquences nucléotidiques, avec des annotations générées automatiquement.
+
+**Base de connaissances** :  base de données qui intègre, en plus des données brutes, des informations interprétées, organisées et validées par des experts du domaine. Ces annotations peuvent concerner la fonction biologique, la structure tridimensionnelle ou d’autres propriétés pertinentes. C’est le cas de Swiss-Prot, dont chaque entrée est enrichie par un travail manuel de curateurs spécialisés.
+
+Toute base de connaissances est donc une base de données, mais la réciproque n’est pas vraie.
+
 
 []{#matrices_substitutions}
 
