@@ -8,8 +8,10 @@ Le site principal se trouve sur la [plateforme Ametice](https://ametice.univ-amu
 
 | Site | Contenu | Lien |
 |:---------------|:-------------------------|:----------------------------------------|
-| Ametice |Gestion de l'UE, QCM, forum, ... | [https://ametice.univ-amu.fr/course/view.php?id=125268](https://ametice.univ-amu.fr/course/view.php?id=125268) |
+| Ametice |Gestion de l'UE, QCM, forum, ... | [https://ametice.univ-amu.fr/course/section.php?id=1521633](https://ametice.univ-amu.fr/course/section.php?id=1521633)  |
 | Pages Web | énoncés et données des TP | [https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/](https://jvanheld.github.io/intro-bioinfo-L2-SV-AMU-SSV3U15_public/) |
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/67272db6-b581-47cd-aee8-fd16fb9cae9f" />
 
 
 ### Cours
