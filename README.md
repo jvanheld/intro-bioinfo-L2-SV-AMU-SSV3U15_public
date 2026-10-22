@@ -50,3 +50,10 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | Glossaire | Explication des termes de bioinformatique et concepts biologiques sous-jacents au cours | [html](glossaire_bioinfo/glossaire_bioinfo.html) |
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
+## Archives
+
+Les versions annuelles de ce cours sont archivées sur Zenodo et disposent d'un identifiant pérenne (DOI).
+
+**Année universitaire 2025-2026**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23552232.svg)](https://doi.org/10.5281/zenodo.23552232)
