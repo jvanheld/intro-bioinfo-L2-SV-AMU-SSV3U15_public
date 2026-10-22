@@ -18,6 +18,7 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 
 [Liste de lecture](https://amupod.univ-amu.fr/playlist/90447-introduction-a-la-bioinformatique-cours-l2-sv-ssv3u15-2024/)
 
+
 | Chap | Titre | Vidéo | Diapo détaillées | Diapo allégées |
 |:---:|:-----------------------------------------|:------------:|:------:|:------:|
 | 0 | Organisation du cours et modalités de contrôle des connaissances | [SSV3U15-00](https://amupod.univ-amu.fr/video/32344-ssv3u15-00-organisation-du-cours-introduciton-a-la-bioinformatique-jacques-van-helden/) | [diapo 00](CM/00_organisation-du-cours-et-MCC.pdf) |
@@ -26,8 +27,9 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | 3 | Du gène au génome | [SSV3U15-03](https://amupod.univ-amu.fr/video/32976-ssv3u15-03_du-gene-au-genome_2024-09-20cmp4/) | [diapo 03](CM/03_Du-gene-au-genome_SSV3U15.pdf) |
 | 4 | Inférence phylogénétique : retracer l'évolution à partir des séquences |  [SSV3U15-04](https://amupod.univ-amu.fr/video/32522-ssv3u15-04-inference-phylogenetique-jacques-van-helden/)| [04 détaillée](CM/04_inference-phylogenetique_SSV3U15_detaillee.pdf) |  [04 allégée](CM/04_inference-phylogenetique_SSV3U15_allegee.pdf) |
 | 5 | Du génome aux génomes : génomique des populations | [SSV3U15-05](https://amupod.univ-amu.fr/video/33836-ssv3u15-05-genomique-des-populations-jacques-van-helden/) | [05 détaillée](CM/05_genomique-des-populations_detaillee.pdf) | [05 allégée](CM/05_genomique-des-populations_allegee.pdf) |
-| 6 | Médecine génomique personnalisée | [SSV3U15-06](https://amupod.univ-amu.fr/video/33843-ssv3u15-06-medecine-genomique-personnalisee-jacques-van-helden/) | [diapo 06](CM/06_medecine-genomique_SSV3U15.pdf)  |
+| 6 | Médecine génomique personnalisée | [SSV3U15-06](https://amupod.univ-amu.fr/video/33843-ssv3u15-06-medecine-genomique-personnalisee-jacques-van-helden/) | [06 détaillée](CM/06_medecine-genomique_SSV3U15_detaillee.pdf) | [06 allégée](CM/06_medecine-genomique_SSV3U15_allegee.pdf)  |
 | 7 | Réseaux et systèmes biologiques | [SSV3U15-07](https://amupod.univ-amu.fr/video/33084-ssv3u15-07-reseaux-et-systemes-biologiques-jacques-van-helden/) | [diapo 07](CM/07_reseaux-systemes-biologiques.pdf)  |
+
 
 ## Travaux pratiques
 
