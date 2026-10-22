@@ -62,8 +62,13 @@ Cette licence autorise la reproduction, la redistribution et l'adaptation des su
 
 ## Archives
 
-Les versions annuelles de ce cours sont archivées sur Zenodo et disposent d'un identifiant pérenne (DOI).
+Les versions du cours sont archivées sur Zenodo, avec attribution d'un DOI, et l'historique Git du dépôt est conservé par Software Heritage.
 
-**Année universitaire 2025-2026**
+### Version 2025-2026 — Zenodo
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23552232.svg)](https://doi.org/10.5281/zenodo.23552232)
+
+### Historique du dépôt — Software Heritage
+
+[![Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/jvanheld/intro-bioinfo-L2-SV-AMU-SSV3U15_public)
+
