@@ -50,6 +50,14 @@ Note: le cours comporte 7 séance de CM. Les vidéos sont découpées par chapit
 | Glossaire | Explication des termes de bioinformatique et concepts biologiques sous-jacents au cours | [html](glossaire_bioinfo/glossaire_bioinfo.html) |
 | Structures 3D | Figures et animations de structures tridimensionnelles de macromolécules | [structures](structures/) | 
 
+## Licence
+
+Sauf mention contraire, les supports pédagogiques (cours magistraux, travaux pratiques, illustrations et documents associés) sont mis à disposition sous licence **Creative Commons Attribution – Pas d'Utilisation Commerciale – Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)**.
+
+[![Licence CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)
+
+Cette licence autorise la reproduction, la redistribution et l'adaptation des supports, sous réserve de citer la source, de ne pas en faire un usage commercial et de partager les adaptations sous la même licence. Les éléments provenant de sources tierces restent soumis à leurs propres licences. Les éventuels scripts et logiciels contenus dans le dépôt peuvent faire l'objet de licences distinctes, précisées dans les fichiers concernés.
+
 ## Archives
 
 Les versions annuelles de ce cours sont archivées sur Zenodo et disposent d'un identifiant pérenne (DOI).
